@@ -1,81 +1,41 @@
+import subprocess
 import sys
+import os
 from pathlib import Path
-from omegaconf import OmegaConf
-import torch
 from sandbox.contracts.base import BaseCrystalModel
 
-ADIT_ROOT = Path(__file__).parent.parent.parent / "models" / "adit"
-sys.path.insert(0, str(ADIT_ROOT))
-
-from src.models.ldm_module import LatentDiffusionLitModule
-
 class ADiTModel(BaseCrystalModel):
-    def __init__(
-        self,
-        ckpt_path: str = None,
-        autoencoder_ckpt: str = None,
-        data: str = "mp20_only",
-        sampling: dict = None,
-        **kwargs
-    ):
-        super().__init__()
-        default_sampling = {"num_samples": 10, "batch_size": 10, "cfg_scale": 2.0, "visualize": True}
-        if sampling:
-            default_sampling.update(sampling)
-        
-        cfg_dict = {
-            "ckpt_path": ckpt_path,
-            "autoencoder_ckpt": autoencoder_ckpt,
-            "data": data,
-            "sampling": default_sampling,
-            "denoiser": {
-                "_target_": "src.models.denoisers.dit.DiT",
-                "d_x": 8,
-                "d_model": 768,
-                "nhead": 12,
-                "num_layers": 12,
-                "num_datasets": 2,
-            },
-            "interpolant": {
-                "_target_": "src.models.interpolants.flow_matching.FlowMatchingInterpolant",
-                "min_t": 0.01,
-                "corrupt": True,
-                "num_timesteps": 100,
-                "self_condition": True,
-                "self_condition_prob": 0.5,
-            },
-            "augmentations": {"frac_coords": True, "pos": True},
-            "conditioning": {"dataset_idx": True, "spacegroup": False},
-            "optimizer": {
-                "_target_": "torch.optim.AdamW",
-                "_partial_": True,
-                "lr": 0.0001,
-                "weight_decay": 0.0,
-            },
-            "scheduler": None,
-            "scheduler_frequency": 250,
-            "compile": False,
-        }
-        self.cfg = OmegaConf.create(cfg_dict)
-        self.model = LatentDiffusionLitModule(self.cfg)
-        if ckpt_path:
-            self.load_checkpoint(ckpt_path)
+    def __init__(self, ckpt_path="./models/adit/checkpoints/adit/ldm.ckpt",
+                 autoencoder_ckpt="./models/adit/checkpoints/adit/vae.ckpt",
+                 data="mp20_only", sampling=None, **kwargs):
+        self.ckpt_path = os.path.abspath(ckpt_path)
+        self.autoencoder_ckpt = os.path.abspath(autoencoder_ckpt)
+        self.data = data
+        self.sampling = sampling or {"num_samples": 10, "batch_size": 10}
 
     def load_checkpoint(self, path: str):
-        checkpoint = torch.load(path, map_location='cpu')
-        self.model.load_state_dict(checkpoint['model'], strict=False)
+        pass
+
+    def save_checkpoint(self, path: str):
+        pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
-        if num_samples:
-            self.cfg.sampling.num_samples = num_samples
-        if batch_size:
-            self.cfg.sampling.batch_size = batch_size
-        return self.model.generate(
-            num_samples=self.cfg.sampling.num_samples,
-            batch_size=self.cfg.sampling.batch_size,
-            device=device
-        )
-
-    def to(self, device):
-        self.model.to(device)
-        return self
+        # Используем conda run для вызова в окружении ADiT
+        cmd = [
+            "conda", "run", "-n", "ADiT",
+            "python", "src/eval_diffusion.py",
+            f"ckpt_path={self.ckpt_path}",
+            f"diffusion_module.autoencoder_ckpt={self.autoencoder_ckpt}",
+            f"data={self.data}",
+            "trainer.accelerator=cpu",
+            "trainer.devices=1",
+            f"diffusion_module.sampling.num_samples={num_samples}",
+            f"diffusion_module.sampling.batch_size={batch_size}"
+        ]
+        env = os.environ.copy()
+        env["WANDB_MODE"] = "disabled"
+        process = subprocess.Popen(cmd, cwd="models/adit", env=env, stdout=sys.stdout, stderr=sys.stderr)
+        process.wait()
+        if process.returncode != 0:
+            raise RuntimeError("ADiT generation failed")
+        return [save_dir or "./outputs/adit_test"]

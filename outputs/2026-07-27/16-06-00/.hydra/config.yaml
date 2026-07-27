@@ -1,0 +1,15 @@
+model:
+  _target_: sandbox.models.sgequidiff.SGEquiDiffModel
+  ckpt_dir: ./models/sgequidiff/experiments/sgequidiff/mp_20
+task:
+  _target_: sandbox.tasks.generation.CrystalGenerationTask
+dataset:
+  _target_: sandbox.datasets.mp20.MP20Dataset
+runner:
+  _target_: sandbox.runners.generate.run_generation
+  num_samples: 5
+  batch_size: 5
+  device: cpu
+  save_dir: ./outputs/sgequidiff_test
+mode: generate
+seed: 42

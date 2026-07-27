@@ -1,0 +1,5 @@
+- model=adit
+- runner.num_samples=5
+- runner.batch_size=5
+- runner.device=cpu
+- runner.save_dir=./outputs/adit_test

@@ -8,9 +8,7 @@ def main(cfg: DictConfig):
     device = torch.device(cfg.runner.device)
     model: BaseCrystalModel = hydra.utils.instantiate(cfg.model)
     model.to(device)
-    runner = hydra.utils.instantiate(cfg.runner)
-    structures = runner(
-        model=model,
+    structures = model.generate(
         num_samples=cfg.runner.num_samples,
         batch_size=cfg.runner.batch_size,
         device=device,
