@@ -4,6 +4,7 @@ defaults:
   - dataset: mp20
   - runner: default
   - random_seed: basic
+  - viz: basic
   - _self_
 
 mode: generate

@@ -26,7 +26,11 @@ def main(cfg: DictConfig):
         return
 
     dataset = hydra.utils.instantiate(cfg.dataset) if "dataset" in cfg else None
-    hydra.utils.instantiate(cfg.runner, task=task, model=model, device=device, dataset=dataset)
+    viz_enabled = cfg.get("viz", {}).get("enabled", False)
+
+    hydra.utils.instantiate(
+        cfg.runner, task=task, model=model, device=device, dataset=dataset, viz_enabled=viz_enabled
+    )
 
 
 if __name__ == "__main__":
