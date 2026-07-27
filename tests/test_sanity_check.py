@@ -56,3 +56,22 @@ def test_no_checks_when_no_relevant_attributes():
             pass
 
     assert _Bare().sanity_check() == []
+
+
+def test_extra_checks_are_included_in_sanity_check():
+    class _WithExtra(BaseCrystalModel):
+        def generate(self, *a, **kw):
+            return []
+
+        def save_checkpoint(self, path):
+            pass
+
+        def load_checkpoint(self, path):
+            pass
+
+        def extra_checks(self):
+            from sandbox.utils.check import CheckResult
+            return [CheckResult(name="custom", ok=True, message="passed")]
+
+    results = _WithExtra().sanity_check()
+    assert any(r.name == "custom" for r in results)

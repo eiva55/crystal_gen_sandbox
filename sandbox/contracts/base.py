@@ -56,7 +56,14 @@ class BaseCrystalModel(ABC):
                     message=attr_value if exists else f"missing: {attr_value}",
                 ))
 
+        results.extend(self.extra_checks())
         return results
+
+    def extra_checks(self) -> List["CheckResult"]:
+        """Override in subclasses for checks the generic path/conda_env
+        scan can't infer (e.g. a Python package needed only inside the
+        conda env, not on the host)."""
+        return []
 
 
 class BaseDataset(ABC):
