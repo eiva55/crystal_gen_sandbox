@@ -13,7 +13,9 @@ def main(cfg: DictConfig):
     model: BaseCrystalModel = hydra.utils.instantiate(cfg.model)
     model.to(device)
 
-    hydra.utils.instantiate(cfg.runner, task=task, model=model, device=device)
+    dataset = hydra.utils.instantiate(cfg.dataset) if "dataset" in cfg else None
+
+    hydra.utils.instantiate(cfg.runner, task=task, model=model, device=device, dataset=dataset)
 
 
 if __name__ == "__main__":
