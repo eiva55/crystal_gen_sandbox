@@ -32,7 +32,7 @@ def run_adit():
         "diffusion_module.sampling.num_samples=10",
         "diffusion_module.sampling.batch_size=10"
     ]
-    run_cmd("ADiT", cmd, cwd="external/adit")
+    run_cmd("ADiT", cmd, cwd="models/adit")
 
 def run_wyformer():
     # WyFormer использует консольную команду, а не python-скрипт
@@ -62,7 +62,7 @@ def run_miad():
     # Установка переменной окружения для отключения CUDA
     env = os.environ.copy()
     env["CUDA_VISIBLE_DEVICES"] = ""
-    process = subprocess.Popen([get_python("miad")] + cmd, stdout=sys.stdout, stderr=sys.stderr, env=env, cwd="external/miad")
+    process = subprocess.Popen([get_python("miad")] + cmd, stdout=sys.stdout, stderr=sys.stderr, env=env, cwd="models/miad")
     process.wait()
     if process.returncode != 0:
         print(f"⚠️ Процесс завершился с кодом {process.returncode}")
@@ -78,7 +78,7 @@ def run_sgequidiff():
     ]
     env = os.environ.copy()
     env["CUDA_VISIBLE_DEVICES"] = ""
-    process = subprocess.Popen([get_python("SGEquiDiff")] + cmd, stdout=sys.stdout, stderr=sys.stderr, env=env, cwd="external/sgequidiff")
+    process = subprocess.Popen([get_python("SGEquiDiff")] + cmd, stdout=sys.stdout, stderr=sys.stderr, env=env, cwd="models/sgequidiff")
     process.wait()
     if process.returncode != 0:
         print(f"⚠️ Процесс завершился с кодом {process.returncode}")
@@ -92,7 +92,7 @@ def run_crystaldit():
         "--output_dir", "./outputs/crystaldit",
         "--device", "cpu"
     ]
-    process = subprocess.Popen([get_python("crystaldit")] + cmd, stdout=sys.stdout, stderr=sys.stderr, cwd="external/crystaldit")
+    process = subprocess.Popen([get_python("crystaldit")] + cmd, stdout=sys.stdout, stderr=sys.stderr, cwd="models/crystaldit")
     process.wait()
     if process.returncode != 0:
         print(f"⚠️ Процесс завершился с кодом {process.returncode}")
