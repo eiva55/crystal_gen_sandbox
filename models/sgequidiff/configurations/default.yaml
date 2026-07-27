@@ -1,0 +1,38 @@
+diagnostics:
+    seed: 0
+    experiment_directory: null  # use this to resume a run
+    checkpoint_every: 1_000
+    validate_every: 10
+    log_freq: 1  # epochs
+    debug: False
+    save_best_submodules: True
+
+embeddings:
+    # Supplied path will start from the '/data' directory
+    space_group_embedding_json_path: 'init_tokens/space_group_features/space_group_embeddings_62dim.json'
+    element_embedding_json_path: 'init_tokens/cgcnn_atom_init.json'
+    wyckoff_embedding_json_path: 'init_tokens/wyckoff_features/wyckoff_embeddings_231dim.json'
+    chemistry_embedding_type: 'identity'
+    device: 'cpu'  # device to store the embeddings on
+
+compute:
+    gpu: True
+    distributed: False
+
+wandb:
+    use_wandb: True  # default True
+    run_name_prefix: ""
+    entity: ""
+    project: "SGEquiDiff"
+    resume_from_id: null
+    track_artifacts: True
+    watch_grads: False
+
+experiment:
+    n_crystals_to_overfit_to: 0
+
+defaults:
+  - dataset: default
+  - model: default
+  - optim: default
+  - _self_

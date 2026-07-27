@@ -1,0 +1,11 @@
+name: mp_20
+
+batch_size: 256
+num_epochs: 1_001
+
+max_atoms: 20
+max_elements: 7
+min_lattice_length: 2.0
+max_lattice_length: 133.0
+min_lattice_angle: 60.0
+max_lattice_angle: 135.0

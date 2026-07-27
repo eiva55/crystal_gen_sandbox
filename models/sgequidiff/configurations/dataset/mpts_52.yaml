@@ -1,0 +1,11 @@
+name: mpts_52
+
+batch_size: 256
+num_epochs: 2_000
+
+max_atoms: 52
+max_elements: 7
+min_lattice_length: 0.98
+max_lattice_length: 189.5
+min_lattice_angle: 60.0
+max_lattice_angle: 135.0

@@ -1,0 +1,56 @@
+p1_only: False
+
+lattice_length_noise: ${optim.lattice_length_noise}
+lattice_angle_noise: ${optim.lattice_angle_noise}
+space_group_grad_weight: 1.0
+lattice_grad_weight: 1.0
+wyckoff_element_grad_weight: 1.0
+frac_coord_grad_weight: 1.0
+
+lattice_config:
+    input_dimension: 128
+    hidden_dimension: 256
+    min_lattice_length: ${dataset.min_lattice_length}
+    max_lattice_length: ${dataset.max_lattice_length}
+    min_lattice_angle: ${dataset.min_lattice_angle}
+    max_lattice_angle: ${dataset.max_lattice_angle}
+    lattice_param_dim: 32
+    n_emb_layers: 2
+    lattice_length_embedder_fourier_scale: 5.0
+    lattice_angle_embedder_fourier_scale: 1.0
+    lattice_length_bin_embedder_fourier_scale: 2.0
+    lattice_angle_bin_embedder_fourier_scale: 1.0
+
+wyckoff_element_config:
+    hidden_dim: 256
+    num_heads: 2
+    num_hidden_layers: 4
+    dropout_rate: 0.1
+    dataset_name: ${dataset.name}
+
+frac_coord_config:
+    num_wn_lattice_translations: 3
+    noise_scheduler_num_monte_carlo_samples: 2500
+    time_emb_dim: 128
+    sigma_min: 0.002
+    subsample_group_operations: False
+    model_type: gnn  # [mlp, gnn, cspnet]
+    gnn_config:
+        num_plane_wave_freqs: 96
+        num_cartesian_distance_gaussians: 96
+        edge_hidden_dim: 128
+        atom_hidden_dim: 256
+        use_vpa: True
+        use_graph_norm: True
+        num_msg_pass_steps: 5
+        cutoff: 10.0
+        use_frac_coords_in_node_emb: True
+        dataset_name: ${dataset.name}
+    cspnet_config:
+        hidden_dim: 224  # 512
+        num_msg_pass_steps: 5  # 6
+        ln: False
+        act_fn: 'silu'
+        dis_emb: 'sin'
+        num_freqs: 96  # 128
+        dense: False

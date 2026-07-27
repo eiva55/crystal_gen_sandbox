@@ -1,0 +1,113 @@
+compute:
+  distributed: false
+  gpu: true
+dataset:
+  batch_size: 256
+  max_atoms: 20
+  max_elements: 7
+  max_lattice_angle: 135.0
+  max_lattice_length: 133.0
+  min_lattice_angle: 60.0
+  min_lattice_length: 2.0
+  name: mp_20
+  num_epochs: 1001
+diagnostics:
+  checkpoint_every: 1000
+  debug: false
+  experiment_directory: !!python/object/apply:pathlib.PosixPath
+  - /
+  - home
+  - sgequidiff
+  - experiment_logs
+  - generative_crystals
+  - 2025_05_23_14_22_33_hash59309_sgequidiff-test
+  log_freq: 1
+  save_best_submodules: true
+  seed: 0
+  validate_every: 10
+embeddings:
+  chemistry_embedding_type: identity
+  device: cpu
+  element_embedding_json_path: init_tokens/cgcnn_atom_init.json
+  space_group_embedding_json_path: init_tokens/space_group_features/space_group_embeddings_62dim.json
+  wyckoff_embedding_json_path: init_tokens/wyckoff_features/wyckoff_embeddings_231dim.json
+experiment:
+  n_crystals_to_overfit_to: 0
+model:
+  frac_coord_config:
+    gnn_config:
+      atom_hidden_dim: 256
+      cutoff: 10.0
+      dataset_name: mp_20
+      edge_hidden_dim: 128
+      num_cartesian_distance_gaussians: 96
+      num_msg_pass_steps: 5
+      num_plane_wave_freqs: 96
+      use_frac_coords_in_node_emb: true
+      use_graph_norm: true
+      use_vpa: true
+    model_type: gnn
+    noise_scheduler_num_monte_carlo_samples: 2500
+    num_wn_lattice_translations: 3
+    sigma_min: 0.002
+    subsample_group_operations: false
+    time_emb_dim: 128
+  frac_coord_grad_weight: 1.0
+  lattice_angle_noise: 2.5
+  lattice_config:
+    hidden_dimension: 256
+    input_dimension: 128
+    lattice_angle_bin_embedder_fourier_scale: 1.0
+    lattice_angle_embedder_fourier_scale: 1.0
+    lattice_length_bin_embedder_fourier_scale: 2.0
+    lattice_length_embedder_fourier_scale: 5.0
+    lattice_param_dim: 32
+    max_lattice_angle: 135.0
+    max_lattice_length: 133.0
+    min_lattice_angle: 60.0
+    min_lattice_length: 2.0
+    n_emb_layers: 2
+  lattice_grad_weight: 1.0
+  lattice_length_noise: 0.15
+  p1_only: false
+  space_group_grad_weight: 1.0
+  wyckoff_element_config:
+    dataset_name: mp_20
+    dropout_rate: 0.1
+    hidden_dim: 256
+    num_heads: 2
+    num_hidden_layers: 4
+  wyckoff_element_grad_weight: 1.0
+optim:
+  batch_size: 256
+  gradient_clip_algorithm: value
+  gradient_clip_val: 0.5
+  lattice_angle_noise: 2.5
+  lattice_length_noise: 0.15
+  lr_scheduler:
+    factor: 0.6
+    min_lr: 1.0e-05
+    name: ReduceLROnPlateau
+    patience: 30
+  num_epochs: 1001
+  optimizer:
+    betas:
+    - 0.9
+    - 0.999
+    default_lr: 0.001
+    diffusion_lr: 0.001
+    eps: 1.0e-08
+    lattice_lr: 0.0001
+    name: AdamW
+    space_group_lr: 0.001
+    weight_decay: 0
+    wyckoff_transformer_lr: 0.0001
+  use_lr_scheduler: true
+wandb:
+  entity: rees-c
+  project: SGEquiDiff
+  resume_from_id: null
+  run_name_prefix: sgequidiff-test
+  track_artifacts: true
+  use_wandb: true
+  watch_grads: false
