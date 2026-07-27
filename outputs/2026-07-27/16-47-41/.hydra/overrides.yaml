@@ -1,5 +1,0 @@
-- model=miad
-- runner.num_samples=5
-- runner.batch_size=2
-- runner.device=cpu
-- runner.save_dir=./outputs/miad_test

@@ -1,7 +1,0 @@
-_target_: sandbox.models.ADiTModel
-ckpt_path: ./models/adit/checkpoints/adit/ldm.ckpt
-autoencoder_ckpt: ./models/adit/checkpoints/adit/vae.ckpt
-data: mp20_only
-sampling:
-  num_samples: 10
-  batch_size: 10

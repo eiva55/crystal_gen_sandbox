@@ -1,8 +1,0 @@
-train:
-  mode: generate
-  model: adit
-  num_samples: 5
-  batch_size: 5
-  device: cpu
-  output_dir: ./outputs/adit_test
-  seed: 42

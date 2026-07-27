@@ -1,3 +1,12 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -6,17 +15,22 @@ __pycache__/
 *.dylib
 *.dll
 *.egg-info/
+.pytest_cache/
 dist/
 build/
+.venv/
+venv/
+
+# Logs
 *.log
 *.out
 *.err
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-.idea/
-.vscode/
+
+# Project outputs (Hydra)
+outputs/
+multirun/
+
+# Model checkpoints / large generated data
 *.ckpt
 *.pt
 *.pth
@@ -25,10 +39,3 @@ Thumbs.db
 *.json.gz
 *.zip
 *.7z
-*.ckpt
-*.pt
-*.pth
-*.npz
-*.cif
-*.json.gz
-*.zip

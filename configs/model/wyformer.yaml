@@ -1,2 +1,1 @@
 _target_: sandbox.models.wyformer.WyFormerModel
-hf_model: SymmetryAdvantage/WyFormer-Alex-MP20

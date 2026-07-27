@@ -1,2 +1,1 @@
 _target_: sandbox.models.crystaldit.CrystalDiTModel
-ckpt_path: ./models/crystaldit/checkpoints/best_model.pt

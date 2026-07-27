@@ -1,16 +1,12 @@
 import subprocess
 import sys
 import os
-from pathlib import Path
 from sandbox.contracts.base import BaseCrystalModel
 
+
 class SGEquiDiffModel(BaseCrystalModel):
-    def __init__(self, ckpt_dir=None, **kwargs):
-        # Если путь не указан, используем стандартный
-        if ckpt_dir is None:
-            ckpt_dir = "./experiments/sgequidiff/mp_20"
-        # Преобразуем в абсолютный путь
-        self.ckpt_dir = os.path.abspath(ckpt_dir)
+    def __init__(self, ckpt_dir="./experiments/sgequidiff/mp_20", **kwargs):
+        self.ckpt_dir = ckpt_dir  # оставляем относительным — резолвится через cwd в generate()
 
     def load_checkpoint(self, path: str):
         pass
@@ -19,7 +15,6 @@ class SGEquiDiffModel(BaseCrystalModel):
         pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
-        # Используем conda run
         cmd = [
             "conda", "run", "-n", "SGEquiDiff",
             "python", "scripts/generate_crystals.py",
@@ -35,4 +30,4 @@ class SGEquiDiffModel(BaseCrystalModel):
         process.wait()
         if process.returncode != 0:
             raise RuntimeError("SGEquiDiff generation failed")
-        return [self.ckpt_dir]
+        return [save_dir or "./outputs/sgequidiff"]

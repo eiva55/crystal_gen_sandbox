@@ -1,2 +1,1 @@
 _target_: sandbox.models.sgequidiff.SGEquiDiffModel
-ckpt_dir: ./models/sgequidiff/experiments/sgequidiff/mp_20
