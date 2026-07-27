@@ -8,7 +8,7 @@ from sandbox.utils.load_structures import load_structure_files
 
 
 class WyFormerModel(BaseCrystalModel):
-    def __init__(self, hf_model="SymmetryAdvantage/WyFormer-Alex-MP20", conda_env="WyFormer", **kwargs):
+    def __init__(self, hf_model="kazeevn/WyFormer-MP20", conda_env="WyFormer", **kwargs):
         self.hf_model = hf_model
         self.conda_env = conda_env
 
