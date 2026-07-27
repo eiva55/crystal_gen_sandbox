@@ -12,7 +12,7 @@ import pytest
 from hydra.utils import get_class
 from omegaconf import OmegaConf
 
-from sandbox.contracts.base import BaseCrystalModel
+from sandbox.contracts import BaseCrystalModel
 
 CONFIG_DIR = Path(__file__).resolve().parents[1] / "configs" / "model"
 

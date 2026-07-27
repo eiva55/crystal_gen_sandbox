@@ -1,7 +1,7 @@
 import subprocess
 import sys
 import os
-from sandbox.contracts.base import BaseCrystalModel
+from sandbox.contracts import BaseCrystalModel
 from sandbox.utils.load_structures import load_structure_files
 
 

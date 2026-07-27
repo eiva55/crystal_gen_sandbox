@@ -5,7 +5,7 @@ MP-20 structures verbatim must score near-zero novelty. If it doesn't, the
 novelty metric itself is broken, not the real generative models.
 """
 import random
-from sandbox.contracts.base import BaseCrystalModel
+from sandbox.contracts import BaseCrystalModel
 from sandbox.datasets.mp20 import MP20Dataset
 
 

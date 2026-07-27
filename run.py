@@ -2,7 +2,7 @@ import hydra
 from omegaconf import DictConfig
 import torch
 
-from sandbox.contracts.base import BaseCrystalModel
+from sandbox.contracts import BaseCrystalModel
 
 
 @hydra.main(version_base=None, config_path="configs", config_name="config")

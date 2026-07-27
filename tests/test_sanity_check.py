@@ -1,6 +1,6 @@
 from unittest.mock import MagicMock, patch
 
-from sandbox.contracts.base import BaseCrystalModel
+from sandbox.contracts import BaseCrystalModel
 
 
 class _DummyModel(BaseCrystalModel):

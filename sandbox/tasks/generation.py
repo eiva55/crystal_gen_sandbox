@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from pymatgen.core import Structure
 
-from sandbox.contracts.base import BaseTask
+from sandbox.contracts import BaseTask
 
 
 class CrystalGenerationTask(BaseTask):

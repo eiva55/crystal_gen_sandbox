@@ -3,7 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from sandbox.contracts.base import BaseCrystalModel
+from sandbox.contracts import BaseCrystalModel
 from sandbox.utils.load_structures import load_structure_files
 
 
