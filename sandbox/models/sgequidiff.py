@@ -5,8 +5,9 @@ from sandbox.contracts.base import BaseCrystalModel
 
 
 class SGEquiDiffModel(BaseCrystalModel):
-    def __init__(self, ckpt_dir="./experiments/sgequidiff/mp_20", **kwargs):
-        self.ckpt_dir = ckpt_dir  # оставляем относительным — резолвится через cwd в generate()
+    def __init__(self, ckpt_dir="./experiments/sgequidiff/mp_20", conda_env="SGEquiDiff", **kwargs):
+        self.ckpt_dir = ckpt_dir
+        self.conda_env = conda_env
 
     def load_checkpoint(self, path: str):
         pass
@@ -16,7 +17,7 @@ class SGEquiDiffModel(BaseCrystalModel):
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
         cmd = [
-            "conda", "run", "-n", "SGEquiDiff",
+            "conda", "run", "-n", self.conda_env,
             "python", "scripts/generate_crystals.py",
             "--num_samples", str(num_samples),
             "--batch_size", str(batch_size),

@@ -1,13 +1,13 @@
 import subprocess
 import sys
 import os
-from pathlib import Path
 from sandbox.contracts.base import BaseCrystalModel
 
+
 class CrystalDiTModel(BaseCrystalModel):
-    def __init__(self, ckpt_path="./models/crystaldit/checkpoints/best_model.pt", **kwargs):
-        # Преобразуем относительный путь в абсолютный относительно корня проекта
+    def __init__(self, ckpt_path="./models/crystaldit/checkpoints/best_model.pt", conda_env="crystaldit", **kwargs):
         self.ckpt_path = os.path.abspath(ckpt_path)
+        self.conda_env = conda_env
 
     def load_checkpoint(self, path: str):
         pass
@@ -16,10 +16,9 @@ class CrystalDiTModel(BaseCrystalModel):
         pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
-        python_path = os.path.expanduser("~/miniconda3/envs/crystaldit/bin/python")
         cmd = [
-            python_path,
-            "generate_crystals.py",
+            "conda", "run", "-n", self.conda_env,
+            "python", "generate_crystals.py",
             "--checkpoint", self.ckpt_path,
             "--num_samples", str(num_samples),
             "--batch_size", str(batch_size),

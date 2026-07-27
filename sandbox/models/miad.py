@@ -1,12 +1,12 @@
 import subprocess
 import sys
 import os
-from pathlib import Path
 from sandbox.contracts.base import BaseCrystalModel
 
+
 class MiADModel(BaseCrystalModel):
-    def __init__(self, **kwargs):
-        pass
+    def __init__(self, conda_env="miad", **kwargs):
+        self.conda_env = conda_env
 
     def load_checkpoint(self, path: str):
         pass
@@ -15,11 +15,9 @@ class MiADModel(BaseCrystalModel):
         pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
-        # Используем прямой вызов интерпретатора из окружения miad
-        python_path = os.path.expanduser("~/miniconda3/envs/miad/bin/python")
         cmd = [
-            python_path,
-            "lib/run.py",
+            "conda", "run", "-n", self.conda_env,
+            "python", "lib/run.py",
             "-gpu", "0",
             "-ignore_warnings", "1",
             "-config", "generate_miad_mp20.yaml"
