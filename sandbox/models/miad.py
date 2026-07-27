@@ -2,6 +2,7 @@ import subprocess
 import sys
 import os
 from sandbox.contracts.base import BaseCrystalModel
+from sandbox.utils.load_structures import load_structure_files
 
 
 class MiADModel(BaseCrystalModel):
@@ -28,4 +29,4 @@ class MiADModel(BaseCrystalModel):
         process.wait()
         if process.returncode != 0:
             raise RuntimeError("MiAD generation failed")
-        return ["saved_results/generate_miad_mp20/generated_crystals_cif/"]
+        return load_structure_files("models/miad/saved_results/generate_miad_mp20/generated_crystals_cif", pattern="*.cif")

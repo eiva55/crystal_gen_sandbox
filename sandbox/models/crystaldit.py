@@ -2,6 +2,7 @@ import subprocess
 import sys
 import os
 from sandbox.contracts.base import BaseCrystalModel
+from sandbox.utils.load_structures import load_structure_files
 
 
 class CrystalDiTModel(BaseCrystalModel):
@@ -16,17 +17,18 @@ class CrystalDiTModel(BaseCrystalModel):
         pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
+        output_dir = os.path.abspath(save_dir or "./outputs/crystaldit")
         cmd = [
             "conda", "run", "-n", self.conda_env,
             "python", "generate_crystals.py",
             "--checkpoint", self.ckpt_path,
             "--num_samples", str(num_samples),
             "--batch_size", str(batch_size),
-            "--output_dir", save_dir or "./outputs/crystaldit",
+            "--output_dir", output_dir,
             "--device", "cpu"
         ]
         process = subprocess.Popen(cmd, cwd="models/crystaldit", stdout=sys.stdout, stderr=sys.stderr)
         process.wait()
         if process.returncode != 0:
             raise RuntimeError("CrystalDiT generation failed")
-        return [save_dir or "./outputs/crystaldit"]
+        return load_structure_files(output_dir, pattern="*.cif")

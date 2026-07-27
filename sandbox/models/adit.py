@@ -1,7 +1,9 @@
 import subprocess
 import sys
 import os
+import glob
 from sandbox.contracts.base import BaseCrystalModel
+from sandbox.utils.load_structures import load_structure_files
 
 
 class ADiTModel(BaseCrystalModel):
@@ -37,4 +39,14 @@ class ADiTModel(BaseCrystalModel):
         process.wait()
         if process.returncode != 0:
             raise RuntimeError("ADiT generation failed")
-        return [save_dir or "./outputs/adit_test"]
+
+        # ADiT writes into a timestamped run dir we don't control — take the
+        # most recently modified one right after this process finished.
+        run_dirs = sorted(
+            glob.glob("models/adit/logs/eval_diffusion/runs/*/"),
+            key=os.path.getmtime,
+        )
+        if not run_dirs:
+            return []
+        latest_run = run_dirs[-1]
+        return load_structure_files(os.path.join(latest_run, "mp20_test_0"), pattern="*.cif")
