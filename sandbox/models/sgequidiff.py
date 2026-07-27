@@ -10,6 +10,9 @@ class SGEquiDiffModel(BaseCrystalModel):
     def __init__(self, ckpt_dir="./experiments/sgequidiff/mp_20", conda_env="SGEquiDiff", **kwargs):
         self.ckpt_dir = ckpt_dir  # relative to models/sgequidiff (the subprocess's cwd)
         self.conda_env = conda_env
+        # so sanity_check() (which resolves paths from the project root, not
+        # the subprocess's cwd) can find the real location
+        self.ckpt_dir_check_path = "models/sgequidiff/" + ckpt_dir.lstrip("./")
 
     def load_checkpoint(self, path: str):
         pass

@@ -1,0 +1,2 @@
+_target_: sandbox.baselines.random_baseline.RandomMP20CopyBaseline
+mp20_root: ./models/adit/data/mp_20
