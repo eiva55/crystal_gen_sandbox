@@ -3,7 +3,7 @@ defaults:
   - task: generation
   - dataset: mp20
   - runner: default
+  - random_seed: basic
   - _self_
 
 mode: generate
-seed: 42
