@@ -1,0 +1,89 @@
+from pathlib import Path
+import argparse
+import logging
+from omegaconf import OmegaConf
+import torch
+import wandb
+import torch._dynamo
+torch._dynamo.config.cache_size_limit = 128  # default is 64, set to 128 to avoid cache misses
+
+from wyckoff_transformer.trainer import train_from_config  # noqa: E402
+# from wyckoff_transformer.bigtrainer import train_from_config
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Train a model')
+    parser.add_argument("config", type=Path, help="The configuration file")
+    parser.add_argument("dataset", type=str, help="Dataset to use")
+    parser.add_argument("device", type=torch.device, help="Device to train on")
+    parser.add_argument("--pilot", action="store_true", help="Run a pilot run by setting epochs to 3")
+    parser.add_argument("--debug", action="store_true", help="Debug mode")
+    parser.add_argument("--run-path", type=Path, default=Path(__file__).parent.parent / "runs",
+                        help="Set the path for saving run data")
+    parser.add_argument("--torch-num-thread", type=int, help="Number of threads for torch")
+    parser.add_argument("--production", action="store_true", help="Train on the combined train+val+test dataset")
+    parser.add_argument("--no-test", action="store_true", help="Skip loading and evaluating the test dataset")
+    parser.add_argument("--compile", dest="compile_model", action="store_true", default=None,
+                        help="Force WyckoffTrainer_args.compile_model=true")
+    parser.add_argument("--no-compile", dest="compile_model", action="store_false", default=None,
+                        help="Force WyckoffTrainer_args.compile_model=false")
+    args = parser.parse_args()
+    
+    if args.debug:
+        torch.autograd.set_detect_anomaly(True)
+        logging.basicConfig(level=logging.DEBUG)
+
+    if args.torch_num_thread:
+        torch.set_num_threads(args.torch_num_thread)
+
+    if args.device.type == "cuda":
+        # UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+        torch.set_float32_matmul_precision('high')
+        
+    config = OmegaConf.load(args.config)
+    if args.pilot:
+        print("Pilot run; overwriting epochs to 3")
+        config['optimisation']['epochs'] = 3
+        config['optimisation']['validation_period'] = 1
+        tags = ["pilot"]
+    else:
+        tags = []
+    config['name'] = args.config.stem
+    config['dataset'] = args.dataset
+    if args.compile_model is not None:
+        config['model']['WyckoffTrainer_args']['compile_model'] = args.compile_model
+
+    tokeniser_config_path = Path(__file__).parent.parent.resolve() / "yamls" / "tokenisers" / f"{config.tokeniser.name}.yaml"
+    tokeniser_config = OmegaConf.load(tokeniser_config_path)
+    if len(tokeniser_config.get("augmented_token_fields", [])) > 1:
+        raise ValueError("Only one augmented field is supported")
+    config['tokeniser'] = tokeniser_config
+    config['production_training'] = args.production
+
+    wandb_config = OmegaConf.to_container(config)
+    args.run_path.mkdir(parents=True, exist_ok=True)
+    with wandb.init(
+        project="WyckoffTransformer",
+        job_type="train",
+        tags=tags,
+        config=wandb_config,
+        settings=wandb.Settings(
+                init_timeout=180
+            )
+        ):
+
+        configuration_artifact = wandb.Artifact(name=f"config_{config.name}_{wandb.run.id}", type="config")
+        configuration_artifact.add_file(args.config, name="model.yaml")
+        configuration_artifact.add_file(tokeniser_config_path, name="tokeniser.yaml")
+        wandb.log_artifact(configuration_artifact)
+
+        if args.debug:
+            config["model"]['WyckoffTrainer_args']['compile_model'] = False
+            with torch.autograd.detect_anomaly():
+                train_from_config(config, args.device, run_path=args.run_path, production_training=args.production, no_test=args.no_test)
+        else:
+            train_from_config(config, args.device, run_path=args.run_path, production_training=args.production, no_test=args.no_test)
+
+
+if __name__ == '__main__':
+    main()
