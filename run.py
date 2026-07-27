@@ -3,23 +3,23 @@ import sys
 import os
 from pathlib import Path
 
-# Путь к папке с conda-окружениями (измените, если у вас другое расположение)
 CONDA_PREFIX = os.path.expanduser("~/miniconda3")
 
 def get_python(env_name):
-    """Возвращает путь к интерпретатору Python в указанном conda-окружении."""
     return f"{CONDA_PREFIX}/envs/{env_name}/bin/python"
 
-def run_cmd(env_name, cmd, cwd=None):
-    """Запускает команду через прямой вызов Python из окружения с потоковым выводом."""
+def run_cmd(env_name, cmd, cwd=None, env_vars=None):
     python_path = get_python(env_name)
     full_cmd = [python_path] + cmd
+    env = os.environ.copy()
+    if env_vars:
+        env.update(env_vars)
     if cwd:
         os.chdir(cwd)
-    process = subprocess.Popen(full_cmd, stdout=sys.stdout, stderr=sys.stderr)
+    process = subprocess.Popen(full_cmd, stdout=sys.stdout, stderr=sys.stderr, env=env)
     process.wait()
     if process.returncode != 0:
-        print(f"⚠️ Процесс завершился с кодом {process.returncode}")
+        print(f"⚠️ Process finished with code {process.returncode}")
 
 def run_adit():
     cmd = [
@@ -32,12 +32,9 @@ def run_adit():
         "diffusion_module.sampling.num_samples=10",
         "diffusion_module.sampling.batch_size=10"
     ]
-    run_cmd("ADiT", cmd, cwd="models/adit")
+    run_cmd("ADiT", cmd, cwd="models/adit", env_vars={"WANDB_MODE": "disabled"})
 
 def run_wyformer():
-    # WyFormer использует консольную команду, а не python-скрипт
-    # Поэтому активируем окружение и запускаем команду через shell
-    env_name = "WyFormer"
     cmd = [
         "wyformer-generate",
         "generated_structures.json.gz",
@@ -45,12 +42,11 @@ def run_wyformer():
         "--device", "cpu",
         "--firm-n-samples", "10"
     ]
-    # Используем shell=True для консольных команд
-    full_cmd = f"conda run -n {env_name} " + " ".join(cmd)
+    full_cmd = "conda run -n WyFormer " + " ".join(cmd)
     process = subprocess.Popen(full_cmd, shell=True, stdout=sys.stdout, stderr=sys.stderr)
     process.wait()
     if process.returncode != 0:
-        print(f"⚠️ Процесс завершился с кодом {process.returncode}")
+        print(f"⚠️ Process finished with code {process.returncode}")
 
 def run_miad():
     cmd = [
@@ -59,13 +55,7 @@ def run_miad():
         "-ignore_warnings", "1",
         "-config", "generate_miad_mp20.yaml"
     ]
-    # Установка переменной окружения для отключения CUDA
-    env = os.environ.copy()
-    env["CUDA_VISIBLE_DEVICES"] = ""
-    process = subprocess.Popen([get_python("miad")] + cmd, stdout=sys.stdout, stderr=sys.stderr, env=env, cwd="models/miad")
-    process.wait()
-    if process.returncode != 0:
-        print(f"⚠️ Процесс завершился с кодом {process.returncode}")
+    run_cmd("miad", cmd, cwd="models/miad", env_vars={"CUDA_VISIBLE_DEVICES": ""})
 
 def run_sgequidiff():
     cmd = [
@@ -76,12 +66,7 @@ def run_sgequidiff():
         "--load_best_submodules",
         "--temperature", "1.0"
     ]
-    env = os.environ.copy()
-    env["CUDA_VISIBLE_DEVICES"] = ""
-    process = subprocess.Popen([get_python("SGEquiDiff")] + cmd, stdout=sys.stdout, stderr=sys.stderr, env=env, cwd="models/sgequidiff")
-    process.wait()
-    if process.returncode != 0:
-        print(f"⚠️ Процесс завершился с кодом {process.returncode}")
+    run_cmd("SGEquiDiff", cmd, cwd="models/sgequidiff", env_vars={"CUDA_VISIBLE_DEVICES": ""})
 
 def run_crystaldit():
     cmd = [
@@ -92,10 +77,7 @@ def run_crystaldit():
         "--output_dir", "./outputs/crystaldit",
         "--device", "cpu"
     ]
-    process = subprocess.Popen([get_python("crystaldit")] + cmd, stdout=sys.stdout, stderr=sys.stderr, cwd="models/crystaldit")
-    process.wait()
-    if process.returncode != 0:
-        print(f"⚠️ Процесс завершился с кодом {process.returncode}")
+    run_cmd("crystaldit", cmd, cwd="models/crystaldit")
 
 def main():
     if len(sys.argv) < 2:

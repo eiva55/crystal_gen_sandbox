@@ -1,0 +1,9 @@
+defaults:
+  - model: adit
+  - task: generation
+  - dataset: mp20
+  - runner: default
+  - _self_
+
+mode: generate
+seed: 42
