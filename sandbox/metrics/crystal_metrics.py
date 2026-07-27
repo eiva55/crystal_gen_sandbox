@@ -56,9 +56,19 @@ class CrystalMetrics:
         return novel / len(structures) if structures else 0.0
 
     @staticmethod
-    def compute_all(structures: List[Structure], reference: List[Structure] = None) -> Dict[str, float]:
-        return {
+    def compute_all(structures: List[Structure], reference: List[Structure] = None,
+                     reference_entries=None) -> Dict[str, float]:
+        result = {
             "validity": CrystalMetrics.compute_validity(structures),
             "uniqueness": CrystalMetrics.compute_uniqueness(structures),
             "novelty": CrystalMetrics.compute_novelty(structures, reference) if reference else 1.0,
         }
+        if reference_entries is not None:
+            # CHGNet-based approximation, NOT the DFT-based S.U.N. reported
+            # in papers — see sandbox/metrics/stability.py docstring.
+            from sandbox.metrics.stability import compute_stability
+            stability = compute_stability(structures, reference_entries)
+            result["stable_rate_chgnet_approx"] = stability["stable_rate"]
+            result["metastable_rate_chgnet_approx"] = stability["metastable_rate"]
+            result["stability_evaluated_count"] = stability["evaluated"]
+        return result
