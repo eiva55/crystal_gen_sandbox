@@ -37,6 +37,34 @@ Evaluate mode (generation + validity/uniqueness/novelty against real MP-20 data)
 python run.py model=crystaldit runner=evaluate runner.num_samples=10 runner.batch_size=10 dataset.limit=200
 ```
 
+Every run (generate or evaluate) is seeded via `random_seed.seed` (default `42`,
+see `configs/random_seed/basic.yaml`) — Python, NumPy, and PyTorch RNGs are all
+fixed at the start of `run.py`, so stochastic generation is reproducible run
+to run. Override it per-run with `random_seed.seed=<n>`, or sweep several
+seeds in one command to see how much validity/uniqueness/novelty vary:
+
+```bash
+python run.py --multirun runner=evaluate model=crystaldit \
+  runner.num_samples=10 runner.batch_size=10 dataset.limit=200 \
+  random_seed.seed=41,42,43
+```
+
+Each run's outputs land under Hydra's own output directory (`outputs/<date>/<time>/`
+for a single run, `multirun/<date>/<time>/<job>/` per job for a sweep —
+`runner.save_dir` resolves to `${hydra:runtime.output_dir}` so sweep jobs never
+overwrite each other) and always include:
+
+- `metrics.json` — the metrics dict returned by the runner (evaluate mode only)
+- `run_summary.txt` — model name, seed, and a one-line result summary
+- `tb/` — a TensorBoard event file with the same metrics logged as scalars
+  (`metrics/<name>`, keyed by seed) plus the model/seed as text, so a seed
+  sweep can be inspected visually instead of only via `metrics.json`:
+
+```bash
+tensorboard --logdir outputs      # single runs
+tensorboard --logdir multirun     # sweeps
+```
+
 Visualization (element-distribution plot, saved alongside the generated CIFs) is on by
 default whenever `runner.save_dir` is set; disable with `viz.enabled=false`.
 
@@ -98,13 +126,25 @@ download needed as long as `models/adit/` is set up.
 - [x] Baseline (`model=random_baseline`): copies real structures verbatim, for
       sanity-checking that novelty isn't always trivially 1.0.
 - [x] Sanity checks (`sanity_run=True`): fast wiring checks without real generation.
+- [x] Reproducibility: `random_seed.seed` is applied (Python/NumPy/PyTorch) at
+      the start of every run, not just declared in config; supports Hydra
+      multirun seed sweeps (`random_seed.seed=41,42,43`).
+- [x] Persisted results: `metrics.json` + `run_summary.txt` are written to
+      each run's output dir (not just printed to stdout), and each sweep job
+      gets its own output dir (`runner.save_dir=${hydra:runtime.output_dir}`)
+      instead of overwriting a shared `./outputs`.
+- [x] Config-driven metrics: `sandbox/metrics/crystal_metrics.py::CrystalMetrics`
+      implements `BaseMetrics` and is instantiated from `configs/metrics/*.yaml`
+      (`hydra.utils.instantiate(cfg.metrics)`) — swap or tune metrics from the
+      command line (e.g. `metrics.compute_stability=false`) without touching
+      `evaluate.py`.
+- [x] Experiment tracking: metrics and run metadata are also logged to
+      TensorBoard (`<save_dir>/tb/`).
 - [ ] WyFormer energy relaxation (CHGNet/MACE/ORB) — currently only
       symmetry-consistent structural reconstruction via `pyxtal` is done, not
       the energy relaxation step WyFormer's own `cryspr/` scripts perform.
 - [ ] Wire `configs/dataset` / `configs/task` more generally — right now
-      `evaluate.py` is the only place that consumes the dataset; other
-      metrics (`BaseMetrics` subclasses beyond `CrystalMetrics`) aren't
-      pluggable via config yet.
+      `evaluate.py` is the only place that consumes the dataset.
 - See `TODO.md` for the current, evolving list.
 
 # Contracts
@@ -130,11 +170,27 @@ download needed as long as `models/adit/` is set up.
 ## Runners (`sandbox/runners/`)
 
 - `run_generation(task, model, num_samples, batch_size, device, save_dir, viz_enabled=False, **kwargs) -> List[Structure]`
-- `evaluate_generation(model, num_samples, batch_size, device, save_dir=None, dataset=None, task=None, viz_enabled=False, **kwargs) -> Dict[str, float]`
+- `evaluate_generation(model, num_samples, batch_size, device, save_dir=None, dataset=None, task=None, viz_enabled=False, metrics=None, **kwargs) -> Dict[str, float]`
+  — if `metrics` (a `BaseMetrics` instance from `cfg.metrics`) is passed, it's
+  used via `metrics.compute(structures, reference)`; otherwise falls back to
+  the hardcoded `CrystalMetrics.compute_all(...)` path for callers that don't
+  wire `cfg.metrics`.
 
 ## Metrics (`sandbox/metrics/crystal_metrics.py`)
 
-- `compute_validity(structures) -> float`
-- `compute_uniqueness(structures) -> float`
-- `compute_novelty(structures, reference) -> float`
-- `compute_all(structures, reference=None) -> Dict[str, float]`
+`CrystalMetrics` implements the `BaseMetrics` contract and is instantiable
+from config (`configs/metrics/basic.yaml`, wired into `run.py` via
+`hydra.utils.instantiate(cfg.metrics)`):
+
+- `CrystalMetrics(stability_reference_path=..., compute_stability=True)`
+- `.compute(generated, reference=None) -> Dict[str, float]` — the
+  `BaseMetrics`/runner entrypoint
+- Individual metrics are still available as static methods (used directly by
+  the unit tests): `compute_validity(structures)`, `compute_uniqueness(structures)`,
+  `compute_novelty(structures, reference)`, `compute_all(structures, reference=None, reference_entries=None)`
+
+Toggle or point metrics at a different reference from the command line, e.g.:
+
+```bash
+python run.py model=crystaldit runner=evaluate metrics.compute_stability=false
+```

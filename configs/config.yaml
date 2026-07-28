@@ -5,6 +5,7 @@ defaults:
   - runner: default
   - random_seed: basic
   - viz: basic
+  - metrics: basic
   - _self_
 
 mode: generate

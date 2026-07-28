@@ -2,4 +2,4 @@ _target_: sandbox.runners.evaluate.evaluate_generation
 num_samples: 10
 batch_size: 10
 device: cpu
-save_dir: ./outputs
+save_dir: ${hydra:runtime.output_dir}

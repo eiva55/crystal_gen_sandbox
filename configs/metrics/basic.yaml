@@ -1,0 +1,3 @@
+_target_: sandbox.metrics.crystal_metrics.CrystalMetrics
+stability_reference_path: cache/chgnet_full_reference.json
+compute_stability: true
