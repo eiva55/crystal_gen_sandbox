@@ -37,11 +37,26 @@ Evaluate mode (generation + validity/uniqueness/novelty against real MP-20 data)
 python run.py model=crystaldit runner=evaluate runner.num_samples=10 runner.batch_size=10 dataset.limit=200
 ```
 
-Every run (generate or evaluate) is seeded via `random_seed.seed` (default `42`,
-see `configs/random_seed/basic.yaml`) — Python, NumPy, and PyTorch RNGs are all
-fixed at the start of `run.py`, so stochastic generation is reproducible run
-to run. Override it per-run with `random_seed.seed=<n>`, or sweep several
-seeds in one command to see how much validity/uniqueness/novelty vary:
+Every run (generate or evaluate) sets `random_seed.seed` (default `42`, see
+`configs/random_seed/basic.yaml`) as a global Python/NumPy/PyTorch seed at the
+start of `run.py`. **This only reaches the orchestrator process** — each
+model's real generation runs in its own conda env via `subprocess`, so the
+seed only propagates as far as each model's own CLI/config actually supports:
+
+| Model | Seed control | Mechanism |
+|---|---|---|
+| ADiT | Works | `seed=<value>` appended to its own Hydra-style CLI args |
+| MiAD | Works | `seed:` in `generate_miad_mp20.yaml` is temporarily overwritten, then restored after the run (no `--seed` CLI flag exists) |
+| WyFormer | No effect | no `--seed` flag; `generate()` prints a notice and ignores the override |
+| SGEquiDiff | Fixed, not tunable | `generate_crystals.py` hardcodes `torch.manual_seed(0)` directly — always the same seed regardless of `random_seed.seed`, and doesn't read the `seed: 0` field already present in its own YAML configs |
+| CrystalDiT | No effect | no seeding mechanism anywhere in the inference path (`generate_crystals.py`, `crystal_diffusion.py`, `diffusion/*.py`) — confirmed empirically: two runs with identical settings produced different compositions and atom counts |
+
+So a seed sweep (`random_seed.seed=41,42,43`) gives genuinely different,
+reproducible results per seed for ADiT and MiAD; for WyFormer and CrystalDiT
+it just re-runs the same stochastic generation three times (the seed value
+itself has no effect); for SGEquiDiff all three "seeds" produce the same
+output, since the model ignores the request and always uses its own hardcoded
+seed. Sweep several seeds in one command to see how much validity/uniqueness/novelty vary in practice:
 
 ```bash
 python run.py --multirun runner=evaluate model=crystaldit \
@@ -126,9 +141,12 @@ download needed as long as `models/adit/` is set up.
 - [x] Baseline (`model=random_baseline`): copies real structures verbatim, for
       sanity-checking that novelty isn't always trivially 1.0.
 - [x] Sanity checks (`sanity_run=True`): fast wiring checks without real generation.
-- [x] Reproducibility: `random_seed.seed` is applied (Python/NumPy/PyTorch) at
-      the start of every run, not just declared in config; supports Hydra
-      multirun seed sweeps (`random_seed.seed=41,42,43`).
+- [x] Reproducibility (partial, model-dependent): `random_seed.seed` is applied
+      (Python/NumPy/PyTorch) at the start of every run, and supports Hydra
+      multirun seed sweeps (`random_seed.seed=41,42,43`) — but the seed only
+      actually reaches ADiT and MiAD (the other three models either ignore it
+      or have no seeding mechanism at all). See the Quickstart table for the
+      per-model breakdown.
 - [x] Persisted results: `metrics.json` + `run_summary.txt` are written to
       each run's output dir (not just printed to stdout), and each sweep job
       gets its own output dir (`runner.save_dir=${hydra:runtime.output_dir}`)

@@ -55,7 +55,7 @@ def main(cfg: DictConfig):
     try:
         result = hydra.utils.instantiate(
             cfg.runner, task=task, model=model, device=device, dataset=dataset,
-            metrics=metrics, viz_enabled=viz_enabled
+            metrics=metrics, viz_enabled=viz_enabled, seed=seed
         )
 
         if logger is not None:

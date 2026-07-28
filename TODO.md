@@ -17,3 +17,15 @@
       novelty/uniqueness against the MP-20 reference set — blocked on
       confirming where real MP-20 data lives on disk (now resolved:
       models/adit/data/mp_20).
+- [ ] CrystalDiT non-reproducibility: confirmed empirically (two runs, same
+      settings, different compositions/atom counts) and by code inspection —
+      no `torch.manual_seed`/equivalent exists anywhere in the actual
+      inference path (`generate_crystals.py`'s CPU branch
+      `generate_crystals_single_device`, `crystal_diffusion.py`,
+      `diffusion/models.py`, `diffusion/gaussian_diffusion.py`). This is a gap
+      in the upstream model code, not in our wrapper — our `seed=` override
+      correctly has no effect because there's nothing to pass it to.
+- [ ] SGEquiDiff seed is hardcoded (`torch.manual_seed(0)`, literal, not read
+      from its own `seed: 0` config field) — every run uses the same fixed
+      seed regardless of our `random_seed.seed` override. Not user-tunable
+      without patching SGEquiDiff's own script.

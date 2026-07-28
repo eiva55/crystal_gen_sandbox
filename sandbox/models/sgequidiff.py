@@ -21,6 +21,9 @@ class SGEquiDiffModel(BaseCrystalModel):
         pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
+        if kwargs.get("seed") is not None:
+            print(f"Note: {self.__class__.__name__} does not expose a --seed CLI flag; "
+                  f"the seed override has no effect on this model's sampling.")
         # Unique per-run tag: SGEquiDiff always writes into ckpt_dir with no
         # separate output-dir flag, so this is the only way to avoid
         # collisions with files from a previous run.

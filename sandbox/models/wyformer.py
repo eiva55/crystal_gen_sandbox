@@ -33,6 +33,9 @@ class WyFormerModel(BaseCrystalModel):
         return [CheckResult(name="pyxtal_importable", ok=ok, message=message)]
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
+        if kwargs.get("seed") is not None:
+            print(f"Note: {self.__class__.__name__} does not expose a --seed CLI flag; "
+                  f"the seed override has no effect on this model's sampling.")
         raw_output = "generated_structures.json.gz"
         cmd = [
             "wyformer-generate",

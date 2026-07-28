@@ -9,7 +9,7 @@ def evaluate_generation(model, num_samples: int, batch_size: int, device: torch.
                          metrics=None, stability_reference_path: str = "cache/chgnet_full_reference.json",
                          **kwargs):
     model.to(device)
-    structures = model.generate(num_samples, batch_size, device, save_dir=save_dir)
+    structures = model.generate(num_samples, batch_size, device, save_dir=save_dir, **kwargs)
     if not structures:
         print("No structures generated.")
         return {}

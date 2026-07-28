@@ -33,6 +33,9 @@ class ADiTModel(BaseCrystalModel):
             f"diffusion_module.sampling.num_samples={num_samples}",
             f"diffusion_module.sampling.batch_size={batch_size}"
         ]
+        seed = kwargs.get("seed")
+        if seed is not None:
+            cmd.append(f"seed={seed}")
         env = os.environ.copy()
         env["WANDB_MODE"] = "disabled"
         process = subprocess.Popen(cmd, cwd="models/adit", env=env, stdout=sys.stdout, stderr=sys.stderr)

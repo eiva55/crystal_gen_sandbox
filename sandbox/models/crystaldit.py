@@ -17,6 +17,9 @@ class CrystalDiTModel(BaseCrystalModel):
         pass
 
     def generate(self, num_samples, batch_size, device, save_dir=None, **kwargs):
+        if kwargs.get("seed") is not None:
+            print(f"Note: {self.__class__.__name__} does not expose a --seed CLI flag; "
+                  f"the seed override has no effect on this model's sampling.")
         output_dir = os.path.abspath(save_dir or "./outputs/crystaldit")
         cmd = [
             "conda", "run", "-n", self.conda_env,
