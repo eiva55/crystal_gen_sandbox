@@ -42,7 +42,7 @@ class WyFormerModel(BaseCrystalModel):
             "--firm-n-samples", str(num_samples),
         ]
         full_cmd = f"conda run -n {self.conda_env} " + " ".join(cmd)
-        process = subprocess.Popen(full_cmd, shell=True, stdout=sys.stdout, stderr=sys.stderr)
+        process = subprocess.Popen(full_cmd, shell=True, cwd="models/wyformer", stdout=sys.stdout, stderr=sys.stderr)
         process.wait()
         if process.returncode != 0:
             raise RuntimeError("WyFormer generation failed")
