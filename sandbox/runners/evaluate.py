@@ -16,9 +16,19 @@ def evaluate_generation(model, num_samples: int, batch_size: int, device: torch.
 
     if save_dir:
         os.makedirs(save_dir, exist_ok=True)
+        # Prefix is "eval_gen_" (not "gen_") specifically to avoid colliding
+        # with whatever filenames a model's own generate() may already have
+        # written into this same save_dir — e.g. CrystalDiT's
+        # generate_crystals.py defaults to prefix="gen" and writes directly
+        # into save_dir, so a plain "gen_{i}.cif" here silently overwrote
+        # most of its own output (mismatched 0- vs 1-indexing left one
+        # duplicate file behind). This loop is a convenience re-save so CIFs
+        # always land in save_dir even for models whose own scripts write
+        # elsewhere (ADiT, MiAD, SGEquiDiff) — it's intentionally redundant
+        # for models that already write into save_dir themselves, not wrong.
         for i, s in enumerate(structures):
             if s is not None:
-                s.to(os.path.join(save_dir, f"gen_{i}.cif"))
+                s.to(os.path.join(save_dir, f"eval_gen_{i}.cif"))
 
     if viz_enabled and save_dir and task is not None:
         task.visualize(structures, save_dir)

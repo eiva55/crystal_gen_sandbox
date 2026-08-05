@@ -30,7 +30,13 @@ class CrystalDiTModel(BaseCrystalModel):
             "--output_dir", output_dir,
             "--device", "cpu"
         ]
-        process = subprocess.Popen(cmd, cwd="models/crystaldit", stdout=sys.stdout, stderr=sys.stderr)
+        # generate_crystals.py's own main() auto-enables multi-GPU
+        # (`torch.cuda.device_count() > 1`) regardless of the --device flag
+        # we pass — CUDA_VISIBLE_DEVICES="" is the only reliable way to force
+        # CPU-only execution, matching what miad.py/sgequidiff.py already do.
+        env = os.environ.copy()
+        env["CUDA_VISIBLE_DEVICES"] = ""
+        process = subprocess.Popen(cmd, cwd="models/crystaldit", env=env, stdout=sys.stdout, stderr=sys.stderr)
         process.wait()
         if process.returncode != 0:
             raise RuntimeError("CrystalDiT generation failed")

@@ -1,4 +1,11 @@
 _target_: sandbox.datasets.mp20.MP20Dataset
 root: ./models/adit/data/mp_20
-split: test
+# Novelty checks whether generated structures match something the model
+# could have memorized — that's the TRAIN set, not test. Previously this
+# was "test", but `split` was silently ignored anyway (see mp20.py), so it
+# never actually mattered until now.
+split: train
 limit: 200
+seed: ${random_seed.seed}
+train_frac: 0.6
+val_frac: 0.2

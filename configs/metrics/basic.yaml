@@ -1,3 +1,5 @@
 _target_: sandbox.metrics.crystal_metrics.CrystalMetrics
 stability_reference_path: cache/chgnet_full_reference.json
 compute_stability: true
+relax_fmax: 0.1
+relax_steps: 100

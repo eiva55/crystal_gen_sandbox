@@ -31,7 +31,12 @@ class ADiTModel(BaseCrystalModel):
             "trainer.accelerator=cpu",
             "trainer.devices=1",
             f"diffusion_module.sampling.num_samples={num_samples}",
-            f"diffusion_module.sampling.batch_size={batch_size}"
+            f"diffusion_module.sampling.batch_size={batch_size}",
+            # We never consume trainer.test()'s own metrics (see eval_diffusion.py) —
+            # only the CIFs it writes as a side effect. Skipping its fixed-cost
+            # internal test loop (~9-10 min, independent of our num_samples)
+            # saves time without affecting what we actually read back.
+            "+trainer.limit_test_batches=1"
         ]
         seed = kwargs.get("seed")
         if seed is not None:
