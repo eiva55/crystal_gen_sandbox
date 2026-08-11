@@ -477,3 +477,62 @@ Toggle or point metrics at a different reference from the command line, e.g.:
 ```bash
 python run.py model=crystaldit runner=evaluate metrics.compute_stability=false
 ```
+
+## Composition-conditioned generation (DiffCSP++)
+
+In addition to the five de novo generators, `sandbox/models/diffcsp.py`
+wraps [DiffCSP++](https://github.com/jiaor17/DiffCSP-PP) (ICLR 2024) for
+composition/symmetry-conditioned crystal structure prediction — generation
+under a fixed target composition, optionally with a specified space group
+and Wyckoff template.
+
+Unlike the five de novo models, `DiffCSPModel.generate()` requires a
+`target_composition` kwarg (a dict or list of dicts with `atom_types`,
+`spacegroup_number`, `wyckoff_letters`) rather than being called with just
+`num_samples`/`batch_size`. Use it directly:
+
+```python
+from sandbox.models.diffcsp import DiffCSPModel
+m = DiffCSPModel()
+structures = m.generate(
+    num_samples=10, batch_size=10, device='cpu', save_dir='./outputs/diffcsp',
+    target_composition={
+        'atom_types': ['Hf', 'O', 'O'],
+        'spacegroup_number': 33,
+        'wyckoff_letters': ['4a', '4a', '4a'],
+    },
+)
+```
+
+Or sweep multiple compositions in one run via `sandbox/runners/csp_sweep.py`:
+
+```bash
+python run.py model=diffcsp runner=csp_sweep \
+  runner.targets_path=configs/csp_targets/<your_targets>.json
+```
+
+Each entry in the targets JSON needs a `label` (used as the output
+subdirectory name) plus the same `atom_types`/`spacegroup_number`/
+`wyckoff_letters` fields as above.
+
+**Environments**: `diffcsp_pp` (CPU-only fork of DiffCSP++'s own
+`environment.yml` — `pytorch-cuda`/`pytorch-scatter` swapped for CPU
+builds), `mp_lookup` (Materials Project API lookups via `mp-api`, kept
+isolated from the rest of the stack due to `emmet-core`/`pymatgen` version
+constraints — needs a narrower pymatgen range than either the repo's
+pinned `2023.8.10` or current `pymatgen` latest), `orchestrator` (runs
+`run.py`/Hydra itself — the repo's `requirements.txt` predates numpy 2.0
+and doesn't list `smact`/`chgnet`/`matplotlib`, which `sandbox/metrics/`
+and `sandbox/tasks/` import; see `envs/orchestrator.yml` once exported).
+
+## Training scaffolding (equivariance-vs-augmentation ablation, WIP)
+
+`sandbox/training/` scaffolds a controlled ablation comparing an
+explicitly SE(3)-equivariant backbone against an augmentation-only
+variant of the same architecture, across MP20 subset sizes
+(1k/5k/20k/45k via `dataset.limit`). **Not yet functional** —
+`sandbox/training/train_loop.py::run_ablation_training` currently raises
+`NotImplementedError`; the two `AblationBackbone` subclasses
+(`sandbox/training/architectures/`) haven't been written yet. Uses the
+`equivariance_ablation` conda env (cloned from `SGEquiDiff`, which already
+has `e3nn`/`torch-geometric`/`pytorch-lightning`).

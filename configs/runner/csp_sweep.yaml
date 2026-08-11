@@ -1,0 +1,6 @@
+_target_: sandbox.runners.csp_sweep.run_csp_sweep
+save_dir: ${hydra:runtime.output_dir}
+targets_path: ???
+num_samples_per_target: 10
+batch_size: 10
+device: cpu

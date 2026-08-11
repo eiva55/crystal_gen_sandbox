@@ -1,0 +1,3 @@
+_target_: sandbox.models.diffcsp.DiffCSPModel
+ckpt_path: ./models/diffcsp_pp/checkpoints/pretrained_models/mp_csp
+conda_env: diffcsp_pp

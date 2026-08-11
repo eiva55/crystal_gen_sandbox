@@ -130,3 +130,39 @@
       model without GPU access.
 - [ ] Wire `configs/dataset` / `configs/task` more generally — right now
       `evaluate.py` is the only place that consumes the dataset.
+
+## DiffCSP++ integration (composition-conditioned generation)
+- [x] `sandbox/models/diffcsp.py` wrapper — end-to-end verified (real
+      generation via `scripts/sample.py`, correct composition/space-group
+      round-trip confirmed against a smoke test).
+- [x] `sandbox/runners/csp_sweep.py` — verified end-to-end through
+      `run.py`+Hydra (not just direct Python calls).
+- [x] Found target compositions for hypothesis 1 (HfO2 monoclinic
+      P2_1/c, mp-352, e_above_hull=0; orthorhombic Pca2_1, mp-685097,
+      e_above_hull=0.022 eV/atom) via `mp_lookup` env — not yet run
+      through `csp_sweep`.
+- [ ] Verify whether DiffCSP++'s CSP task (`scripts/evaluate.py --tasks
+      csp`) supports compositions with no known ground-truth structure —
+      needed for hypothesis 5 (Magnéli phases), where the target space
+      group is intentionally NOT specified in advance. `sample.py`
+      (used by the current wrapper) requires spacegroup+wyckoff upfront,
+      which doesn't fit that case.
+- [ ] Magnéli phase reference data (Ti/V/Mo/W space groups + compositions)
+      not yet collected — needed to calibrate hypothesis 5 before running
+      generation.
+
+## DFT
+- [ ] Blocked on confirming VASP license/access with the lab. QE
+      (Quantum ESPRESSO) was scoped as a free fallback but not set up —
+      deferred pending the VASP answer.
+- [ ] Needed for hypotheses 1, 2, 4 (CHGNet-only results are provisional
+      until DFT-confirmed).
+
+## Equivariance ablation (hypothesis 3)
+- [x] `sandbox/training/` scaffolding created — data module (reuses
+      `MP20Dataset`), `AblationBackbone` abstract interface, training
+      entrypoint skeleton, Hydra config, dedicated conda env.
+- [ ] Pick and implement the actual equivariant backbone (e3nn-based
+      candidate) and its augmentation-only counterpart.
+- [ ] Define the training objective (denoising vs reconstruction —
+      not yet decided).

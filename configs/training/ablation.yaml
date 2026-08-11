@@ -1,0 +1,8 @@
+_target_: sandbox.training.train_loop.run_ablation_training
+variant: ???  # "equivariant" or "augmented"
+dataset_root: ./models/adit/data/mp_20
+dataset_limit: ???  # sweep: 1000, 5000, 20000, 45000
+save_dir: ${hydra:runtime.output_dir}
+max_epochs: 10
+batch_size: 32
+conda_env: equivariance_ablation

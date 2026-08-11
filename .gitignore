@@ -39,3 +39,4 @@ multirun/
 *.json.gz
 *.zip
 *.7z
+.env
