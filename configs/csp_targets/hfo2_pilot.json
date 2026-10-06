@@ -1,0 +1,30 @@
+[
+  {
+    "label": "hfo2_stable",
+    "spacegroup_number": 14,
+    "wyckoff_letters": [
+      "4e",
+      "4e",
+      "4e"
+    ],
+    "atom_types": [
+      "Hf",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "label": "hfo2_meta",
+    "spacegroup_number": 29,
+    "wyckoff_letters": [
+      "4a",
+      "4a",
+      "4a"
+    ],
+    "atom_types": [
+      "Hf",
+      "O",
+      "O"
+    ]
+  }
+]

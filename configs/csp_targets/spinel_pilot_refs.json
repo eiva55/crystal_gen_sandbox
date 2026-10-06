@@ -1,0 +1,10 @@
+{
+  "spinel_x0_ordered": {
+    "energy_per_atom_ref": -7.500496476428567,
+    "energy_above_hull_ref": 0.0
+  },
+  "spinel_x05_disordered": {
+    "energy_per_atom_ref": -7.449958788571428,
+    "energy_above_hull_ref": 0.05053768785713508
+  }
+}

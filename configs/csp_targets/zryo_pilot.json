@@ -1,0 +1,72 @@
+[
+  {
+    "label": "zro2_x0_mono",
+    "spacegroup_number": 14,
+    "wyckoff_letters": [
+      "4e",
+      "4e",
+      "4e"
+    ],
+    "atom_types": [
+      "Zr",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "label": "zro2_x0_cubic",
+    "spacegroup_number": 225,
+    "wyckoff_letters": [
+      "1a",
+      "2c"
+    ],
+    "atom_types": [
+      "Zr",
+      "O"
+    ]
+  },
+  {
+    "label": "zryo_x167_c2",
+    "spacegroup_number": 5,
+    "wyckoff_letters": [
+      "1b",
+      "1a",
+      "2c",
+      "2c",
+      "2c",
+      "2c",
+      "2c",
+      "2c",
+      "2c",
+      "2c"
+    ],
+    "atom_types": [
+      "Y",
+      "Zr",
+      "Zr",
+      "Zr",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "label": "zryo_x20_i4m",
+    "spacegroup_number": 87,
+    "wyckoff_letters": [
+      "1a",
+      "4h",
+      "2d",
+      "8i"
+    ],
+    "atom_types": [
+      "Y",
+      "Zr",
+      "O",
+      "O"
+    ]
+  }
+]

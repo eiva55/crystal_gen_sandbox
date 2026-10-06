@@ -1,0 +1,40 @@
+[
+  {
+    "label": "spinel_x0_ordered",
+    "spacegroup_number": 227,
+    "wyckoff_letters": [
+      "2a",
+      "4d",
+      "8e"
+    ],
+    "atom_types": [
+      "Mg",
+      "Al",
+      "O"
+    ]
+  },
+  {
+    "label": "spinel_x05_disordered",
+    "spacegroup_number": 160,
+    "wyckoff_letters": [
+      "1a",
+      "1a",
+      "3b",
+      "1a",
+      "3b",
+      "1a",
+      "1a",
+      "3b"
+    ],
+    "atom_types": [
+      "Mg",
+      "Mg",
+      "Al",
+      "Al",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  }
+]
