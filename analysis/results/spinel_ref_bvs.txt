@@ -1,0 +1,15 @@
+
+Retrieving MaterialsDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]
+Retrieving MaterialsDoc documents: 100%|██████████| 1/1 [00:00<00:00, 18477.11it/s]
+
+Retrieving MaterialsDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]
+Retrieving MaterialsDoc documents: 100%|██████████| 1/1 [00:00<00:00, 29746.84it/s]
+
+mp-3536 x=0 (эталон MP): D(s)=0.0519
+   regular: n=6, среднее 0.0519
+
+mp-34330 x=0.5 (эталон MP): D(s)=0.2836
+   regular: n=4, среднее 0.2124
+   antistructural: n=2, среднее 0.4258
+
+Для сравнения, сгенерированные (пилот): x=0 D=0.1205, x=0.5 D=0.2378; штатные 0.1452, антиструктурные 0.5270

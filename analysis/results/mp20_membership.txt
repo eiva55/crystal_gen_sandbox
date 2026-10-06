@@ -1,0 +1,39 @@
+all.csv: 45229 строк
+
+Целевые id:
+      material_id pretty_formula  e_above_hull  spacegroup.number
+13839      mp-352           HfO2      0.000000                 14
+37630   mp-685097           HfO2      0.028621                 29
+
+Все HfO2 в MP-20:
+      material_id pretty_formula  e_above_hull  spacegroup.number
+13839      mp-352           HfO2      0.000000                 14
+9283    mp-776532           HfO2      0.024836                136
+37630   mp-685097           HfO2      0.028621                 29
+43996  mp-1018721           HfO2      0.054778                137
+
+Частота групп:
+  SG14: 927 (2.05%)
+  SG29: 19 (0.04%)
+  SG60: 32 (0.07%)
+  SG61: 10 (0.02%)
+  SG160: 491 (1.09%)
+  SG205: 54 (0.12%)
+  SG225: 6714 (14.84%)
+  SG227: 499 (1.10%)
+
+e_above_hull (весь MP-20):
+count    45229.000000
+mean         0.017189
+std          0.023133
+min          0.000000
+25%          0.000000
+50%          0.003469
+75%          0.030189
+max          0.079999
+Name: e_above_hull, dtype: float64
+
+models/diffcsp_pp/data/mp_20: ['test.csv', 'train.csv', 'val.csv']
+train: 27136 структур, {'mp-352': True, 'mp-685097': False}
+val: 9047 структур, {'mp-352': False, 'mp-685097': False}
+test: 9046 структур, {'mp-352': False, 'mp-685097': True}

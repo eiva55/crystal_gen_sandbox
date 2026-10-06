@@ -1,0 +1,18 @@
+
+=== hfo2_stable (N=50) ===
+  default  к эталону stable: match 50/50, средний RMS (по совпавшим) 0.0075
+  default  к эталону meta  : match  0/50, средний RMS (по совпавшим) nan
+  loose    к эталону stable: match 50/50, средний RMS (по совпавшим) 0.0075
+  loose    к эталону meta  : match 43/50, средний RMS (по совпавшим) 0.2172
+  по группе при symprec=0.1 (match default → stable / meta):
+    SG14: n=50, stable 50, meta 0
+
+=== hfo2_meta (N=50) ===
+  default  к эталону stable: match  0/50, средний RMS (по совпавшим) nan
+  default  к эталону meta  : match 43/50, средний RMS (по совпавшим) 0.1031
+  loose    к эталону stable: match 50/50, средний RMS (по совпавшим) 0.2131
+  loose    к эталону meta  : match 50/50, средний RMS (по совпавшим) 0.1031
+  по группе при symprec=0.1 (match default → stable / meta):
+    SG29: n=40, stable 0, meta 40
+    SG60: n=7, stable 0, meta 0
+    SG61: n=3, stable 0, meta 3
