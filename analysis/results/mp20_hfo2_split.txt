@@ -1,0 +1,12 @@
+      material_id pretty_formula  e_above_hull  spacegroup.number  split
+9283    mp-776532           HfO2      0.024836                136  train
+13839      mp-352           HfO2      0.000000                 14  train
+1447    mp-685097           HfO2      0.028621                 29   test
+7813   mp-1018721           HfO2      0.054778                137   test
+
+Число структур группы в train: {14: 575, 29: 10, 60: 18, 61: 7, 136: 167, 137: 24, 160: 311, 205: 31, 227: 303}
+test: e_above_hull >= 0.01: 3786 из 9046
+test: e_above_hull >= 0.02: 2904 из 9046
+test: e_above_hull >= 0.04: 1673 из 9046
+test: e_above_hull >= 0.06: 767 из 9046
+составов в test с >=2 структурами: 377 , >=3: 76

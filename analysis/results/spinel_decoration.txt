@@ -1,0 +1,37 @@
+/home/bebra/miniconda3/envs/mp_lookup/lib/python3.11/site-packages/pymatgen/io/cif.py:1817: UserWarning: Issues encountered while parsing CIF: 20 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  return parser.parse_structures(primitive=primitive)[0]
+эталон mp-3536: атомов 14, Mg CN (4, 4), Al CN (6, 6, 6, 6), D=0.052
+эталон mp-34330: атомов 14, Mg CN (4, 6), Al CN (4, 6, 6, 6), D=0.284
+
+=== spinel_x0_ordered ===
+1.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.126
+2.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.049
+3.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.175
+4.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.167
+5.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.111
+6.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.047
+7.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.164
+8.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.130
+9.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.137
+10.cif   атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.202
+11.cif   атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.039
+12.cif   атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.097
+паттерны (Mg CN, Al CN): число структур
+   ((4, 4), (6, 6, 6, 6)) 12
+
+=== spinel_x05_disordered ===
+1.cif    атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.254
+2.cif    атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.319
+3.cif    атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.300
+4.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.201
+5.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.174
+6.cif    атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.189
+7.cif    атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.248
+8.cif    атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.282
+9.cif    атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.092
+10.cif   атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.258
+11.cif   атомов 14  Mg CN (4, 4)  Al CN (6, 6, 6, 6)  D=0.174
+12.cif   атомов 14  Mg CN (4, 6)  Al CN (4, 6, 6, 6)  D=0.298
+паттерны (Mg CN, Al CN): число структур
+   ((4, 6), (4, 6, 6, 6)) 8
+   ((4, 4), (6, 6, 6, 6)) 4
