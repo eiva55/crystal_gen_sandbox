@@ -1,0 +1,146 @@
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+/home/bebra/matgen/crystal_gen_sandbox/analysis/analyze_bench2.py:42: RuntimeWarning: overflow encountered in exp
+  return np.exp(m.params['ehull_10meV']), np.exp(ci[0]), np.exp(ci[1]), m.pvalues['ehull_10meV']
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+/home/bebra/matgen/crystal_gen_sandbox/analysis/analyze_bench2.py:42: RuntimeWarning: overflow encountered in exp
+  return np.exp(m.params['ehull_10meV']), np.exp(ci[0]), np.exp(ci[1]), m.pvalues['ehull_10meV']
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/base/optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+/home/bebra/matgen/crystal_gen_sandbox/analysis/analyze_bench2.py:42: RuntimeWarning: overflow encountered in exp
+  return np.exp(m.params['ehull_10meV']), np.exp(ci[0]), np.exp(ci[1]), m.pvalues['ehull_10meV']
+структур: 300; контроли: ['log_sg_train', 'n_atoms', 'n_free', 'log_proto_train']
+
+=== строгий и стандартный матчер по корзинам ===
+             match_std  match_strict
+bin                                 
+0-0.005           0.87          0.82
+0.005-0.02        0.83          0.78
+0.02-0.04         0.88          0.78
+0.04-0.06         0.87          0.78
+0.06-0.0801       0.73          0.68
+
+=== тривиальные цели: число свободных параметров ===
+         N  match_std  ehull_med
+n_free                          
+0       47      1.000      0.014
+1       49      0.980      0.036
+2       37      1.000      0.035
+3-4     42      0.976      0.026
+5-8     56      0.857      0.030
+9+      69      0.435      0.039
+n_free=0 по корзинам: {'0-0.005': 12, '0.005-0.02': 15, '0.02-0.04': 8, '0.04-0.06': 4, '0.06-0.0801': 8}
+
+=== OR на +10 мэВ/атом e_above_hull, исход match_std ===
+все цели                   N=300 доля=0.84 | без контр.: OR=0.904 [0.803, 1.017] p=0.092 | с контр.: OR=1.057 [0.899, 1.242] p=0.503
+n_free >= 1                N=253 доля=0.81 | без контр.: OR=0.925 [0.820, 1.044] p=0.209 | с контр.: OR=1.059 [0.901, 1.244] p=0.488
+n_free >= 2                N=204 доля=0.76 | без контр.: OR=0.926 [0.816, 1.051] p=0.237 | с контр.: OR=1.066 [0.904, 1.257] p=0.449
+n_free >= 3                N=167 доля=0.71 | без контр.: OR=0.935 [0.820, 1.065] p=0.312 | с контр.: OR=1.077 [0.912, 1.272] p=0.380
+n_free (-0.001, 2.0]       N=133 доля=0.99 | без контр.: OR=0.679 [0.285, 1.620] p=0.383 | с контр.: OR=0.000 [0.000, inf] p=0.923
+n_free (2.0, 6.0]          N= 71 доля=0.92 | без контр.: OR=0.901 [0.640, 1.268] p=0.550 | с контр.: OR=0.921 [0.636, 1.334] p=0.663
+n_free (6.0, 60.0]         N= 96 доля=0.56 | без контр.: OR=0.980 [0.841, 1.141] p=0.794 | с контр.: OR=1.169 [0.956, 1.430] p=0.127
+
+=== OR на +10 мэВ/атом e_above_hull, исход match_strict ===
+все цели                   N=300 доля=0.77 | без контр.: OR=0.922 [0.832, 1.023] p=0.125 | с контр.: OR=1.060 [0.915, 1.227] p=0.440
+n_free >= 1                N=253 доля=0.73 | без контр.: OR=0.947 [0.851, 1.054] p=0.320 | с контр.: OR=1.066 [0.921, 1.235] p=0.390
+n_free >= 2                N=204 доля=0.67 | без контр.: OR=0.947 [0.845, 1.061] p=0.348 | с контр.: OR=1.072 [0.922, 1.246] p=0.366
+n_free >= 3                N=167 доля=0.60 | без контр.: OR=0.959 [0.850, 1.083] p=0.502 | с контр.: OR=1.102 [0.942, 1.288] p=0.225
+n_free (-0.001, 2.0]       N=133 доля=0.98 | без контр.: OR=0.759 [0.434, 1.325] p=0.332 | с контр.: OR=0.553 [0.208, 1.472] p=0.236
+n_free (2.0, 6.0]          N= 71 доля=0.76 | без контр.: OR=0.925 [0.739, 1.158] p=0.496 | с контр.: OR=0.959 [0.753, 1.221] p=0.733
+n_free (6.0, 60.0]         N= 96 доля=0.48 | без контр.: OR=1.010 [0.868, 1.175] p=0.894 | с контр.: OR=1.270 [1.014, 1.591] p=0.037
+
+=== OR на +10 мэВ/атом e_above_hull, исход sg_ok_0.1 ===
+все цели                   N=300 доля=0.98 | без контр.: OR=0.888 [0.651, 1.211] p=0.453 | с контр.: OR=0.934 [0.670, 1.302] p=0.688
+n_free >= 1                N=253 доля=0.98 | без контр.: OR=0.907 [0.662, 1.243] p=0.543 | с контр.: OR=0.944 [0.678, 1.316] p=0.736
+n_free >= 2                N=204 доля=0.97 | без контр.: OR=0.905 [0.659, 1.244] p=0.538 | с контр.: OR=0.932 [0.663, 1.311] p=0.687
+n_free >= 3                N=167 доля=0.96 | без контр.: OR=0.914 [0.666, 1.256] p=0.581 | с контр.: OR=0.931 [0.658, 1.316] p=0.685
+n_free (-0.001, 2.0]       N=133 доля=1.00 | без контр.: OR=2.793 [0.000, inf] p=1.000 | с контр.: OR=2.835 [0.000, inf] p=1.000
+n_free (2.0, 6.0]          N= 71 доля=0.97 | без контр.: OR=0.890 [0.502, 1.577] p=0.689 | с контр.: OR=0.956 [0.526, 1.738] p=0.883
+n_free (6.0, 60.0]         N= 96 доля=0.96 | без контр.: OR=0.937 [0.640, 1.371] p=0.737 | с контр.: OR=0.907 [0.582, 1.413] p=0.666
+
+=== RMSE среди совпавших (нулевой RMSE = структура целиком задана шаблоном) ===
+совпавших 251, из них RMSE=0: 44
+Спирмен(e_above_hull, RMSE), N=207: rho=0.087, p=0.2130
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -4.3700      0.194    -22.536      0.000      -4.752      -3.988
+ehull_10meV        -0.0151      0.047     -0.318      0.751      -0.109       0.079
+log_sg_train       -0.0950      0.142     -0.668      0.505      -0.375       0.185
+n_atoms             0.0737      0.135      0.545      0.586      -0.193       0.340
+n_free              0.5704      0.137      4.166      0.000       0.300       0.840
+log_proto_train    -0.6429      0.145     -4.448      0.000      -0.928      -0.358
+===================================================================================

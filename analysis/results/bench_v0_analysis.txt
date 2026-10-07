@@ -1,0 +1,43 @@
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/pandas/core/arraylike.py:402: RuntimeWarning: divide by zero encountered in log
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/regression/linear_model.py:400: RuntimeWarning: invalid value encountered in dot
+  beta = np.dot(self.pinv_wexog, self.wendog)
+/home/bebra/miniconda3/envs/bench_stats/lib/python3.11/site-packages/statsmodels/regression/linear_model.py:1970: RuntimeWarning: invalid value encountered in subtract
+  return np.sum(weights * (model.endog - mean) ** 2)
+структур в анализе: 300 (чанки: ['t20', 'v0_o12', 'v0_o24', 'v0_o36', 'v0_o4', 'v0_o48'])
+
+=== доля по корзинам e_above_hull (95% ДИ Вильсона) ===
+0-0.005      N= 60  match_std: 0.87 [0.76, 0.93]  sg_ok_0.1: 1.00 [0.94, 1.00]
+0.005-0.02   N= 60  match_std: 0.83 [0.72, 0.91]  sg_ok_0.1: 0.97 [0.89, 0.99]
+0.02-0.04    N= 60  match_std: 0.88 [0.78, 0.94]  sg_ok_0.1: 0.98 [0.91, 1.00]
+0.04-0.06    N= 60  match_std: 0.87 [0.76, 0.93]  sg_ok_0.1: 0.98 [0.91, 1.00]
+0.06-0.0801  N= 60  match_std: 0.73 [0.61, 0.83]  sg_ok_0.1: 0.97 [0.89, 0.99]
+
+--- без контролей: match_std ~ ehull_10meV (N=300) ---
+ehull_10meV    OR=0.904  95% ДИ [0.803, 1.017]  p=0.0919
+
+--- с контролями: match_std ~ ehull_10meV + log_sg_train + n_atoms + n_free (N=300) ---
+ehull_10meV    OR=1.013  95% ДИ [0.870, 1.181]  p=0.8660
+log_sg_train   OR=1.031  95% ДИ [0.671, 1.586]  p=0.8882
+n_atoms        OR=1.276  95% ДИ [0.773, 2.105]  p=0.3401
+n_free         OR=0.158  95% ДИ [0.086, 0.292]  p=0.0000
+
+--- без контролей: sg_ok_0.1 ~ ehull_10meV (N=300) ---
+ehull_10meV    OR=0.888  95% ДИ [0.651, 1.211]  p=0.4531
+
+--- с контролями: sg_ok_0.1 ~ ehull_10meV + log_sg_train + n_atoms + n_free (N=300) ---
+ehull_10meV    OR=0.958  95% ДИ [0.691, 1.327]  p=0.7957
+log_sg_train   OR=1.004  95% ДИ [0.392, 2.566]  p=0.9942
+n_atoms        OR=0.677  95% ДИ [0.236, 1.947]  p=0.4696
+n_free         OR=0.694  95% ДИ [0.391, 1.234]  p=0.2141
+
+--- log RMSE среди совпавших (N=251) ---
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const                 nan        nan        nan        nan         nan         nan
+ehull_10meV           nan        nan        nan        nan         nan         nan
+log_sg_train_z        nan        nan        nan        nan         nan         nan
+n_atoms_z             inf        nan        nan        nan         nan         nan
+n_free_z              nan        nan        nan        nan         nan         nan
+==================================================================================
