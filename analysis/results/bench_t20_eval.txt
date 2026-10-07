@@ -1,0 +1,20 @@
+/home/bebra/miniconda3/envs/mp_lookup/lib/python3.11/site-packages/pymatgen/io/cif.py:1817: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  return parser.parse_structures(primitive=primitive)[0]
+/home/bebra/matgen/crystal_gen_sandbox/analysis/eval_bench.py:27: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  refs[mid] = CifParser.from_str(test.loc[mid, 'cif']).parse_structures(primitive=True)[0]
+CIF: 20, индексы с 1, целей 20
+сгенерировано 20/20, выровнено по составу 20
+             match_std  match_strict  sg_ok_0.01  sg_ok_0.1
+bin                                                        
+0-0.005           1.00          1.00         1.0        1.0
+0.005-0.02        0.25          0.25         1.0        0.5
+0.02-0.04         0.75          0.75         1.0        1.0
+0.04-0.06         0.75          0.75         1.0        1.0
+0.06-0.0801       0.75          0.75         1.0        1.0
+             rmse_std  rmse_strict
+bin                               
+0-0.005        0.0051       0.0051
+0.005-0.02     0.0268       0.0268
+0.02-0.04      0.0137       0.0137
+0.04-0.06      0.0099       0.0099
+0.06-0.0801    0.0174       0.0174
