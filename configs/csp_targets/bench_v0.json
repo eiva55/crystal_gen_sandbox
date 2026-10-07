@@ -1,0 +1,5350 @@
+[
+ {
+  "label": "mp-1077349",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2e",
+   "2c",
+   "2e"
+  ],
+  "atom_types": [
+   "Th",
+   "Ge",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-1186679",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Pm",
+   "Zn",
+   "Rh"
+  ]
+ },
+ {
+  "label": "mp-1220865",
+  "spacegroup_number": 71,
+  "wyckoff_letters": [
+   "1a",
+   "2i",
+   "1d",
+   "2j"
+  ],
+  "atom_types": [
+   "Na",
+   "Sm",
+   "Se",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-1111916",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "K",
+   "Na",
+   "Ti",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-12924",
+  "spacegroup_number": 11,
+  "wyckoff_letters": [
+   "2e",
+   "2e",
+   "2e",
+   "4f",
+   "2e",
+   "2e"
+  ],
+  "atom_types": [
+   "K",
+   "La",
+   "Si",
+   "S",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1228269",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "1c",
+   "1b",
+   "2i",
+   "4j",
+   "4j",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Ba",
+   "Ba",
+   "Bi",
+   "Pb",
+   "Pb",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1207582",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4a",
+   "8d",
+   "4c"
+  ],
+  "atom_types": [
+   "Yb",
+   "Cr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1104792",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "4f",
+   "4i",
+   "4j"
+  ],
+  "atom_types": [
+   "Mn",
+   "Be",
+   "Be",
+   "Be"
+  ]
+ },
+ {
+  "label": "mp-1207100",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "1a",
+   "1d"
+  ],
+  "atom_types": [
+   "Sc",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-31160",
+  "spacegroup_number": 186,
+  "wyckoff_letters": [
+   "2a",
+   "2b",
+   "2b"
+  ],
+  "atom_types": [
+   "Ca",
+   "Zn",
+   "Sn"
+  ]
+ },
+ {
+  "label": "mp-23871",
+  "spacegroup_number": 5,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "1b",
+   "2c",
+   "1a",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Cs",
+   "Mn",
+   "P",
+   "P",
+   "H",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1540169",
+  "spacegroup_number": 74,
+  "wyckoff_letters": [
+   "2e",
+   "2c",
+   "2b",
+   "2e",
+   "2e",
+   "8j"
+  ],
+  "atom_types": [
+   "Cs",
+   "Sb",
+   "W",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-862954",
+  "spacegroup_number": 221,
+  "wyckoff_letters": [
+   "1a",
+   "3c"
+  ],
+  "atom_types": [
+   "Pm",
+   "Pd"
+  ]
+ },
+ {
+  "label": "mp-866209",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Pm",
+   "Si",
+   "Ni"
+  ]
+ },
+ {
+  "label": "mp-1207040",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Ba",
+   "In",
+   "Os",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-2497",
+  "spacegroup_number": 221,
+  "wyckoff_letters": [
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Gd",
+   "Zn"
+  ]
+ },
+ {
+  "label": "mp-1206215",
+  "spacegroup_number": 25,
+  "wyckoff_letters": [
+   "2h",
+   "1d",
+   "1a",
+   "2g",
+   "2g",
+   "2g",
+   "1c"
+  ],
+  "atom_types": [
+   "Er",
+   "Er",
+   "Er",
+   "Ni",
+   "C",
+   "C",
+   "C"
+  ]
+ },
+ {
+  "label": "mp-295",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Ho",
+   "As"
+  ]
+ },
+ {
+  "label": "mp-19713",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "6h",
+   "2d"
+  ],
+  "atom_types": [
+   "Sc",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-755471",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4b",
+   "4c",
+   "8d"
+  ],
+  "atom_types": [
+   "Lu",
+   "Cr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1208602",
+  "spacegroup_number": 67,
+  "wyckoff_letters": [
+   "2g",
+   "2a",
+   "8o",
+   "4m"
+  ],
+  "atom_types": [
+   "Sr",
+   "Zr",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1220403",
+  "spacegroup_number": 115,
+  "wyckoff_letters": [
+   "2g",
+   "2g",
+   "2g",
+   "1b",
+   "1d",
+   "1a",
+   "1c"
+  ],
+  "atom_types": [
+   "Nd",
+   "Ga",
+   "Ga",
+   "Ga",
+   "Cu",
+   "Cu",
+   "Cu"
+  ]
+ },
+ {
+  "label": "mp-1183483",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Ca",
+   "Ac",
+   "Rh"
+  ]
+ },
+ {
+  "label": "mp-1222617",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "3e"
+  ],
+  "atom_types": [
+   "Li",
+   "Zn",
+   "Cu"
+  ]
+ },
+ {
+  "label": "mp-2225",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2a",
+   "6h",
+   "4f"
+  ],
+  "atom_types": [
+   "Be",
+   "Be",
+   "Fe"
+  ]
+ },
+ {
+  "label": "mp-20913",
+  "spacegroup_number": 129,
+  "wyckoff_letters": [
+   "2c",
+   "2a",
+   "2c"
+  ],
+  "atom_types": [
+   "U",
+   "Ge",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1114380",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Rb",
+   "Rb",
+   "V",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1025175",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "1a"
+  ],
+  "atom_types": [
+   "Lu",
+   "Cr",
+   "C",
+   "C"
+  ]
+ },
+ {
+  "label": "mp-1222413",
+  "spacegroup_number": 127,
+  "wyckoff_letters": [
+   "4h",
+   "4e",
+   "8i"
+  ],
+  "atom_types": [
+   "Li",
+   "B",
+   "B"
+  ]
+ },
+ {
+  "label": "mp-21272",
+  "spacegroup_number": 216,
+  "wyckoff_letters": [
+   "1b",
+   "1d",
+   "1a"
+  ],
+  "atom_types": [
+   "Er",
+   "Ni",
+   "Sb"
+  ]
+ },
+ {
+  "label": "mp-862777",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Tm",
+   "Pa",
+   "Ru"
+  ]
+ },
+ {
+  "label": "mp-1205629",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Cs",
+   "Cs",
+   "Fe",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1189924",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2a",
+   "4f",
+   "4f",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Nd",
+   "Nd",
+   "Zn",
+   "Zn",
+   "Zn",
+   "Sn"
+  ]
+ },
+ {
+  "label": "mp-1189793",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2a",
+   "2c",
+   "6g",
+   "6h"
+  ],
+  "atom_types": [
+   "Ti",
+   "Ti",
+   "Pt",
+   "Pt"
+  ]
+ },
+ {
+  "label": "mp-1228433",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2g",
+   "1a",
+   "4j",
+   "2i",
+   "2i",
+   "4j"
+  ],
+  "atom_types": [
+   "Ba",
+   "Na",
+   "Sn",
+   "Sn",
+   "As",
+   "As"
+  ]
+ },
+ {
+  "label": "mp-7559",
+  "spacegroup_number": 191,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c",
+   "6i",
+   "2d"
+  ],
+  "atom_types": [
+   "Y",
+   "Y",
+   "Ni",
+   "Ni",
+   "B"
+  ]
+ },
+ {
+  "label": "mp-568596",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Sm",
+   "In",
+   "Au"
+  ]
+ },
+ {
+  "label": "mvc-15792",
+  "spacegroup_number": 2,
+  "wyckoff_letters": [
+   "2i",
+   "1a",
+   "1b",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Ca",
+   "Cu",
+   "Cu",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1207986",
+  "spacegroup_number": 140,
+  "wyckoff_letters": [
+   "2c",
+   "8l",
+   "2a",
+   "4h"
+  ],
+  "atom_types": [
+   "Tm",
+   "Tm",
+   "Sb",
+   "Pd"
+  ]
+ },
+ {
+  "label": "mp-1223473",
+  "spacegroup_number": 216,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "4e"
+  ],
+  "atom_types": [
+   "K",
+   "B",
+   "H"
+  ]
+ },
+ {
+  "label": "mp-15238",
+  "spacegroup_number": 55,
+  "wyckoff_letters": [
+   "4g",
+   "4h",
+   "2b",
+   "4g",
+   "4g"
+  ],
+  "atom_types": [
+   "Ho",
+   "Ho",
+   "C",
+   "C",
+   "C"
+  ]
+ },
+ {
+  "label": "mp-30884",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Y",
+   "Zn",
+   "Zn",
+   "Zn"
+  ]
+ },
+ {
+  "label": "mp-1211229",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2a",
+   "2d",
+   "4f",
+   "4f",
+   "2c"
+  ],
+  "atom_types": [
+   "La",
+   "Zn",
+   "Zn",
+   "P",
+   "P"
+  ]
+ },
+ {
+  "label": "mp-30251",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2a",
+   "2c",
+   "4f"
+  ],
+  "atom_types": [
+   "Y",
+   "Au",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-27661",
+  "spacegroup_number": 65,
+  "wyckoff_letters": [
+   "2i",
+   "4p",
+   "1a",
+   "2j"
+  ],
+  "atom_types": [
+   "U",
+   "Cl",
+   "Cl",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1079069",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2e",
+   "2c",
+   "2e",
+   "1b",
+   "2d"
+  ],
+  "atom_types": [
+   "La",
+   "Mn",
+   "Se",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-27637",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Ni",
+   "Br"
+  ]
+ },
+ {
+  "label": "mp-636619",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "6e"
+  ],
+  "atom_types": [
+   "Gd",
+   "Mn",
+   "Ga"
+  ]
+ },
+ {
+  "label": "mp-3250",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "4e",
+   "2c",
+   "4f"
+  ],
+  "atom_types": [
+   "Ni",
+   "Sb",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-973756",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "1a"
+  ],
+  "atom_types": [
+   "Lu",
+   "Mo",
+   "C",
+   "C"
+  ]
+ },
+ {
+  "label": "mp-19241",
+  "spacegroup_number": 186,
+  "wyckoff_letters": [
+   "2b",
+   "2a",
+   "6c"
+  ],
+  "atom_types": [
+   "Ba",
+   "Ni",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1225041",
+  "spacegroup_number": 187,
+  "wyckoff_letters": [
+   "1e",
+   "1d",
+   "1b"
+  ],
+  "atom_types": [
+   "Dy",
+   "Zn",
+   "Si"
+  ]
+ },
+ {
+  "label": "mp-1102373",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Y",
+   "Ge",
+   "Ir"
+  ]
+ },
+ {
+  "label": "mp-7388",
+  "spacegroup_number": 140,
+  "wyckoff_letters": [
+   "2a",
+   "2d",
+   "8l"
+  ],
+  "atom_types": [
+   "Na",
+   "Au",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1224282",
+  "spacegroup_number": 156,
+  "wyckoff_letters": [
+   "1a",
+   "1c",
+   "1b"
+  ],
+  "atom_types": [
+   "Hf",
+   "Se",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-28339",
+  "spacegroup_number": 26,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "2b",
+   "2b",
+   "2b",
+   "2b"
+  ],
+  "atom_types": [
+   "Ca",
+   "Ca",
+   "P",
+   "P",
+   "Pt",
+   "Pt"
+  ]
+ },
+ {
+  "label": "mp-23039",
+  "spacegroup_number": 189,
+  "wyckoff_letters": [
+   "3f",
+   "3g",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Er",
+   "Er",
+   "Mn",
+   "Bi"
+  ]
+ },
+ {
+  "label": "mp-22106",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4b",
+   "8d",
+   "4c"
+  ],
+  "atom_types": [
+   "Nd",
+   "Ni",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1187031",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Sm",
+   "Tm",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-1228646",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "2e",
+   "2d"
+  ],
+  "atom_types": [
+   "Ba",
+   "Ge",
+   "Au"
+  ]
+ },
+ {
+  "label": "mp-1224904",
+  "spacegroup_number": 5,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Ga",
+   "Fe",
+   "P",
+   "P",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1221971",
+  "spacegroup_number": 6,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "1b",
+   "1a",
+   "1a",
+   "1b",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Mg",
+   "Zn",
+   "Zn",
+   "Zn",
+   "S",
+   "S",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-7048",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Al",
+   "Al",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1189476",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "4e",
+   "2c",
+   "2d",
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Nd",
+   "Mn",
+   "Mn",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-4096",
+  "spacegroup_number": 140,
+  "wyckoff_letters": [
+   "2b",
+   "2c",
+   "4h",
+   "2a"
+  ],
+  "atom_types": [
+   "Ce",
+   "Al",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1522319",
+  "spacegroup_number": 2,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "1d",
+   "1g",
+   "1c",
+   "1f",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Ba",
+   "Sr",
+   "Dy",
+   "Dy",
+   "W",
+   "W",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1185322",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Li",
+   "Cu",
+   "Au"
+  ]
+ },
+ {
+  "label": "mp-1225346",
+  "spacegroup_number": 6,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1b",
+   "1b",
+   "1b",
+   "1a",
+   "1b",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1b",
+   "1b",
+   "1b",
+   "1a",
+   "1b",
+   "1b",
+   "1b"
+  ],
+  "atom_types": [
+   "Dy",
+   "Dy",
+   "Dy",
+   "Dy",
+   "Dy",
+   "Dy",
+   "S",
+   "S",
+   "O",
+   "O",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-20152",
+  "spacegroup_number": 176,
+  "wyckoff_letters": [
+   "2c",
+   "6h",
+   "6h"
+  ],
+  "atom_types": [
+   "In",
+   "Mo",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-5938",
+  "spacegroup_number": 65,
+  "wyckoff_letters": [
+   "1d",
+   "2i",
+   "2i",
+   "1b"
+  ],
+  "atom_types": [
+   "Sr",
+   "Cu",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1189327",
+  "spacegroup_number": 72,
+  "wyckoff_letters": [
+   "4j",
+   "2b",
+   "4g",
+   "4j",
+   "2a",
+   "4j"
+  ],
+  "atom_types": [
+   "Sm",
+   "Si",
+   "Si",
+   "Si",
+   "Ni",
+   "Ni"
+  ]
+ },
+ {
+  "label": "mp-26220",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2b",
+   "2c",
+   "4g",
+   "4f"
+  ],
+  "atom_types": [
+   "Mn",
+   "P",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1235708",
+  "spacegroup_number": 1,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Li",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-801",
+  "spacegroup_number": 223,
+  "wyckoff_letters": [
+   "6c",
+   "2a"
+  ],
+  "atom_types": [
+   "Mo",
+   "Os"
+  ]
+ },
+ {
+  "label": "mp-31115",
+  "spacegroup_number": 36,
+  "wyckoff_letters": [
+   "2a",
+   "4b",
+   "2a",
+   "2a",
+   "2a",
+   "4b",
+   "4b"
+  ],
+  "atom_types": [
+   "Er",
+   "Er",
+   "Ga",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1186966",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Sc",
+   "Zn",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-1227390",
+  "spacegroup_number": 119,
+  "wyckoff_letters": [
+   "1a",
+   "1c",
+   "2e",
+   "1d"
+  ],
+  "atom_types": [
+   "Ba",
+   "Tl",
+   "In",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-1186693",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Pr",
+   "Mg",
+   "Cd"
+  ]
+ },
+ {
+  "label": "mp-979751",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Ta",
+   "Ti",
+   "Fe"
+  ]
+ },
+ {
+  "label": "mp-1056985",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "1a",
+   "1d"
+  ],
+  "atom_types": [
+   "Ti",
+   "Pd"
+  ]
+ },
+ {
+  "label": "mp-1080816",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "4f",
+   "2c",
+   "2a"
+  ],
+  "atom_types": [
+   "Cr",
+   "Cr",
+   "P",
+   "N"
+  ]
+ },
+ {
+  "label": "mp-1216775",
+  "spacegroup_number": 42,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2d",
+   "1a",
+   "2c",
+   "2b",
+   "1a"
+  ],
+  "atom_types": [
+   "V",
+   "V",
+   "V",
+   "V",
+   "V",
+   "Si",
+   "Si",
+   "Ge",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-1207214",
+  "spacegroup_number": 107,
+  "wyckoff_letters": [
+   "1a",
+   "2b",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Sm",
+   "Si",
+   "Si",
+   "Pt"
+  ]
+ },
+ {
+  "label": "mp-696752",
+  "spacegroup_number": 122,
+  "wyckoff_letters": [
+   "2b",
+   "2a",
+   "4d",
+   "8e"
+  ],
+  "atom_types": [
+   "K",
+   "P",
+   "H",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-984714",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Ag",
+   "As",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1228089",
+  "spacegroup_number": 160,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "3b",
+   "3b",
+   "3b",
+   "3b"
+  ],
+  "atom_types": [
+   "Ba",
+   "Ba",
+   "Ba",
+   "Sr",
+   "Zn",
+   "Zn",
+   "W",
+   "W",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1205716",
+  "spacegroup_number": 127,
+  "wyckoff_letters": [
+   "4h",
+   "2a",
+   "4g"
+  ],
+  "atom_types": [
+   "Pr",
+   "Mg",
+   "Pd"
+  ]
+ },
+ {
+  "label": "mp-1184284",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Er",
+   "Tm",
+   "Cd"
+  ]
+ },
+ {
+  "label": "mp-1189044",
+  "spacegroup_number": 82,
+  "wyckoff_letters": [
+   "4g",
+   "4g",
+   "4g",
+   "4g"
+  ],
+  "atom_types": [
+   "Ti",
+   "Ti",
+   "Ti",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-1183459",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Ca",
+   "Zn",
+   "Cd"
+  ]
+ },
+ {
+  "label": "mp-36031",
+  "spacegroup_number": 122,
+  "wyckoff_letters": [
+   "2a",
+   "4d",
+   "8e"
+  ],
+  "atom_types": [
+   "Ca",
+   "La",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-1221485",
+  "spacegroup_number": 156,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "1a",
+   "1b",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Mo",
+   "Mo",
+   "Se",
+   "S",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-982010",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Pr",
+   "Cd",
+   "Ag"
+  ]
+ },
+ {
+  "label": "mp-644225",
+  "spacegroup_number": 164,
+  "wyckoff_letters": [
+   "2d",
+   "1a",
+   "6i"
+  ],
+  "atom_types": [
+   "Sr",
+   "Mg",
+   "H"
+  ]
+ },
+ {
+  "label": "mp-1080518",
+  "spacegroup_number": 189,
+  "wyckoff_letters": [
+   "3g",
+   "3f",
+   "2c",
+   "1b"
+  ],
+  "atom_types": [
+   "Hf",
+   "Sn",
+   "Rh",
+   "Rh"
+  ]
+ },
+ {
+  "label": "mp-697833",
+  "spacegroup_number": 7,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a"
+  ],
+  "atom_types": [
+   "Sr",
+   "La",
+   "Fe",
+   "Ru",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-9791",
+  "spacegroup_number": 160,
+  "wyckoff_letters": [
+   "3b",
+   "1a",
+   "3b"
+  ],
+  "atom_types": [
+   "Tl",
+   "As",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-581786",
+  "spacegroup_number": 59,
+  "wyckoff_letters": [
+   "2b",
+   "4e",
+   "2a"
+  ],
+  "atom_types": [
+   "Cu",
+   "Cu",
+   "Sn"
+  ]
+ },
+ {
+  "label": "mp-1188539",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "4e",
+   "2c",
+   "4g",
+   "4f"
+  ],
+  "atom_types": [
+   "Sr",
+   "Sr",
+   "Tl",
+   "Tl",
+   "Tl"
+  ]
+ },
+ {
+  "label": "mp-513",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Er",
+   "Ge",
+   "Ge",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-755362",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "4e",
+   "4e",
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Sm",
+   "Sm",
+   "Se",
+   "Se",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1227775",
+  "spacegroup_number": 6,
+  "wyckoff_letters": [
+   "1b",
+   "1b",
+   "1a",
+   "1a",
+   "2c",
+   "2c",
+   "1b",
+   "1b",
+   "1a",
+   "1a",
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Ba",
+   "Sr",
+   "Sr",
+   "Sr",
+   "Zr",
+   "Zr",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1113332",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b",
+   "6e"
+  ],
+  "atom_types": [
+   "Cs",
+   "Tl",
+   "Cu",
+   "Cl"
+  ]
+ },
+ {
+  "label": "mp-1025053",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2e",
+   "2c",
+   "2e"
+  ],
+  "atom_types": [
+   "Th",
+   "Si",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-556004",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2e",
+   "1b",
+   "2e",
+   "2e",
+   "4g",
+   "1a"
+  ],
+  "atom_types": [
+   "Ba",
+   "Ba",
+   "In",
+   "Br",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-978795",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2d",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Sm",
+   "Sm",
+   "Hg"
+  ]
+ },
+ {
+  "label": "mp-972971",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "La",
+   "Tl",
+   "Hg"
+  ]
+ },
+ {
+  "label": "mp-1225323",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "2g",
+   "1d",
+   "1c"
+  ],
+  "atom_types": [
+   "Dy",
+   "In",
+   "Ag"
+  ]
+ },
+ {
+  "label": "mp-1216397",
+  "spacegroup_number": 26,
+  "wyckoff_letters": [
+   "2b",
+   "2a",
+   "2b",
+   "2a"
+  ],
+  "atom_types": [
+   "V",
+   "Cr",
+   "As",
+   "As"
+  ]
+ },
+ {
+  "label": "mp-777422",
+  "spacegroup_number": 31,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "2a",
+   "2a"
+  ],
+  "atom_types": [
+   "Dy",
+   "H",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-23079",
+  "spacegroup_number": 2,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Si",
+   "Si",
+   "Cl",
+   "Cl",
+   "Cl",
+   "Cl",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1185380",
+  "spacegroup_number": 74,
+  "wyckoff_letters": [
+   "2e",
+   "2e"
+  ],
+  "atom_types": [
+   "Li",
+   "Mg"
+  ]
+ },
+ {
+  "label": "mp-760476",
+  "spacegroup_number": 38,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2d",
+   "1b",
+   "2d",
+   "1a",
+   "2e",
+   "2d"
+  ],
+  "atom_types": [
+   "Li",
+   "U",
+   "U",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-568354",
+  "spacegroup_number": 191,
+  "wyckoff_letters": [
+   "1a",
+   "2c",
+   "3g"
+  ],
+  "atom_types": [
+   "Dy",
+   "Ga",
+   "Cu"
+  ]
+ },
+ {
+  "label": "mp-562490",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "4f",
+   "2c",
+   "4f",
+   "2e"
+  ],
+  "atom_types": [
+   "Si",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1187857",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Y",
+   "Lu",
+   "Hg"
+  ]
+ },
+ {
+  "label": "mp-27552",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2a",
+   "2c",
+   "4f"
+  ],
+  "atom_types": [
+   "Tl",
+   "Pb",
+   "I",
+   "I"
+  ]
+ },
+ {
+  "label": "mp-975537",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Nd",
+   "In",
+   "Rh"
+  ]
+ },
+ {
+  "label": "mp-759867",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "2c",
+   "4f",
+   "4f"
+  ],
+  "atom_types": [
+   "V",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1183638",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Ca",
+   "Gd",
+   "Zn"
+  ]
+ },
+ {
+  "label": "mp-1025044",
+  "spacegroup_number": 164,
+  "wyckoff_letters": [
+   "2d",
+   "2d",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Al",
+   "Ni",
+   "Ni",
+   "Ni"
+  ]
+ },
+ {
+  "label": "mp-1210673",
+  "spacegroup_number": 174,
+  "wyckoff_letters": [
+   "3k",
+   "3j",
+   "3j",
+   "3k",
+   "3j",
+   "3k",
+   "1a"
+  ],
+  "atom_types": [
+   "Mn",
+   "Mn",
+   "Mo",
+   "Mo",
+   "P",
+   "P",
+   "P"
+  ]
+ },
+ {
+  "label": "mp-157",
+  "spacegroup_number": 64,
+  "wyckoff_letters": [
+   "4f"
+  ],
+  "atom_types": [
+   "P"
+  ]
+ },
+ {
+  "label": "mp-1225091",
+  "spacegroup_number": 71,
+  "wyckoff_letters": [
+   "1a",
+   "2i",
+   "2h",
+   "2j",
+   "4k",
+   "2g"
+  ],
+  "atom_types": [
+   "Er",
+   "V",
+   "Fe",
+   "Fe",
+   "Fe",
+   "Fe"
+  ]
+ },
+ {
+  "label": "mp-1221974",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "2d",
+   "2a",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Mg",
+   "Mn",
+   "Te",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-1186235",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Nd",
+   "Ag",
+   "Ru"
+  ]
+ },
+ {
+  "label": "mp-1185962",
+  "spacegroup_number": 8,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Mg",
+   "Pb",
+   "Pb",
+   "Pb",
+   "Pb",
+   "Pb"
+  ]
+ },
+ {
+  "label": "mp-777522",
+  "spacegroup_number": 36,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a"
+  ],
+  "atom_types": [
+   "Li",
+   "Fe",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-752938",
+  "spacegroup_number": 167,
+  "wyckoff_letters": [
+   "2a",
+   "2b",
+   "6e"
+  ],
+  "atom_types": [
+   "Li",
+   "Mn",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1222864",
+  "spacegroup_number": 6,
+  "wyckoff_letters": [
+   "1b",
+   "1b",
+   "1a",
+   "1a",
+   "2c",
+   "2c",
+   "1b",
+   "1b",
+   "1a",
+   "1a",
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "La",
+   "Pr",
+   "Pr",
+   "Pr",
+   "Ga",
+   "Ga",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-28491",
+  "spacegroup_number": 70,
+  "wyckoff_letters": [
+   "4g",
+   "2b",
+   "8h"
+  ],
+  "atom_types": [
+   "Cu",
+   "S",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-23807",
+  "spacegroup_number": 31,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "2a",
+   "2a"
+  ],
+  "atom_types": [
+   "Al",
+   "H",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-973053",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "2c",
+   "1b"
+  ],
+  "atom_types": [
+   "Sc",
+   "H",
+   "H"
+  ]
+ },
+ {
+  "label": "mp-779166",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1b",
+   "3e",
+   "1a",
+   "6h",
+   "2c"
+  ],
+  "atom_types": [
+   "Li",
+   "Co",
+   "Ni",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-22905",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Li",
+   "Cl"
+  ]
+ },
+ {
+  "label": "mp-989609",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "4f",
+   "2c"
+  ],
+  "atom_types": [
+   "Y",
+   "W",
+   "N",
+   "N"
+  ]
+ },
+ {
+  "label": "mp-11892",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "2a",
+   "4e",
+   "2d",
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Na",
+   "Nd",
+   "Ru",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-2435",
+  "spacegroup_number": 191,
+  "wyckoff_letters": [
+   "1a",
+   "2c",
+   "3g"
+  ],
+  "atom_types": [
+   "Ho",
+   "Co",
+   "Co"
+  ]
+ },
+ {
+  "label": "mp-561954",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4b",
+   "4c",
+   "8d"
+  ],
+  "atom_types": [
+   "Tm",
+   "Co",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1101341",
+  "spacegroup_number": 65,
+  "wyckoff_letters": [
+   "1a",
+   "1c",
+   "2h",
+   "2i"
+  ],
+  "atom_types": [
+   "Sr",
+   "Ca",
+   "I",
+   "I"
+  ]
+ },
+ {
+  "label": "mp-755517",
+  "spacegroup_number": 5,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "2c",
+   "1b",
+   "2c",
+   "1a",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "1a"
+  ],
+  "atom_types": [
+   "V",
+   "V",
+   "V",
+   "V",
+   "O",
+   "O",
+   "O",
+   "O",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-865270",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Tm",
+   "Ta",
+   "Os"
+  ]
+ },
+ {
+  "label": "mp-570756",
+  "spacegroup_number": 8,
+  "wyckoff_letters": [
+   "2b",
+   "1a",
+   "2b",
+   "2b",
+   "2b",
+   "1a"
+  ],
+  "atom_types": [
+   "Cs",
+   "Cs",
+   "Li",
+   "Cl",
+   "Cl",
+   "Cl"
+  ]
+ },
+ {
+  "label": "mp-1542959",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "2c",
+   "3e",
+   "1b",
+   "6h",
+   "2c"
+  ],
+  "atom_types": [
+   "Zn",
+   "Mo",
+   "Mo",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1118832",
+  "spacegroup_number": 2,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Ca",
+   "Ca",
+   "W",
+   "N",
+   "N"
+  ]
+ },
+ {
+  "label": "mp-759488",
+  "spacegroup_number": 65,
+  "wyckoff_letters": [
+   "1a",
+   "2i",
+   "4p",
+   "1d",
+   "2j",
+   "1b"
+  ],
+  "atom_types": [
+   "W",
+   "W",
+   "O",
+   "O",
+   "O",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1186135",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "2c",
+   "1a"
+  ],
+  "atom_types": [
+   "Na",
+   "Li",
+   "Sn"
+  ]
+ },
+ {
+  "label": "mp-1217761",
+  "spacegroup_number": 107,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "2b"
+  ],
+  "atom_types": [
+   "Sr",
+   "Sm",
+   "Co",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-12360",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Ag",
+   "Sb",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-754094",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2e",
+   "1b",
+   "2f",
+   "1d",
+   "1c",
+   "4j",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Fe",
+   "Fe",
+   "Ni",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1219475",
+  "spacegroup_number": 160,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Sb",
+   "Sb",
+   "Te",
+   "Te",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-39542",
+  "spacegroup_number": 107,
+  "wyckoff_letters": [
+   "1a",
+   "2b",
+   "1a",
+   "1a",
+   "4c",
+   "1a"
+  ],
+  "atom_types": [
+   "K",
+   "Rb",
+   "Zr",
+   "O",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1205999",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2d",
+   "1b",
+   "1a",
+   "4i",
+   "2e"
+  ],
+  "atom_types": [
+   "Rb",
+   "Rb",
+   "Tm",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1209962",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "8f",
+   "2c",
+   "6e"
+  ],
+  "atom_types": [
+   "Na",
+   "V",
+   "H",
+   "N",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-755777",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "4e",
+   "4e",
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Ce",
+   "Ce",
+   "S",
+   "S",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1113564",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Rb",
+   "Hg",
+   "As",
+   "Br"
+  ]
+ },
+ {
+  "label": "mp-753628",
+  "spacegroup_number": 36,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "4b",
+   "2a",
+   "4b",
+   "2a"
+  ],
+  "atom_types": [
+   "Li",
+   "V",
+   "F",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1215843",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "2c",
+   "3e",
+   "1b"
+  ],
+  "atom_types": [
+   "Yb",
+   "Al",
+   "Ga"
+  ]
+ },
+ {
+  "label": "mp-1219965",
+  "spacegroup_number": 107,
+  "wyckoff_letters": [
+   "1a",
+   "2b",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Pr",
+   "Mn",
+   "Si",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-1226669",
+  "spacegroup_number": 74,
+  "wyckoff_letters": [
+   "2e",
+   "2d",
+   "2b"
+  ],
+  "atom_types": [
+   "Ce",
+   "Co",
+   "Rh"
+  ]
+ },
+ {
+  "label": "mp-2336",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "2e",
+   "2d"
+  ],
+  "atom_types": [
+   "Pr",
+   "Al",
+   "Al"
+  ]
+ },
+ {
+  "label": "mp-1219728",
+  "spacegroup_number": 156,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "1c",
+   "1c",
+   "1b"
+  ],
+  "atom_types": [
+   "Pr",
+   "Zn",
+   "Ag",
+   "P",
+   "P"
+  ]
+ },
+ {
+  "label": "mp-1226898",
+  "spacegroup_number": 187,
+  "wyckoff_letters": [
+   "2i",
+   "1d",
+   "1a",
+   "1b",
+   "1c"
+  ],
+  "atom_types": [
+   "Ce",
+   "Si",
+   "Si",
+   "Si",
+   "Ni"
+  ]
+ },
+ {
+  "label": "mp-570377",
+  "spacegroup_number": 215,
+  "wyckoff_letters": [
+   "3d",
+   "4e"
+  ],
+  "atom_types": [
+   "Sn",
+   "As"
+  ]
+ },
+ {
+  "label": "mp-1086668",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "La",
+   "Sn",
+   "Sn",
+   "Rh"
+  ]
+ },
+ {
+  "label": "mp-1223843",
+  "spacegroup_number": 160,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Ho",
+   "Bi",
+   "Te",
+   "Te",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-1518616",
+  "spacegroup_number": 216,
+  "wyckoff_letters": [
+   "1d",
+   "1c",
+   "1a",
+   "1b",
+   "6f"
+  ],
+  "atom_types": [
+   "Na",
+   "Sr",
+   "Hf",
+   "Sb",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1147739",
+  "spacegroup_number": 125,
+  "wyckoff_letters": [
+   "2a",
+   "4f",
+   "4h",
+   "8m"
+  ],
+  "atom_types": [
+   "Ba",
+   "Cu",
+   "Cu",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-555332",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2d",
+   "2e",
+   "4h",
+   "4j",
+   "8m"
+  ],
+  "atom_types": [
+   "Ba",
+   "Cu",
+   "Si",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1208510",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "2h",
+   "1d",
+   "2g",
+   "1a",
+   "2g",
+   "4i",
+   "2f"
+  ],
+  "atom_types": [
+   "Sr",
+   "Y",
+   "Fe",
+   "Fe",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-36223",
+  "spacegroup_number": 122,
+  "wyckoff_letters": [
+   "2b",
+   "4d",
+   "8e"
+  ],
+  "atom_types": [
+   "Ba",
+   "Pr",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-638253",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Eu",
+   "In",
+   "In",
+   "In",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-20883",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "6h",
+   "2d"
+  ],
+  "atom_types": [
+   "Fe",
+   "Sn"
+  ]
+ },
+ {
+  "label": "mp-1189839",
+  "spacegroup_number": 193,
+  "wyckoff_letters": [
+   "4d",
+   "6g",
+   "6g"
+  ],
+  "atom_types": [
+   "Dy",
+   "Dy",
+   "Pt"
+  ]
+ },
+ {
+  "label": "mp-1187098",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Sr",
+   "Zn",
+   "Pb"
+  ]
+ },
+ {
+  "label": "mp-550807",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2d",
+   "2a",
+   "4f",
+   "2b"
+  ],
+  "atom_types": [
+   "Mn",
+   "In",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-505302",
+  "spacegroup_number": 193,
+  "wyckoff_letters": [
+   "4d",
+   "6g",
+   "6g",
+   "2b"
+  ],
+  "atom_types": [
+   "U",
+   "U",
+   "Ge",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-1185147",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2d",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "La",
+   "La",
+   "Sm"
+  ]
+ },
+ {
+  "label": "mp-30914",
+  "spacegroup_number": 189,
+  "wyckoff_letters": [
+   "3f",
+   "3f",
+   "3g",
+   "6k",
+   "2c",
+   "1a"
+  ],
+  "atom_types": [
+   "U",
+   "Al",
+   "Al",
+   "Al",
+   "Co",
+   "Co"
+  ]
+ },
+ {
+  "label": "mp-28765",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "8d",
+   "4c"
+  ],
+  "atom_types": [
+   "C",
+   "Br",
+   "Br",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1078182",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2e",
+   "2c",
+   "2e",
+   "2d",
+   "1b"
+  ],
+  "atom_types": [
+   "Nd",
+   "Fe",
+   "Se",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mvc-15933",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "1c",
+   "2g",
+   "2i",
+   "2i",
+   "4j"
+  ],
+  "atom_types": [
+   "Ca",
+   "Bi",
+   "Bi",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-13063",
+  "spacegroup_number": 164,
+  "wyckoff_letters": [
+   "2d",
+   "2d",
+   "1a"
+  ],
+  "atom_types": [
+   "Tb",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1217978",
+  "spacegroup_number": 107,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "2b",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Sr",
+   "Pr",
+   "Sc",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1079228",
+  "spacegroup_number": 215,
+  "wyckoff_letters": [
+   "4e",
+   "1a",
+   "3c"
+  ],
+  "atom_types": [
+   "Ga",
+   "Bi",
+   "As"
+  ]
+ },
+ {
+  "label": "mp-1206538",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2h",
+   "4i"
+  ],
+  "atom_types": [
+   "Ba",
+   "Sr",
+   "Cu",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1284156",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "1b",
+   "1c",
+   "2i",
+   "2i",
+   "4j",
+   "4j"
+  ],
+  "atom_types": [
+   "Sr",
+   "Sr",
+   "Hf",
+   "Fe",
+   "Fe",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1040455",
+  "spacegroup_number": 8,
+  "wyckoff_letters": [
+   "1a",
+   "2b",
+   "1a",
+   "1a",
+   "1a",
+   "2b",
+   "1a"
+  ],
+  "atom_types": [
+   "H",
+   "H",
+   "H",
+   "Pb",
+   "I",
+   "I",
+   "N"
+  ]
+ },
+ {
+  "label": "mp-1105641",
+  "spacegroup_number": 205,
+  "wyckoff_letters": [
+   "4a",
+   "4b",
+   "8c"
+  ],
+  "atom_types": [
+   "In",
+   "H",
+   "O"
+  ]
+ },
+ {
+  "label": "mvc-3998",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4a",
+   "4c",
+   "8d"
+  ],
+  "atom_types": [
+   "Ca",
+   "Ni",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1104173",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "2h",
+   "1d",
+   "2g",
+   "1a",
+   "2f",
+   "2g",
+   "4i"
+  ],
+  "atom_types": [
+   "Sr",
+   "Gd",
+   "Cu",
+   "Ru",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-752457",
+  "spacegroup_number": 2,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "1b",
+   "1a",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Mn",
+   "Mn",
+   "Mn",
+   "Mn",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1100346",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "2c",
+   "3e",
+   "6h",
+   "2c"
+  ],
+  "atom_types": [
+   "Ca",
+   "Sn",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-11654",
+  "spacegroup_number": 152,
+  "wyckoff_letters": [
+   "3b",
+   "3a",
+   "6c",
+   "6c"
+  ],
+  "atom_types": [
+   "B",
+   "As",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1105241",
+  "spacegroup_number": 204,
+  "wyckoff_letters": [
+   "3b",
+   "4c",
+   "1a",
+   "12g"
+  ],
+  "atom_types": [
+   "Mn",
+   "Mn",
+   "Cd",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1186780",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2d",
+   "6h"
+  ],
+  "atom_types": [
+   "Sr",
+   "Yb"
+  ]
+ },
+ {
+  "label": "mp-15659",
+  "spacegroup_number": 72,
+  "wyckoff_letters": [
+   "4j",
+   "4j",
+   "2a"
+  ],
+  "atom_types": [
+   "Sb",
+   "Pt",
+   "Pt"
+  ]
+ },
+ {
+  "label": "mp-1178393",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Cs",
+   "Li",
+   "O"
+  ]
+ },
+ {
+  "label": "mvc-5997",
+  "spacegroup_number": 88,
+  "wyckoff_letters": [
+   "2b",
+   "4c",
+   "8f"
+  ],
+  "atom_types": [
+   "Mg",
+   "Cu",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1226017",
+  "spacegroup_number": 164,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2d"
+  ],
+  "atom_types": [
+   "Co",
+   "Ni",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-753793",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "4f",
+   "2e",
+   "4f",
+   "4f",
+   "4f",
+   "2e"
+  ],
+  "atom_types": [
+   "Ba",
+   "Y",
+   "F",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1113353",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Cs",
+   "Cu",
+   "Sb",
+   "I"
+  ]
+ },
+ {
+  "label": "mp-1205948",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "2d",
+   "1b",
+   "4i",
+   "2e"
+  ],
+  "atom_types": [
+   "Fe",
+   "Ag",
+   "Ag",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1187973",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1b",
+   "2d",
+   "1a"
+  ],
+  "atom_types": [
+   "Yb",
+   "Yb",
+   "Mg"
+  ]
+ },
+ {
+  "label": "mp-1227257",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Ca",
+   "C"
+  ]
+ },
+ {
+  "label": "mp-765691",
+  "spacegroup_number": 38,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "2c",
+   "1a",
+   "2c",
+   "1b",
+   "2c",
+   "2d",
+   "4f",
+   "1b"
+  ],
+  "atom_types": [
+   "Mn",
+   "Mn",
+   "Mn",
+   "Mn",
+   "O",
+   "O",
+   "O",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1094922",
+  "spacegroup_number": 221,
+  "wyckoff_letters": [
+   "1a",
+   "3c"
+  ],
+  "atom_types": [
+   "Ca",
+   "Mg"
+  ]
+ },
+ {
+  "label": "mp-1228749",
+  "spacegroup_number": 65,
+  "wyckoff_letters": [
+   "1a",
+   "1c",
+   "2j",
+   "2g"
+  ],
+  "atom_types": [
+   "As",
+   "Rh",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1217394",
+  "spacegroup_number": 164,
+  "wyckoff_letters": [
+   "2d",
+   "2d",
+   "1b",
+   "1a",
+   "6i"
+  ],
+  "atom_types": [
+   "Th",
+   "U",
+   "Re",
+   "Re",
+   "Re"
+  ]
+ },
+ {
+  "label": "mp-677489",
+  "spacegroup_number": 74,
+  "wyckoff_letters": [
+   "2e",
+   "2d",
+   "2a",
+   "2e",
+   "8j",
+   "2e"
+  ],
+  "atom_types": [
+   "Cs",
+   "Ti",
+   "Cu",
+   "O",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1105681",
+  "spacegroup_number": 60,
+  "wyckoff_letters": [
+   "8d",
+   "8d",
+   "4c"
+  ],
+  "atom_types": [
+   "In",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-985471",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Ce",
+   "Zn",
+   "Hg"
+  ]
+ },
+ {
+  "label": "mp-1094140",
+  "spacegroup_number": 140,
+  "wyckoff_letters": [
+   "2a",
+   "4h"
+  ],
+  "atom_types": [
+   "Mn",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-680754",
+  "spacegroup_number": 193,
+  "wyckoff_letters": [
+   "6g",
+   "4d",
+   "2b",
+   "6g"
+  ],
+  "atom_types": [
+   "Ca",
+   "Ca",
+   "Cu",
+   "Pb"
+  ]
+ },
+ {
+  "label": "mp-1120796",
+  "spacegroup_number": 146,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "3b",
+   "3b"
+  ],
+  "atom_types": [
+   "Li",
+   "Ti",
+   "Ti",
+   "Bi",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1208293",
+  "spacegroup_number": 136,
+  "wyckoff_letters": [
+   "2a",
+   "4e",
+   "4f",
+   "8j"
+  ],
+  "atom_types": [
+   "Te",
+   "Rh",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1103874",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "1c",
+   "1b",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Mn",
+   "Tl",
+   "V",
+   "V",
+   "S",
+   "S",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1217525",
+  "spacegroup_number": 160,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "3b",
+   "3b",
+   "6c",
+   "3b",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Tb",
+   "Nd",
+   "Fe",
+   "Fe",
+   "Fe",
+   "Fe",
+   "Fe",
+   "Fe"
+  ]
+ },
+ {
+  "label": "mp-28779",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "2e",
+   "2a",
+   "4f",
+   "2e",
+   "4f"
+  ],
+  "atom_types": [
+   "U",
+   "Sb",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1225178",
+  "spacegroup_number": 71,
+  "wyckoff_letters": [
+   "1a",
+   "2h",
+   "2j",
+   "4k",
+   "2g",
+   "2i"
+  ],
+  "atom_types": [
+   "Er",
+   "Co",
+   "Co",
+   "Co",
+   "Co",
+   "Mo"
+  ]
+ },
+ {
+  "label": "mp-756302",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2f",
+   "1c",
+   "1b",
+   "1d",
+   "1a",
+   "2e",
+   "2i",
+   "4j",
+   "2i"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Mn",
+   "Co",
+   "Co",
+   "Co",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-777497",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "1d",
+   "1b",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Li",
+   "V",
+   "O",
+   "O",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1222713",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "La",
+   "U",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-23022",
+  "spacegroup_number": 11,
+  "wyckoff_letters": [
+   "2e",
+   "2e",
+   "4f",
+   "2e"
+  ],
+  "atom_types": [
+   "K",
+   "Cl",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-566257",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1b",
+   "2c",
+   "1a",
+   "3d",
+   "6h",
+   "2c"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Li",
+   "Mo",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1079861",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Tm",
+   "Co",
+   "Ge",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-1018084",
+  "spacegroup_number": 160,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Cr",
+   "Ag",
+   "Te",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-1227350",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Ca",
+   "Ag",
+   "Ge"
+  ]
+ },
+ {
+  "label": "mp-1228494",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "1c",
+   "1b",
+   "4j",
+   "2i"
+  ],
+  "atom_types": [
+   "Ba",
+   "Pr",
+   "Pb",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1519753",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b",
+   "6e"
+  ],
+  "atom_types": [
+   "Sr",
+   "Hf",
+   "Zr",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1211236",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "4j",
+   "4i",
+   "4f"
+  ],
+  "atom_types": [
+   "La",
+   "Mg",
+   "Mg",
+   "Al"
+  ]
+ },
+ {
+  "label": "mp-1112924",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b",
+   "6e"
+  ],
+  "atom_types": [
+   "Cs",
+   "In",
+   "Au",
+   "Br"
+  ]
+ },
+ {
+  "label": "mp-752669",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "2e",
+   "2e",
+   "4f",
+   "4f"
+  ],
+  "atom_types": [
+   "Ce",
+   "Hf",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1176629",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Li",
+   "Mn",
+   "F",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1184785",
+  "spacegroup_number": 221,
+  "wyckoff_letters": [
+   "1a",
+   "3c"
+  ],
+  "atom_types": [
+   "In",
+   "Ga"
+  ]
+ },
+ {
+  "label": "mp-1519208",
+  "spacegroup_number": 216,
+  "wyckoff_letters": [
+   "1c",
+   "1d",
+   "1a",
+   "1b",
+   "6f"
+  ],
+  "atom_types": [
+   "K",
+   "Sr",
+   "Nd",
+   "W",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1105734",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "1b",
+   "2c",
+   "2c",
+   "3e",
+   "6h"
+  ],
+  "atom_types": [
+   "Ho",
+   "Ho",
+   "Co",
+   "Co",
+   "Co",
+   "Co",
+   "Co"
+  ]
+ },
+ {
+  "label": "mp-1215536",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "4f",
+   "2a",
+   "6h"
+  ],
+  "atom_types": [
+   "Zr",
+   "Si",
+   "Mo"
+  ]
+ },
+ {
+  "label": "mp-1174003",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2e",
+   "2i",
+   "1b",
+   "1a",
+   "2h",
+   "4j",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Li",
+   "Co",
+   "Co",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1225840",
+  "spacegroup_number": 129,
+  "wyckoff_letters": [
+   "2a",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Cu",
+   "Ag",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-1114495",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Rb",
+   "Rb",
+   "Eu",
+   "Cl"
+  ]
+ },
+ {
+  "label": "mp-757176",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "2e",
+   "2a",
+   "4f",
+   "4f",
+   "2e"
+  ],
+  "atom_types": [
+   "Ba",
+   "Y",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1416",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "2e",
+   "2c"
+  ],
+  "atom_types": [
+   "Nb",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1079836",
+  "spacegroup_number": 6,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "1a",
+   "1b",
+   "1b",
+   "1b",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Ga",
+   "Si",
+   "Si",
+   "Si",
+   "C",
+   "C",
+   "C",
+   "N"
+  ]
+ },
+ {
+  "label": "mp-1188785",
+  "spacegroup_number": 87,
+  "wyckoff_letters": [
+   "1a",
+   "4h",
+   "4h",
+   "1b",
+   "2d",
+   "8i"
+  ],
+  "atom_types": [
+   "Hf",
+   "Hf",
+   "Hf",
+   "Ni",
+   "Ni",
+   "Ni"
+  ]
+ },
+ {
+  "label": "mp-775122",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "1a",
+   "1c",
+   "4i",
+   "2f",
+   "8r",
+   "2e"
+  ],
+  "atom_types": [
+   "Li",
+   "La",
+   "Nb",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-756939",
+  "spacegroup_number": 3,
+  "wyckoff_letters": [
+   "1a",
+   "1c",
+   "1b",
+   "1d",
+   "1c",
+   "1b",
+   "1d",
+   "1a",
+   "2e",
+   "2e",
+   "2e",
+   "2e",
+   "2e",
+   "2e"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Li",
+   "Li",
+   "Mn",
+   "Mn",
+   "Mn",
+   "Te",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1103601",
+  "spacegroup_number": 8,
+  "wyckoff_letters": [
+   "2b",
+   "2b",
+   "1a",
+   "2b",
+   "1a",
+   "2b",
+   "1a",
+   "2b",
+   "1a"
+  ],
+  "atom_types": [
+   "Fe",
+   "Si",
+   "Bi",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1213756",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2h",
+   "2f",
+   "2i",
+   "1a",
+   "2i",
+   "4j",
+   "2i"
+  ],
+  "atom_types": [
+   "Cr",
+   "Cr",
+   "Cr",
+   "Cr",
+   "Te",
+   "Te",
+   "Te"
+  ]
+ },
+ {
+  "label": "mp-1183748",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2d",
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Ce",
+   "Ce",
+   "Cd"
+  ]
+ },
+ {
+  "label": "mp-625700",
+  "spacegroup_number": 7,
+  "wyckoff_letters": [
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a",
+   "2a"
+  ],
+  "atom_types": [
+   "Mo",
+   "H",
+   "H",
+   "H",
+   "H",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1063224",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "2e"
+  ],
+  "atom_types": [
+   "Ho",
+   "Hg"
+  ]
+ },
+ {
+  "label": "mp-1222282",
+  "spacegroup_number": 123,
+  "wyckoff_letters": [
+   "1a",
+   "1d",
+   "1b",
+   "1c"
+  ],
+  "atom_types": [
+   "Li",
+   "Nd",
+   "Se",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-1216601",
+  "spacegroup_number": 5,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "1b",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "V",
+   "V",
+   "V",
+   "P",
+   "P",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-11546",
+  "spacegroup_number": 221,
+  "wyckoff_letters": [
+   "1b",
+   "1a"
+  ],
+  "atom_types": [
+   "Ti",
+   "Pd"
+  ]
+ },
+ {
+  "label": "mp-754960",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Sm",
+   "I",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-760546",
+  "spacegroup_number": 1,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Li",
+   "Cu",
+   "Cu",
+   "C",
+   "C",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1113623",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1a",
+   "1b",
+   "6e"
+  ],
+  "atom_types": [
+   "Cs",
+   "Ga",
+   "Ag",
+   "Cl"
+  ]
+ },
+ {
+  "label": "mp-1094674",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Mg",
+   "Mg",
+   "Ga"
+  ]
+ },
+ {
+  "label": "mp-752918",
+  "spacegroup_number": 1,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Na",
+   "Ti",
+   "Ti",
+   "Ti",
+   "Ti",
+   "Ti",
+   "Ti",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1103952",
+  "spacegroup_number": 44,
+  "wyckoff_letters": [
+   "1a",
+   "2d",
+   "1a",
+   "1a",
+   "1b",
+   "1b",
+   "2d",
+   "2d",
+   "2d",
+   "2d"
+  ],
+  "atom_types": [
+   "Nd",
+   "Nd",
+   "Al",
+   "Al",
+   "Al",
+   "Al",
+   "Al",
+   "Al",
+   "Al",
+   "Al"
+  ]
+ },
+ {
+  "label": "mp-1283489",
+  "spacegroup_number": 1,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "V",
+   "V",
+   "V",
+   "V",
+   "V",
+   "V",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "F",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1217577",
+  "spacegroup_number": 44,
+  "wyckoff_letters": [
+   "1a",
+   "4e",
+   "1b",
+   "1b",
+   "2d",
+   "1a",
+   "2d",
+   "1a"
+  ],
+  "atom_types": [
+   "Tb",
+   "Fe",
+   "Fe",
+   "Fe",
+   "Co",
+   "Co",
+   "Co",
+   "W"
+  ]
+ },
+ {
+  "label": "mp-550469",
+  "spacegroup_number": 99,
+  "wyckoff_letters": [
+   "1b",
+   "1b",
+   "1a",
+   "1a",
+   "1b",
+   "2c",
+   "2c",
+   "1b"
+  ],
+  "atom_types": [
+   "Ti",
+   "Zn",
+   "Bi",
+   "Bi",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1216647",
+  "spacegroup_number": 8,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Tm",
+   "Tm",
+   "Tm",
+   "Tm",
+   "Cd",
+   "Se",
+   "Se",
+   "Se",
+   "Se",
+   "Se",
+   "Se",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-1174849",
+  "spacegroup_number": 1,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Li",
+   "Li",
+   "Li",
+   "Li",
+   "Mn",
+   "Mn",
+   "Mn",
+   "Co",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1207382",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Zr",
+   "Si",
+   "As"
+  ]
+ },
+ {
+  "label": "mp-972633",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1a",
+   "1b",
+   "2c"
+  ],
+  "atom_types": [
+   "Sm",
+   "Er",
+   "Ru"
+  ]
+ },
+ {
+  "label": "mp-976272",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "1a",
+   "2d",
+   "1b"
+  ],
+  "atom_types": [
+   "Li",
+   "Ca",
+   "Ca"
+  ]
+ },
+ {
+  "label": "mp-504862",
+  "spacegroup_number": 204,
+  "wyckoff_letters": [
+   "4c",
+   "1a",
+   "3b",
+   "12g"
+  ],
+  "atom_types": [
+   "Ti",
+   "Cd",
+   "Cu",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1247459",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "1d",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Sr",
+   "Sr",
+   "Sr",
+   "Sr",
+   "Cr",
+   "Cr",
+   "N",
+   "N",
+   "N",
+   "N"
+  ]
+ },
+ {
+  "label": "mp-1219521",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Sb",
+   "As",
+   "Ir"
+  ]
+ },
+ {
+  "label": "mp-758590",
+  "spacegroup_number": 1,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a"
+  ],
+  "atom_types": [
+   "Mn",
+   "V",
+   "V",
+   "V",
+   "V",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1215301",
+  "spacegroup_number": 8,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "1a",
+   "2b",
+   "1a",
+   "2b",
+   "1a"
+  ],
+  "atom_types": [
+   "Zr",
+   "Zr",
+   "Ti",
+   "Ti",
+   "Cr",
+   "Cr",
+   "Cr",
+   "Fe",
+   "Fe",
+   "Fe"
+  ]
+ },
+ {
+  "label": "mp-1094619",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Mg",
+   "Mg",
+   "Ga"
+  ]
+ },
+ {
+  "label": "mp-1224967",
+  "spacegroup_number": 166,
+  "wyckoff_letters": [
+   "1a",
+   "1b"
+  ],
+  "atom_types": [
+   "Fe",
+   "Ir"
+  ]
+ },
+ {
+  "label": "mp-1078081",
+  "spacegroup_number": 65,
+  "wyckoff_letters": [
+   "2j",
+   "1a",
+   "1b",
+   "1d",
+   "2i"
+  ],
+  "atom_types": [
+   "K",
+   "Cu",
+   "F",
+   "F",
+   "F"
+  ]
+ },
+ {
+  "label": "mp-1147587",
+  "spacegroup_number": 139,
+  "wyckoff_letters": [
+   "2e",
+   "1a",
+   "2c",
+   "2d"
+  ],
+  "atom_types": [
+   "Ce",
+   "Cu",
+   "N",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-505781",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "1b",
+   "1a",
+   "2c"
+  ],
+  "atom_types": [
+   "Mn",
+   "Ge",
+   "Pd"
+  ]
+ },
+ {
+  "label": "mp-1018053",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "2c",
+   "2a"
+  ],
+  "atom_types": [
+   "In",
+   "Cu"
+  ]
+ },
+ {
+  "label": "mp-1246974",
+  "spacegroup_number": 74,
+  "wyckoff_letters": [
+   "2e",
+   "2a",
+   "2d",
+   "4h",
+   "4i"
+  ],
+  "atom_types": [
+   "Mg",
+   "Sc",
+   "V",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1173895",
+  "spacegroup_number": 2,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Li",
+   "Li",
+   "Mn",
+   "Co",
+   "O",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1215601",
+  "spacegroup_number": 194,
+  "wyckoff_letters": [
+   "4f",
+   "6h",
+   "2a"
+  ],
+  "atom_types": [
+   "Zr",
+   "Cr",
+   "Si"
+  ]
+ },
+ {
+  "label": "mp-1521619",
+  "spacegroup_number": 216,
+  "wyckoff_letters": [
+   "1d",
+   "1c",
+   "1b",
+   "1a",
+   "6f"
+  ],
+  "atom_types": [
+   "Ca",
+   "Eu",
+   "Nb",
+   "Fe",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-5090",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "1a",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Ti",
+   "Fe",
+   "Se",
+   "Se"
+  ]
+ },
+ {
+  "label": "mp-1219502",
+  "spacegroup_number": 107,
+  "wyckoff_letters": [
+   "1a",
+   "1a",
+   "1a",
+   "2b"
+  ],
+  "atom_types": [
+   "Sb",
+   "Pb",
+   "Br",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1216638",
+  "spacegroup_number": 187,
+  "wyckoff_letters": [
+   "1e",
+   "1c",
+   "1a",
+   "3k"
+  ],
+  "atom_types": [
+   "Tm",
+   "Al",
+   "Ni",
+   "Ni"
+  ]
+ },
+ {
+  "label": "mp-1039434",
+  "spacegroup_number": 187,
+  "wyckoff_letters": [
+   "2h",
+   "2g",
+   "1d",
+   "1a"
+  ],
+  "atom_types": [
+   "Mg",
+   "Mg",
+   "Mg",
+   "Cd"
+  ]
+ },
+ {
+  "label": "mp-1030723",
+  "spacegroup_number": 156,
+  "wyckoff_letters": [
+   "1c",
+   "1c",
+   "1c",
+   "1c",
+   "1b",
+   "1b",
+   "1b",
+   "1b",
+   "1c",
+   "1b",
+   "1b",
+   "1c"
+  ],
+  "atom_types": [
+   "Te",
+   "Te",
+   "Mo",
+   "Mo",
+   "Mo",
+   "W",
+   "Se",
+   "Se",
+   "S",
+   "S",
+   "S",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1111258",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "K",
+   "Li",
+   "Bi",
+   "I"
+  ]
+ },
+ {
+  "label": "mp-1304693",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "2a",
+   "2d",
+   "2e",
+   "4f",
+   "4f"
+  ],
+  "atom_types": [
+   "Co",
+   "Co",
+   "Ni",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-755685",
+  "spacegroup_number": 33,
+  "wyckoff_letters": [
+   "4a",
+   "4a",
+   "4a",
+   "4a",
+   "4a"
+  ],
+  "atom_types": [
+   "Sm",
+   "Y",
+   "O",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1106195",
+  "spacegroup_number": 82,
+  "wyckoff_letters": [
+   "4g",
+   "4g",
+   "4g",
+   "4g"
+  ],
+  "atom_types": [
+   "P",
+   "W",
+   "W",
+   "W"
+  ]
+ },
+ {
+  "label": "mp-755570",
+  "spacegroup_number": 164,
+  "wyckoff_letters": [
+   "1a",
+   "2d",
+   "2d"
+  ],
+  "atom_types": [
+   "Li",
+   "Ni",
+   "S"
+  ]
+ },
+ {
+  "label": "mp-1228956",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "1a",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "Al",
+   "Au",
+   "Au"
+  ]
+ },
+ {
+  "label": "mp-556777",
+  "spacegroup_number": 193,
+  "wyckoff_letters": [
+   "4d",
+   "2a",
+   "6g"
+  ],
+  "atom_types": [
+   "Li",
+   "C",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1185798",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Mg",
+   "Mg",
+   "In"
+  ]
+ },
+ {
+  "label": "mp-1517190",
+  "spacegroup_number": 225,
+  "wyckoff_letters": [
+   "2c",
+   "1b",
+   "1a",
+   "6e"
+  ],
+  "atom_types": [
+   "Eu",
+   "Y",
+   "Sb",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1226557",
+  "spacegroup_number": 87,
+  "wyckoff_letters": [
+   "1a",
+   "4h",
+   "2d",
+   "8i"
+  ],
+  "atom_types": [
+   "Ce",
+   "Pr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mvc-13928",
+  "spacegroup_number": 15,
+  "wyckoff_letters": [
+   "2e",
+   "2a",
+   "2e",
+   "4f",
+   "4f"
+  ],
+  "atom_types": [
+   "Ca",
+   "Bi",
+   "F",
+   "F",
+   "F"
+  ]
+ }
+]
