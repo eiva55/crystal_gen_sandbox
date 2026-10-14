@@ -23,15 +23,24 @@
 - `run.py`, `configs/` (Hydra), `envs/` — запуск генераций; наборы целей — `configs/csp_targets/*.json` (`bench_v0` — 300 тестовых целей, `bench_tr1` — 300 обучающих, `hfo2_pilot`, `spinel_pilot`). `aggregate_sweep_metrics.py` собирает метрики прогонов. CIF готовых прогонов лежат в `archive/*.tar.gz`.
 
 ## DiffCSP++: бенчмарк 300 test + 300 train (условие: группа, орбиты Вайкоффа, виды атомов)
-- `build_benchmark_targets.py`, `build_set.py` — формирование наборов целей по корзинам energy above hull
-- `add_covariates.py`, `add_proto_freq.py` — контрольные переменные (n_гр, n_ат, n_своб, частота прототипа)
-- `eval_bench.py` — оценка генераций
-- `analyze_bench.py`, `analyze_bench2.py`, `analyze_bench3.py` — анализ бенчмарка (последовательные версии; итоговый вывод в `results/bench_v0_analysis*.txt`)
-- `bench_windows.py`, `polar_check.py`, `polar_model.py` — окно допуска симметрии и полярные цели
-- `mp20_membership.py`, `nearest_train.py`, `analyze_train_control.py`, `analyze_neighbors.py`, `coverage_table.py` — принадлежность train/test, ближайшие структуры, покрытие
+Скрипты читают данные из `models/diffcsp_pp/data/mp_20` и результаты прогонов из `outputs/bench/*/eval.csv` (ни то, ни другое не входит в репозиторий).
+- `build_benchmark_targets.py` — стратифицированный набор из test MP-20 (по 60 целей на 5 корзин energy above hull, seed 0)
+- `build_set.py --set <имя> --split train|test --per-bin 60` — набор целей из заданной части MP-20 с ковариатами (контроль «train против test», новые наборы)
+- `add_covariates.py` — число свободных координатных параметров орбит Вайкоффа (n_своб)
+- `add_proto_freq.py` — частота прототипа: число структур train с той же анонимизированной формулой и группой
+- `eval_bench.py <папка_прогона>` — совпадение (StructureMatcher), RMSE и сохранение группы для вывода `run_bench.py`
+- `analyze_bench.py` — доли совпадений по корзинам energy above hull и логистическая регрессия с контролями
+- `analyze_bench2.py` — расширенный анализ: нетривиальные цели, страты по сложности шаблона, строгий матчер, RMSE
+- `analyze_bench3.py` — полные таблицы коэффициентов и анализ недо-искажения (окна допуска symprec)
+- `bench_windows.py` — окно допуска symprec, в котором эталон и сэмпл сохраняют целевую группу
+- `polar_check.py` — недо-искажение для полярных и неполярных целей
+- `polar_model.py` — отличается ли успех для полярных целей при равной сложности шаблона и частоте прототипа
+- `nearest_train.py`, `analyze_train_control.py`, `analyze_neighbors.py`, `coverage_table.py` — ближайшие структуры в train, контроль train/test, покрытие структурным типом
 
 ## Кейс HfO₂ и шпинели
-- `mp20_hfo2_split.py`, `hfo2_matcher.py`, `hfo2_symprec_sweep.py`, `hfo2_windows.py`, `fetch_refs.py` (эталоны в `refs/`)
+- `mp20_membership.py` — есть ли фазы HfO₂ (mp-352, mp-685097) в MP-20 и как часто встречаются группы
+- `mp20_hfo2_split.py`, `hfo2_matcher.py`, `hfo2_symprec_sweep.py`, `hfo2_windows.py` — разбиение, допуски StructureMatcher и symprec, окна допуска для HfO₂
+- `fetch_refs.py` — загрузка эталонов (`analysis/refs/`: mp-352, mp-685097, mp-3536, mp-34330)
 - `relax_chgnet.py`, `relax_summary.py` — релаксация CHGNet и сводка
 
 Не включены в репозиторий (`outputs/` в .gitignore): сырые генерации (`*.cif`, `*.tar.gz`), промежуточные `eval.csv`, одноразовые `patch_*.py` (правки внесены в скрипты). Итоговые таблицы и метаданные — в `analysis/results/`.
