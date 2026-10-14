@@ -1,10 +1,11 @@
 """Доля успеха по числу структур того же типа в обучающей выборке (покрытие), для test- и train-целей."""
 import glob
+import os
 import warnings
 import pandas as pd
 warnings.filterwarnings('ignore')
 
-fr = [pd.read_csv(p) for p in sorted(glob.glob('outputs/bench/*/eval.csv'))]
+fr = [pd.read_csv(p) for p in sorted(glob.glob(os.environ.get('BENCH_GLOB', 'outputs/bench/*/eval.csv')))]
 df = pd.concat(fr, ignore_index=True).drop_duplicates(['material_id', 'k'])
 df = df[df.generated & df.aligned.astype(bool)].copy()
 nb = pd.read_csv('analysis/results/bench_neighbors.csv')[['material_id', 'n_same_type']]

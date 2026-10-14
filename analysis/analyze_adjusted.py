@@ -1,5 +1,6 @@
 """Эффект энергии с поправкой на покрытие (n_same_type): (1) весь test, опубликованные генерации; (2) 300 целей v0: с группой против только состава;
 (3) ступень «почти стабильные против остальных» и наклон внутри метастабильных. Стандартные ошибки кластеризованы по цели."""
+import glob
 import sys
 import warnings
 import numpy as np
@@ -11,8 +12,25 @@ warnings.filterwarnings('ignore')
 tag = sys.argv[1] if len(sys.argv) > 1 else 'v0'
 LO, HI = 0.917, 1.090
 nb = pd.read_csv('analysis/results/bench_neighbors.csv')[['material_id', 'n_same_type', 'capped']]
-pub = pd.read_csv('outputs/bench_crystallm/full_pub/eval.csv').merge(nb, on='material_id', how='inner')
-sg = pd.read_csv(f'outputs/bench_crystallm/{tag}_sg/eval.csv').merge(nb, on='material_id', how='inner')
+covs = [pd.read_csv(p)[['material_id', 'n_free', 'proto_train_count']] for p in glob.glob('analysis/results/bench_*_covariates.csv')]
+for p in glob.glob('analysis/results/bench_*_meta.csv'):
+    m = pd.read_csv(p)
+    if 'n_free' in m and 'proto_train_count' in m:
+        covs.append(m[['material_id', 'n_free', 'proto_train_count']])
+cov = pd.concat(covs).drop_duplicates('material_id')
+
+def load(path):
+    d = pd.read_csv(path)
+    d = d.drop(columns=[c for c in ('n_free', 'proto_train_count') if c in d])
+    return d.merge(cov, on='material_id', how='left').merge(nb, on='material_id', how='inner')
+
+pub = load('outputs/bench_crystallm/full_pub/eval.csv')
+sg = load(f'outputs/bench_crystallm/{tag}_sg/eval.csv')
+for d, name in ((pub, 'pub'), (sg, f'{tag}_sg')):
+    miss = int(d.n_free.isna().sum() + d.proto_train_count.isna().sum())
+    if miss:
+        print(f'{name}: нет ковариат у {miss} значений, такие строки исключены')
+    d.dropna(subset=['n_free', 'proto_train_count'], inplace=True)
 for d in (pub, sg):
     d['E10'] = d.e_above_hull / 0.01
     d['meta'] = (d.e_above_hull >= 0.005).astype(int)

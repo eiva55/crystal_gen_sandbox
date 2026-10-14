@@ -1,12 +1,13 @@
 """Контроль «train против test»: влияет ли принадлежность цели к обучающей выборке на успех при равных ковариатах."""
 import glob
+import os
 import warnings
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
 warnings.filterwarnings('ignore')
 
-frames = [pd.read_csv(p) for p in sorted(glob.glob('outputs/bench/*/eval.csv'))]
+frames = [pd.read_csv(p) for p in sorted(glob.glob(os.environ.get('BENCH_GLOB', 'outputs/bench/*/eval.csv')))]
 df = pd.concat(frames, ignore_index=True).drop_duplicates(['material_id', 'k'])
 df = df[df.generated & df.aligned.astype(bool)].copy()
 covs = [pd.read_csv(p)[['material_id', 'n_free', 'proto_train_count']] for p in glob.glob('analysis/results/bench_*_covariates.csv')]
