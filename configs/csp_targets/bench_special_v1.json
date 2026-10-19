@@ -1,0 +1,134 @@
+[
+ {
+  "label": "mp-352",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Hf",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-776532",
+  "spacegroup_number": 136,
+  "wyckoff_letters": [
+   "2a",
+   "4g"
+  ],
+  "atom_types": [
+   "Hf",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-685097",
+  "spacegroup_number": 29,
+  "wyckoff_letters": [
+   "4a",
+   "4a",
+   "4a"
+  ],
+  "atom_types": [
+   "Hf",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-1018721",
+  "spacegroup_number": 137,
+  "wyckoff_letters": [
+   "2a",
+   "4d"
+  ],
+  "atom_types": [
+   "Hf",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-2858",
+  "spacegroup_number": 14,
+  "wyckoff_letters": [
+   "4e",
+   "4e",
+   "4e"
+  ],
+  "atom_types": [
+   "Zr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-754403",
+  "spacegroup_number": 141,
+  "wyckoff_letters": [
+   "2a",
+   "4e"
+  ],
+  "atom_types": [
+   "Zr",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-556605",
+  "spacegroup_number": 29,
+  "wyckoff_letters": [
+   "4a",
+   "4a",
+   "4a"
+  ],
+  "atom_types": [
+   "Zr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-755089",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Zr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-755759",
+  "spacegroup_number": 62,
+  "wyckoff_letters": [
+   "4c",
+   "4c",
+   "4c"
+  ],
+  "atom_types": [
+   "Zr",
+   "O",
+   "O"
+  ]
+ },
+ {
+  "label": "mp-2574",
+  "spacegroup_number": 137,
+  "wyckoff_letters": [
+   "2a",
+   "4d"
+  ],
+  "atom_types": [
+   "Zr",
+   "O"
+  ]
+ }
+]

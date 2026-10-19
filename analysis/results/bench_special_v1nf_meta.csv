@@ -1,0 +1,11 @@
+material_id,formula,e_above_hull,bin,sg,n_atoms,n_orbits,sg_train_count,proto_train_count,n_free,split,pair_role,formula_min_E_mp20,formula_min_E_split
+mp-352,HfO2,0.0,0-0.005,14,12,3,574,30,9,train,stable,0.0,train
+mp-776532,HfO2,0.0248362141666653,0.02-0.04,136,6,2,166,42,1,train,meta,0.0,train
+mp-685097,HfO2,0.0286212858333314,0.02-0.04,29,12,3,10,2,9,test,meta,0.0,train
+mp-1018721,HfO2,0.0547781291666655,0.04-0.06,137,6,2,24,2,1,test,meta,0.0,train
+mp-2858,ZrO2,0.0,0-0.005,14,12,3,574,30,9,train,stable,0.0,train
+mp-754403,ZrO2,0.0148914466666667,0.005-0.02,141,6,2,181,29,1,test,meta,0.0,train
+mp-556605,ZrO2,0.0215252775000003,0.02-0.04,29,12,3,10,2,9,val,meta,0.0,train
+mp-755089,ZrO2,0.0224180025000002,0.02-0.04,62,12,3,1187,102,6,test,meta,0.0,train
+mp-755759,ZrO2,0.0347715066666651,0.02-0.04,62,12,3,1186,101,6,train,meta,0.0,train
+mp-2574,ZrO2,0.036243671666666,0.02-0.04,137,6,2,24,2,1,test,meta,0.0,train

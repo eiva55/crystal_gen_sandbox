@@ -13,13 +13,21 @@ ap.add_argument('--per-bin', type=int, default=4)
 ap.add_argument('--offset', type=int, default=0)
 ap.add_argument('--k', type=int, default=1)
 ap.add_argument('--batch-size', type=int, default=20)
+ap.add_argument('--chunk-size', type=int, default=0, help='если > 0: брать часть номер --chunk по chunk-size целей, без деления по корзинам')
+ap.add_argument('--chunk', type=int, default=0)
 ap.add_argument('--ckpt', default='models/diffcsp_pp/checkpoints/pretrained_models/mp_csp')
 ap.add_argument('--dry-run', action='store_true')
 a = ap.parse_args()
 
 meta = pd.read_csv(f'analysis/results/bench_{a.set}_meta.csv')
 targets = {t['label']: t for t in json.load(open(f'configs/csp_targets/bench_{a.set}.json'))}
-sel = meta.groupby('bin', sort=False, group_keys=False).apply(lambda g: g.iloc[a.offset:a.offset + a.per_bin])
+if a.chunk_size > 0:      # сквозные части по chunk_size целей в случайном порядке: оборванный прогон остаётся несмещённой подвыборкой
+    meta = meta.sample(frac=1, random_state=0).reset_index(drop=True)
+    sel = meta.iloc[a.chunk * a.chunk_size:(a.chunk + 1) * a.chunk_size]
+else:
+    sel = meta.groupby('bin', sort=False, group_keys=False).apply(lambda g: g.iloc[a.offset:a.offset + a.per_bin])
+if sel.empty:
+    print('в этой части нет целей'); sys.exit(0)
 entries, order = [], []
 for _, r in sel.iterrows():
     t = targets[r['material_id']]
