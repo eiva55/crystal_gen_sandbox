@@ -1,0 +1,28 @@
+# Окружение diffcsp_pp: версии из окружения на WSL (pip freeze и pip list, 26.10.2026), torch и torch-scatter — сборки CUDA 11.8.
+--extra-index-url https://download.pytorch.org/whl/cu118
+--find-links https://data.pyg.org/whl/torch-2.1.0+cu118.html
+torch==2.1.2+cu118
+torch-scatter==2.1.2+pt21cu118
+torch_geometric==2.5.2
+pytorch-lightning==2.0.3
+lightning-utilities==0.9.0
+torchmetrics==1.1.2
+hydra-core==1.3.2
+omegaconf==2.3.0
+einops==0.7.0
+torchdiffeq==0.2.5
+pyxtal==0.6.7
+# spglib ставится отдельно из conda-forge (см. Dockerfile): на PyPI 2.7.0 требует Python >= 3.10
+pymatgen==2024.8.9
+numpy==1.26.4
+scipy==1.13.0
+pandas==2.2.2
+scikit-learn==1.4.2
+networkx==3.2.1
+ase==3.22.1
+SMACT==2.5.5
+matminer==0.9.2
+p-tqdm==1.4.0
+tqdm==4.66.2
+python-dotenv==1.0.0
+wandb==0.16.6
