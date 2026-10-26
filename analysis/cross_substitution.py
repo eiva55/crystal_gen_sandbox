@@ -42,20 +42,39 @@ def est(c_m, c_s, den, sel):
     return num_m / den_m, num_s / den_s
 
 
+P = []
+ROW_PREFIX = ''
+
+
 def row(label, cm, cs, den):
     a, b = est(cm, cs, den, np.arange(len(comp)))
     am, bm = est(cm, cs, den, idx)
     d = am - bm
     lo, hi = np.percentile(d, [2.5, 97.5])
+    P.append((f'{ROW_PREFIX}{label}', a - b, 2 * min(max((d <= 0).mean(), 1 / B), max((d >= 0).mean(), 1 / B))))
     print(f'{label:62s} метаст.: {a:.3f}  стаб.: {b:.3f}  разность: {a-b:+.3f} [{lo:+.3f}; {hi:+.3f}]')
 
 
 for nm in ('строго', 'строго+станд.'):
     for den, dn in (('n', 'от всех попыток'), ('miss', 'от промахов')):
         print(f'\n== {nm}, {dn} ==')
+        ROW_PREFIX = f'{nm}, {dn}: '
         row('метастабильная цель -> стабильный полиморф | стабильная цель -> метастабильный',
             f'{nm}|стаб', f'{nm}|мета', den)
         row('метастабильная цель -> стабильный полиморф | стабильная цель -> любой другой',
             f'{nm}|стаб', f'{nm}|любой', den)
         row('метастабильная цель -> любой другой полиморф | стабильная цель -> любой другой',
             f'{nm}|любой', f'{nm}|любой', den)
+
+
+# поправка Holm на все сравнения (двусторонний бутстрэп-p; грубая оценка, нулевое значение не центрировалось)
+order = np.argsort([p for _, _, p in P])
+m = len(P)
+adj = np.zeros(m)
+run = 0.0
+for rank, i in enumerate(order):
+    run = max(run, min(1.0, (m - rank) * P[i][2]))
+    adj[i] = run
+print(f'\n== поправка Holm, сравнений {m} ==')
+for (lab, dlt, p), pa in zip(P, adj):
+    print(f'{lab[:100]:100s} разность {dlt:+.3f}  p={p:.3f}  p(Holm)={pa:.3f}')

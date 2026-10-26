@@ -121,3 +121,128 @@ ax.spines['left'].set_visible(False)
 ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.14), ncol=2, frameon=False, fontsize=9.5, labelcolor=INK2)
 fig.savefig(f'{OUT}/fig5_pairs_scatter.png', dpi=170, bbox_inches='tight'); plt.close(fig)
 print('ok')
+
+
+# ---------- рис. 6: дизайн сравнения пары полиморфов (гипотеза 1) ----------
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+
+def box(ax, x, y, w, h, text, fc=SURF, ec=GRAY, fs=9.5, bold=False):
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle='round,pad=0.02,rounding_size=0.12', fc=fc, ec=ec, lw=1.4))
+    ax.text(x + w / 2, y + h / 2, text, ha='center', va='center', fontsize=fs, color=INK, fontweight='bold' if bold else 'normal', linespacing=1.35)
+
+def arrow(ax, x0, y0, x1, y1):
+    ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle='-|>', mutation_scale=14, color=INK2, lw=1.3))
+
+fig, ax = plt.subplots(figsize=(10.2, 4.0))
+ax.set_xlim(0, 20.4); ax.set_ylim(0, 8); ax.axis('off')
+box(ax, 0.2, 3.2, 3.4, 1.6, 'Один химический\nсостав', fc='#f3f2ee', bold=True)
+box(ax, 4.6, 5.0, 4.0, 2.0, 'Стабильный полиморф\n(над оболочкой\nменее 5 мэВ/атом)', ec=BLUE)
+box(ax, 4.6, 1.0, 4.0, 2.0, 'Метастабильный\nполиморф\nтого же состава', ec=ORANGE)
+box(ax, 9.8, 3.0, 3.6, 2.0, 'Запрос модели:\nсостав + группа\nцели', fc='#f3f2ee')
+box(ax, 14.4, 3.0, 2.6, 2.0, '10 попыток\nна каждую\nструктуру')
+box(ax, 17.7, 3.0, 2.5, 2.0, 'Сравнение\nс целью\n(0,2; 0,3; 5°)')
+arrow(ax, 3.6, 4.3, 4.6, 5.9); arrow(ax, 3.6, 3.7, 4.6, 2.1)
+arrow(ax, 8.6, 6.0, 9.8, 4.5); arrow(ax, 8.6, 2.0, 9.8, 3.5)
+arrow(ax, 13.4, 4.0, 14.4, 4.0); arrow(ax, 17.0, 4.0, 17.7, 4.0)
+ax.text(10.2, 0.35, 'Результат пары: доля удач стабильного минус доля удач метастабильного; усреднение по 129 составам (172 пары)',
+        ha='center', fontsize=10.5, color=INK2)
+fig.savefig(f'{OUT}/fig6_pair_design.png', dpi=170, bbox_inches='tight')
+plt.close(fig)
+
+# ---------- рис. 7: один шаблон, две раскладки (гипотеза 4) ----------
+fig, ax = plt.subplots(figsize=(10.2, 4.3))
+ax.set_xlim(0, 20.4); ax.set_ylim(0, 8.6); ax.axis('off')
+box(ax, 0.2, 3.1, 5.2, 2.6, 'Шаблон R3m:\nодин набор орбит\nMg 1a, 1a; Al 1a, 3b\nO 1a, 1a, 3b, 3b', fc='#f3f2ee', bold=False)
+box(ax, 7.4, 5.4, 5.6, 2.2, 'Упорядоченная раскладка\n(mp-3536, энергия над\nоболочкой 0)', ec=BLUE)
+box(ax, 7.4, 1.0, 5.6, 2.2, 'Антисайтная пара Mg↔Al\n(mp-34330, энергия над\nоболочкой 0,0505 эВ/атом)', ec=ORANGE)
+arrow(ax, 5.4, 4.7, 7.4, 6.5); arrow(ax, 5.4, 4.1, 7.4, 2.1)
+for (y, k, col) in ((6.0, 14, BLUE), (1.6, 36, ORANGE)):
+    ax.add_patch(Rectangle((14.0, y), 6.0, 0.9, fc=SURF, ec=LGRAY, lw=1.2))
+    ax.add_patch(Rectangle((14.0, y), 6.0 * k / 50, 0.9, fc=col, ec='none'))
+    ax.text(14.0, y - 0.55, f'{k} из 50 образцов', fontsize=11, color=INK, va='center')
+ax.text(14.0, 0.2, 'Доля антисайтных: 0,72\n(доверительный интервал 0,58–0,83)', fontsize=10.5, color=INK2, va='center')
+fig.savefig(f'{OUT}/fig7_spinel_template.png', dpi=170, bbox_inches='tight')
+plt.close(fig)
+
+
+# ===================== рисунки для отчёта пилота (рис. 8–11) =====================
+# Числа вписаны вручную из таблиц docs/pilot_results_report.md.
+
+# ---------- рис. 8: DiffCSP++, сложность шаблона и покрытие обучающей выборкой ----------
+fig, axs = plt.subplots(1, 2, figsize=(10.2, 3.6), gridspec_kw={'width_ratios': [1, 1.15]})
+ax = axs[0]
+lab = ['0', '1', '2', '3–4', '5–8', '≥ 9']; n = [47, 49, 37, 42, 56, 69]; v = [1.00, 0.98, 1.00, 0.98, 0.86, 0.44]
+ax.bar(range(6), v, color=[BLUE] * 4 + [ORANGE] * 2, width=0.62)
+for i, (a, b) in enumerate(zip(v, n)):
+    ax.text(i, a + 0.02, f'{a:.2f}'.replace('.', ','), ha='center', fontsize=10, color=INK)
+    ax.text(i, 0.04, f'{b}', ha='center', fontsize=9, color=SURF)
+ax.set_xticks(range(6)); ax.set_xticklabels(lab); ax.set_ylim(0, 1.12)
+ax.set_xlabel('число свободных координат шаблона'); ax.set_ylabel('доля совпадений (станд. допуски)')
+ax.set_title('а  сложность шаблона', loc='left', fontsize=11, color=INK)
+clean(ax, 'y')
+ax = axs[1]
+lab = ['0', '1–3', '4–15', '16–60', '> 60']
+te = [0.33, 0.50, 0.82, 0.95, 0.96]; tr = [0.54, 0.67, 0.77, 1.00, 1.00]
+x = np.arange(5); w = 0.36
+ax.bar(x - w / 2, tr, w, color=GRAY, label='цели из обучающей части')
+ax.bar(x + w / 2, te, w, color=BLUE, label='цели из тестовой части')
+ax.set_xticks(x); ax.set_xticklabels(lab); ax.set_ylim(0, 1.12)
+ax.set_xlabel('структур того же типа в обучающей выборке'); ax.set_ylabel('доля совпадений (строгие допуски)')
+ax.set_title('б  покрытие обучающей выборкой', loc='left', fontsize=11, color=INK)
+ax.legend(frameon=False, fontsize=9.5, loc='upper left', labelcolor=INK2); clean(ax, 'y')
+fig.tight_layout(w_pad=3.0); fig.savefig(f'{OUT}/fig8_diffcsp_complexity_coverage.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+
+# ---------- рис. 9: CrystaLLM-small, вся тестовая часть, запрос только с составом ----------
+bins = ['0–5', '5–20', '20–40', '40–60', '60–80']
+per_try = [0.660, 0.526, 0.475, 0.422, 0.395]; any20 = [0.827, 0.733, 0.700, 0.636, 0.601]
+fig, ax = plt.subplots(figsize=(8.6, 3.4))
+x = np.arange(5); w = 0.36
+ax.bar(x - w / 2, any20, w, color=LGRAY, label='цель угадана хотя бы раз из 20')
+ax.bar(x + w / 2, per_try, w, color=BLUE, label='доля удачных попыток')
+for i in range(5):
+    ax.text(x[i] - w / 2, any20[i] + 0.02, f'{any20[i]:.2f}'.replace('.', ','), ha='center', fontsize=9, color=INK2)
+    ax.text(x[i] + w / 2, per_try[i] + 0.02, f'{per_try[i]:.2f}'.replace('.', ','), ha='center', fontsize=9, color=INK)
+ax.set_xticks(x); ax.set_xticklabels(bins); ax.set_ylim(0, 1.0)
+ax.set_xlabel('энергия цели над выпуклой оболочкой, мэВ/атом'); ax.set_ylabel('строгое совпадение')
+ax.legend(frameon=False, fontsize=9.5, loc='upper right', labelcolor=INK2); clean(ax, 'y')
+fig.savefig(f'{OUT}/fig9_crystallm_test_bins.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+
+# ---------- рис. 10: что модель выдаёт вместо цели ----------
+cats = ['цель (строго)', 'цель (только станд.)', 'другой известный полиморф', 'новая структура того же состава', 'другой состав', 'невалидный CIF']
+stab = [0.595, 0.066, 0.038, 0.205, 0.081, 0.015]; meta = [0.456, 0.065, 0.068, 0.293, 0.098, 0.021]
+cols = [BLUE, '#9cc0ee', VIOLET, ORANGE, GRAY, LGRAY]
+fig, ax = plt.subplots(figsize=(8.6, 2.4))
+for r, vals in enumerate((stab, meta)):
+    left = 0
+    for v, c, cn in zip(vals, cols, cats):
+        ax.barh(r, v, left=left, color=c, height=0.58, label=cn if r == 0 else None)
+        if v >= 0.06:
+            ax.text(left + v / 2, r, f'{v:.2f}'.replace('.', ','), ha='center', va='center', fontsize=9.5,
+                    color=SURF if c in (BLUE, VIOLET, ORANGE, GRAY) else INK)
+        left += v
+ax.set_yticks([0, 1]); ax.set_yticklabels(['стабильные цели (129)', 'метастабильные цели (174)'], color=INK); ax.invert_yaxis()
+ax.set_xlim(0, 1); ax.set_xlabel('доля попыток')
+ax.legend(frameon=False, fontsize=9, ncol=3, loc='upper center', bbox_to_anchor=(0.45, -0.38), labelcolor=INK2); clean(ax, 'x')
+fig.savefig(f'{OUT}/fig10_attempt_categories.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+
+# ---------- рис. 11: отдельные фазы HfO₂ и ZrO₂, две модели ----------
+ph = [('mp-352 HfO₂ P2₁/c', 0, 'train', 13, 10), ('mp-2858 ZrO₂ P2₁/c', 0, 'train', 13, 10),
+      ('mp-754403 ZrO₂ I4₁/amd', 15, 'test', 19, 10), ('mp-556605 ZrO₂ Pca2₁', 22, 'val', 5, 10),
+      ('mp-755089 ZrO₂ Pnma', 22, 'test', 0, 0), ('mp-776532 HfO₂ P4₂/mnm', 25, 'train', 20, 10),
+      ('mp-685097 HfO₂ Pca2₁', 29, 'test', 2, 9), ('mp-755759 ZrO₂ Pnma', 35, 'train', 7, 3),
+      ('mp-2574 ZrO₂ P4₂/nmc', 36, 'test', 0, 8), ('mp-1018721 HfO₂ P4₂/nmc', 55, 'test', 0, 10)]
+fig, ax = plt.subplots(figsize=(8.6, 4.6))
+for i, (nm, e, part, c20, d10) in enumerate(ph):
+    a, b = c20 / 20, d10 / 10
+    ax.plot([a, b], [i - 0.14, i + 0.14], color=LGRAY, lw=2, zorder=1)
+    ax.plot(a, i - 0.14, 'o', color=ORANGE, ms=8, mec=SURF, mew=1.4, zorder=3)
+    ax.plot(b, i + 0.14, 's', color=VIOLET, ms=7.5, mec=SURF, mew=1.4, zorder=3)
+    ax.text(1.06, i, f'{e} мэВ/атом, {part}', va='center', fontsize=9.5, color=INK2)
+ax.set_yticks(range(len(ph))); ax.set_yticklabels([p[0] for p in ph], color=INK, fontsize=10); ax.invert_yaxis()
+ax.set_xlim(-0.04, 1.04); ax.set_xlabel('доля строгих совпадений с целью')
+ax.plot([], [], 'o', color=ORANGE, label='CrystaLLM-small: состав и группа, 20 попыток')
+ax.plot([], [], 's', color=VIOLET, label='DiffCSP++: полный шаблон, 10 попыток')
+ax.legend(frameon=False, fontsize=9.5, loc='upper center', bbox_to_anchor=(0.45, 1.12), ncol=2, labelcolor=INK2)
+clean(ax, 'x')
+fig.savefig(f'{OUT}/fig11_special_phases.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+print('ok pilot')
