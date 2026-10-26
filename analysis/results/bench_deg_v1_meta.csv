@@ -1,0 +1,4 @@
+material_id,formula,e_above_hull,bin,sg,n_atoms,split,pair_role,alt_id,alt_e_above_hull,alt_split,train_lo,train_hi,train_same_anon
+mp-1025450,CeFeSi2,0.0,0-0.005,63,8,test,stable,mp-1025523,0.0622262650000022,test,8,61,78
+mp-1094177,La2Mg,0.0299475433333333,0.02-0.04,12,6,val,stable,mp-1094190,0.0566748233333331,val,16,15,51
+mp-559676,SnS,0.0146714824999998,0.005-0.02,63,4,val,stable,mp-1379,0.0622020975000001,val,72,0,73

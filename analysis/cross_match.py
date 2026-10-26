@@ -9,6 +9,10 @@
   новая структура           — состав верный, но ни с одним известным полиморфом не совпала
   другой состав / невалидный CIF
 
+Столбец source — архив или папка, откуда взята попытка. Номер попытки k уникален только внутри источника: при
+объединении нескольких прогонов (например, K=3 и ещё 7 попыток) одна и та же пара (цель, k) встречается в разных
+источниках, поэтому попытку однозначно задаёт тройка (source, material_id, k).
+
 Источники генераций:
   --tar  архив(ы) CIF с именами <material_id>__<k>.cif (готовые генерации CrystaLLM или post_*.tar.gz)
   --bench-dir  папка прогона DiffCSP++ (run_bench.py: order.json + <номер>.cif)
@@ -63,9 +67,9 @@ def refs(formula):
 
 
 def classify(item):
-    mid, k, kind, payload = item
+    mid, k, kind, payload, src = item
     warnings.filterwarnings('ignore')
-    row = {'material_id': mid, 'k': k, 'category': 'невалидный CIF', 'matched_id': None, 'matched_E': None,
+    row = {'source': src, 'material_id': mid, 'k': k, 'category': 'невалидный CIF', 'matched_id': None, 'matched_E': None,
            'matched_sg': None, 'matched_split': None, 'gen_sg_0.1': None}
     try:
         gen = (CifParser.from_str(payload).parse_structures(primitive=True)[0] if kind == 'cif_text'
@@ -111,7 +115,7 @@ def items():
                     except ValueError:
                         continue
                     if mid in FORMULA:
-                        yield mid, k, 'cif_text', tar.extractfile(m).read().decode()
+                        yield mid, k, 'cif_text', tar.extractfile(m).read().decode(), path
     for pattern in a.bench_dir:
         for d in sorted(glob.glob(pattern)):
             order = json.load(open(os.path.join(d, 'order.json')))
@@ -123,7 +127,7 @@ def items():
             for i, o in enumerate(order):
                 p = cifs.get(i + off)
                 if p is not None and o['material_id'] in FORMULA:
-                    yield o['material_id'], o['k'], 'cif_file', p
+                    yield o['material_id'], o['k'], 'cif_file', p, d
 
 
 with Pool(a.nproc) as pool:
@@ -135,6 +139,12 @@ with Pool(a.nproc) as pool:
 df = pd.DataFrame(rows)
 if df.empty:
     raise SystemExit('генераций для целей набора не найдено: проверь пути и имена файлов')
+dup = df.duplicated(['source', 'material_id', 'k']).sum()
+if dup:
+    raise SystemExit(f'внутри одного источника повторяется (цель, k): {dup} строк — проверь имена файлов')
+shared = df.duplicated(['material_id', 'k'], keep=False).sum()
+if shared:
+    print(f'внимание: (цель, k) совпадает между источниками у {shared} строк; попытку задаёт (source, material_id, k)')
 df = df.merge(meta[['formula', 'e_above_hull', 'sg', 'pair_role']].reset_index(), on='material_id', how='left')
 df.to_csv(a.out, index=False)
 print(f'попыток {len(df)}, целей {df.material_id.nunique()} из {len(meta)}; результат: {a.out}')

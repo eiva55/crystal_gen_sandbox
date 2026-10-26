@@ -6,6 +6,8 @@
   python analysis/new_structure_energy.py --cross analysis/results/cross_pairs_v1_sg_k10.csv \
     --tar "outputs/bench_crystallm/pair_sg/post_*.tar.gz" "outputs/bench_crystallm/pairs_v1_sg/post_*.tar.gz" \
     --out analysis/results/new_structure_energy_k10.csv [--relax-steps 0] [--limit 20]
+Попытка задаётся тройкой (source, material_id, k) из cross_match.py: при объединении прогонов номера k повторяются.
+Файл сопоставления без столбца source принимается, только если пары (цель, k) в нём не повторяются.
 --relax-steps 0: одно вычисление без релаксации (быстро, но сгенерированные структуры не релаксированы, а цели взяты
 из релаксированной базы, поэтому ΔE смещена вверх); --relax-steps 60: короткая релаксация всех трёх структур.
 """
@@ -24,10 +26,14 @@ from pymatgen.core import Structure
 from pymatgen.io.cif import CifParser
 
 cr = pd.read_csv(a.cross)
-new = cr[cr.category == 'новая структура'][['material_id', 'k', 'formula', 'pair_role', 'e_above_hull']].copy()
+if 'source' not in cr:
+    if cr.duplicated(['material_id', 'k']).any():
+        raise SystemExit('в файле сопоставления повторяются (цель, k) и нет столбца source: перезапусти cross_match.py')
+    cr['source'] = ''
+new = cr[cr.category == 'новая структура'][['source', 'material_id', 'k', 'formula', 'pair_role', 'e_above_hull']].copy()
 if a.limit:
     new = new.head(a.limit)
-want = set(zip(new.material_id, new.k))
+want = set(zip(new.source, new.material_id, new.k))
 targets = set(new.material_id)
 # стабильный полиморф состава = цель роли stable того же состава
 stab = cr[cr.pair_role == 'stable'].drop_duplicates('formula').set_index('formula').material_id.to_dict()
@@ -53,9 +59,12 @@ for pat in a.tar:
                         key = split_name(m.name)
                     except ValueError:
                         continue
+                    key = (path if (path, *key) in want else '', *key)
                     if key in want:
                         gens[key] = tar.extractfile(m).read().decode()
 print(f'нужно попыток {len(want)}, найдено CIF {len(gens)}', flush=True)
+if len(gens) < len(want):
+    print('внимание: часть CIF не найдена — пути --tar должны совпадать с теми, что были у cross_match.py', flush=True)
 
 from chgnet.model import CHGNet, StructOptimizer
 model = CHGNet.load()
@@ -83,7 +92,7 @@ def ref_energy(mid):
 
 rows = []
 for i, r in enumerate(new.itertuples(), 1):
-    txt = gens.get((r.material_id, r.k))
+    txt = gens.get((r.source, r.material_id, r.k))
     if txt is None:
         continue
     try:
@@ -93,7 +102,7 @@ for i, r in enumerate(new.itertuples(), 1):
     e_gen = energy(s)
     e_t = ref_energy(r.material_id)
     e_s = ref_energy(stab.get(r.formula, ''))
-    rows.append(dict(material_id=r.material_id, k=r.k, formula=r.formula, pair_role=r.pair_role, n_atoms=len(s),
+    rows.append(dict(source=r.source, material_id=r.material_id, k=r.k, formula=r.formula, pair_role=r.pair_role, n_atoms=len(s),
                      e_gen=e_gen, e_target=e_t, e_stable=e_s, d_target=e_gen - e_t, d_stable=e_gen - e_s))
     if i % 50 == 0:
         print(f'{i}/{len(new)}', flush=True)

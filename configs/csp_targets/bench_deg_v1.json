@@ -1,0 +1,44 @@
+[
+ {
+  "label": "mp-1025450",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c",
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Ce",
+   "Fe",
+   "Si",
+   "Si"
+  ]
+ },
+ {
+  "label": "mp-1094177",
+  "spacegroup_number": 12,
+  "wyckoff_letters": [
+   "2i",
+   "2i",
+   "2i"
+  ],
+  "atom_types": [
+   "La",
+   "La",
+   "Mg"
+  ]
+ },
+ {
+  "label": "mp-559676",
+  "spacegroup_number": 63,
+  "wyckoff_letters": [
+   "2c",
+   "2c"
+  ],
+  "atom_types": [
+   "Sn",
+   "S"
+  ]
+ }
+]
