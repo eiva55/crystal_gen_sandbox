@@ -9,8 +9,12 @@ special_v1: явно заданные material_id из любой части MP-
   analysis/results/bench_<set>nf_meta.csv      — только цели с n_free >= 1 (для DiffCSP++: при n_free = 0 шаблон задаёт структуру целиком)
   configs/csp_targets/bench_<set>.json, bench_<set>nf.json — условия DiffCSP++ (группа, орбиты Вайкоффа, виды атомов)
 
+Пары можно брать из другой части MP-20 (--split val) и исключать составы, уже вошедшие в другой набор
+(--exclude-sets pairs_v1): так получаются новые составы для того же сравнения.
+
 Использование:
   python analysis/build_pairs_v1.py                                  # pairs_v1
+  python analysis/build_pairs_v1.py --set pairs_val_v1 --split val --exclude-sets pairs_v1
   python analysis/build_pairs_v1.py --set special_v1 --ids mp-352,mp-685097
 """
 import argparse
@@ -28,6 +32,8 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--set', default='pairs_v1')
 ap.add_argument('--ids', default='', help='список material_id через запятую (режим отдельных фаз)')
 ap.add_argument('--stable-max', type=float, default=0.005, help='граница «почти стабильный», эВ/атом')
+ap.add_argument('--split', default='test', choices=['train', 'val', 'test'], help='из какой части MP-20 брать пары')
+ap.add_argument('--exclude-sets', nargs='*', default=[], help='исключить составы, вошедшие в эти наборы')
 a = ap.parse_args()
 
 D = 'models/diffcsp_pp/data/mp_20'
@@ -79,7 +85,14 @@ if a.ids:
         print('нет в MP-20:', ', '.join(sorted(missing)))
     sel['pair_role'] = np.where(sel.e_above_hull < a.stable_max, 'stable', 'meta')
 else:
-    te = allmp[allmp.split == 'test'].copy()
+    te = allmp[allmp.split == a.split].copy()
+    excl = set()
+    for es in a.exclude_sets:
+        excl |= set(pd.read_csv(f'analysis/results/bench_{es}_meta.csv').formula)
+    if excl:
+        n0 = te.pretty_formula.nunique()
+        te = te[~te.pretty_formula.isin(excl)]
+        print(f'исключено составов из {", ".join(a.exclude_sets)}: {n0 - te.pretty_formula.nunique()}')
     te['st'] = te.e_above_hull < a.stable_max
     parts = []
     for f, grp in te.groupby('pretty_formula'):
@@ -132,5 +145,5 @@ for mid, why in skipped[:10]:
 print(m.groupby('bin').size().to_string())
 if not a.ids:
     lower = m[m.pair_role == 'stable']
-    lower = lower[lower.formula_min_E_split != 'test']
-    print(f"составов, у которых ещё ниже по энергии полиморф лежит в train/val: {lower.formula.nunique()}")
+    lower = lower[lower.formula_min_E_split != a.split]
+    print(f"составов, у которых ещё ниже по энергии полиморф лежит в другой части MP-20: {lower.formula.nunique()}")

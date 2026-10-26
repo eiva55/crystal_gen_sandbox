@@ -5,8 +5,12 @@
 эффект состава (центрирование внутри состава), кластеры — составы. В отбор попадают структуры из выбранных пар; составы
 с одной структурой отбрасываются. Δn = n_free(метастабильный) − n_free(стабильный).
 
+--exclude-degenerate: убрать пары, в которых хотя бы у одного полиморфа шаблон общий с другим полиморфом того же состава
+(analysis/results/template_degeneracy.csv): для таких целей условие не различает полиморфы.
+
 Использование (окружение bench_stats):
   python analysis/within_strata.py --label sg_k10 > analysis/results/within_strata_sg_k10.txt
+  python analysis/within_strata.py --label diffcsp_tv_k10 --exclude-degenerate analysis/results/template_degeneracy.csv
 """
 import argparse
 import warnings
@@ -18,6 +22,7 @@ warnings.filterwarnings('ignore')
 ap = argparse.ArgumentParser()
 ap.add_argument('--label', required=True)
 ap.add_argument('--delta', type=float, default=0.0216, help='граница эквивалентности, доли на +10 мэВ/атом')
+ap.add_argument('--exclude-degenerate', default='', help='template_degeneracy.csv: исключить пары с неоднозначным шаблоном')
 a = ap.parse_args()
 
 R = 'analysis/results'
@@ -28,6 +33,11 @@ ps['E10'] = ps.e_above_hull / 0.01
 ps['log_sgc'] = np.log1p(ps.sg_train_count.clip(lower=0))
 ps['log_pc'] = np.log1p(ps.proto_train_count.clip(lower=0))
 ps['log_nst'] = np.log1p(ps.n_same_type)
+if a.exclude_degenerate:
+    deg = set(' '.join(pd.read_csv(a.exclude_degenerate).members).split())
+    n0 = len(pp)
+    pp = pp[~pp.id_s.isin(deg) & ~pp.id_m.isin(deg)]
+    print(f'исключены пары с неоднозначным шаблоном: {n0 - len(pp)} из {n0}')
 pp['dn'] = pp.nf_m - pp.nf_s
 both = (pp.nf_s >= 1) & (pp.nf_m >= 1)
 

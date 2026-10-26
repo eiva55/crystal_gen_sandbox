@@ -1,7 +1,13 @@
-"""Прогон CSP-бенчмарка одним вызовом sample.py (модель грузится один раз). Набор выбирается параметром --set."""
+"""Прогон CSP-бенчмарка одним вызовом sample.py (модель грузится один раз). Набор выбирается параметром --set.
+
+Команда Python для sample.py берётся из переменной DIFFCSP_PY (по умолчанию «conda run --no-capture-output -n diffcsp_pp
+python», как в WSL); в контейнере, где окружение одно, достаточно DIFFCSP_PY=python. Карта выбирается снаружи через
+CUDA_VISIBLE_DEVICES: sample.py сам переходит на GPU, если CUDA доступна.
+"""
 import argparse
 import json
 import os
+import shlex
 import subprocess
 import sys
 import pandas as pd
@@ -43,7 +49,8 @@ open(f'{out}/set.txt', 'w').write(a.set)
 print(f'набор {a.set}: {len(entries)} структур, батч {a.batch_size}; вывод: {out}', flush=True)
 if a.dry_run:
     sys.exit(0)
-cmd = ['conda', 'run', '--no-capture-output', '-n', 'diffcsp_pp', 'python', '-u', 'scripts/sample.py',
+py = shlex.split(os.environ.get('DIFFCSP_PY', 'conda run --no-capture-output -n diffcsp_pp python'))
+cmd = py + ['-u', 'scripts/sample.py',
        '--model_path', os.path.abspath(a.ckpt), '--save_path', out,
        '--json_file', f'{out}/targets.json', '--batch_size', str(a.batch_size)]
 sys.exit(subprocess.call(cmd, cwd='models/diffcsp_pp'))
