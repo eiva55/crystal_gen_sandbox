@@ -245,4 +245,47 @@ ax.plot([], [], 's', color=VIOLET, label='DiffCSP++: полный шаблон, 
 ax.legend(frameon=False, fontsize=9.5, loc='upper center', bbox_to_anchor=(0.45, 1.12), ncol=2, labelcolor=INK2)
 clean(ax, 'x')
 fig.savefig(f'{OUT}/fig11_special_phases.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+# ---------- рис. 12: DiffCSP++ на парах, основной критерий и вторичные варианты (95%-й ДИ) ----------
+# числа из within_strata_diffcsp_tv_k10*.txt и within_strata_sg_k10.txt (полные контроли), вписаны вручную
+rows = [('DiffCSP++, основной отбор\n114 пар, 100 составов', -0.0285, -0.0460, -0.0110, VIOLET),
+        ('без пар с общим шаблоном\n91 пара, 85 составов', -0.0307, -0.0503, -0.0111, VIOLET),
+        ('только test\n59 пар, 51 состав', -0.0271, -0.0501, -0.0042, VIOLET),
+        ('только val\n55 пар, 49 составов', -0.0286, -0.0534, -0.0038, VIOLET),
+        ('стандартные допуски\n114 пар, 100 составов', -0.0130, -0.0239, -0.0021, VIOLET),
+        ('CrystaLLM-small, состав и группа\ntest, 59 пар, 51 состав', -0.0180, -0.0467, 0.0108, ORANGE)]
+fig, ax = plt.subplots(figsize=(8.6, 4.6))
+ax.axvspan(-0.0216, 0.0216, color='#e8f0fb', zorder=0)
+ax.text(0, -0.75, 'полоса «эффекта практически нет» (±0,0216)', ha='center', va='center', fontsize=9.5, color=INK2,
+        bbox=dict(fc='#e8f0fb', ec='none', pad=3), zorder=5)
+for i, (lab, m, lo, hi, c) in enumerate(rows):
+    ax.plot([lo, hi], [i, i], color=c, lw=2.2, solid_capstyle='round')
+    ax.plot(m, i, 'o', color=c, ms=7.5, mec=SURF, mew=1.5)
+    ax.text(0.031, i, fmt(m, 4), va='center', fontsize=10, color=INK)
+ax.axhline(4.5, color=GRID, lw=1)
+ax.axvline(0, color=INK2, lw=1.2)
+ax.set_yticks(range(len(rows))); ax.set_yticklabels([r[0] for r in rows], color=INK, fontsize=9.5)
+ax.set_ylim(len(rows) - 0.5, -1.2); ax.set_xlim(-0.062, 0.042)
+ax.set_xlabel('изменение доли удачных попыток на каждые +10 мэВ/атом внутри состава (95%-й интервал)', fontsize=10)
+clean(ax, 'x')
+fig.savefig(f'{OUT}/fig12_diffcsp_pairs_slope.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+
+# ---------- рис. 13: чем DiffCSP++ подменяет цель (попытки «другой известный полиморф») ----------
+cls = ['общий шаблон с другим полиморфом', 'переход к более симметричной структуре', 'граница допуска', 'прочее']
+cnt = {'метастабильные цели\n(2810 попыток)': [169, 71, 12, 13], 'стабильные цели\n(2190 попыток)': [16, 36, 13, 3]}
+colors = [GRAY, VIOLET, LGRAY, ORANGE]
+fig, ax = plt.subplots(figsize=(8.6, 2.7))
+for r, (name, vals) in enumerate(cnt.items()):
+    left = 0
+    for v, c in zip(vals, colors):
+        ax.barh(r, v, left=left, color=c, height=0.55)
+        if v >= 12:
+            ax.text(left + v / 2, r, str(v), ha='center', va='center', fontsize=9.5, color=SURF if c in (GRAY, VIOLET, ORANGE) else INK)
+        left += v
+    ax.text(left + 4, r, f'всего {sum(vals)}', va='center', fontsize=10, color=INK)
+ax.set_yticks([0, 1]); ax.set_yticklabels(list(cnt), color=INK); ax.invert_yaxis()
+ax.set_xlim(0, 310); ax.set_xlabel('число попыток, совпавших с другим известным полиморфом состава')
+ax.legend([Rectangle((0, 0), 1, 1, color=c) for c in colors], cls, frameon=False, fontsize=9, ncol=2,
+          loc='upper center', bbox_to_anchor=(0.45, -0.42), labelcolor=INK2)
+clean(ax, 'x')
+fig.savefig(f'{OUT}/fig13_diffcsp_substitution.png', dpi=170, bbox_inches='tight'); plt.close(fig)
 print('ok pilot')
