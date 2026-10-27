@@ -156,11 +156,11 @@ box(ax, 0.2, 3.1, 5.2, 2.6, 'Шаблон R3m:\nодин набор орбит\n
 box(ax, 7.4, 5.4, 5.6, 2.2, 'Упорядоченная раскладка\n(mp-3536, энергия над\nоболочкой 0)', ec=BLUE)
 box(ax, 7.4, 1.0, 5.6, 2.2, 'Антисайтная пара Mg↔Al\n(mp-34330, энергия над\nоболочкой 0,0505 эВ/атом)', ec=ORANGE)
 arrow(ax, 5.4, 4.7, 7.4, 6.5); arrow(ax, 5.4, 4.1, 7.4, 2.1)
-for (y, k, col) in ((6.0, 14, BLUE), (1.6, 36, ORANGE)):
+for (y, k, col) in ((6.0, 116, BLUE), (1.6, 184, ORANGE)):
     ax.add_patch(Rectangle((14.0, y), 6.0, 0.9, fc=SURF, ec=LGRAY, lw=1.2))
-    ax.add_patch(Rectangle((14.0, y), 6.0 * k / 50, 0.9, fc=col, ec='none'))
-    ax.text(14.0, y - 0.55, f'{k} из 50 образцов', fontsize=11, color=INK, va='center')
-ax.text(14.0, 0.2, 'Доля антисайтных: 0,72\n(доверительный интервал 0,58–0,83)', fontsize=10.5, color=INK2, va='center')
+    ax.add_patch(Rectangle((14.0, y), 6.0 * k / 300, 0.9, fc=col, ec='none'))
+    ax.text(14.0, y - 0.55, f'{k} из 300 образцов', fontsize=11, color=INK, va='center')
+ax.text(14.0, 0.2, 'Доля антисайтных: 0,61\n(доверительный интервал 0,56–0,67)', fontsize=10.5, color=INK2, va='center')
 fig.savefig(f'{OUT}/fig7_spinel_template.png', dpi=170, bbox_inches='tight')
 plt.close(fig)
 
@@ -252,8 +252,9 @@ rows = [('DiffCSP++, основной отбор\n114 пар, 100 составо
         ('только test\n59 пар, 51 состав', -0.0271, -0.0501, -0.0042, VIOLET),
         ('только val\n55 пар, 49 составов', -0.0286, -0.0534, -0.0038, VIOLET),
         ('стандартные допуски\n114 пар, 100 составов', -0.0130, -0.0239, -0.0021, VIOLET),
-        ('CrystaLLM-small, состав и группа\ntest, 59 пар, 51 состав', -0.0180, -0.0467, 0.0108, ORANGE)]
-fig, ax = plt.subplots(figsize=(8.6, 4.6))
+        ('CrystaLLM-small, состав и группа\nосновной отбор, 114 пар', -0.0173, -0.0354, 0.0008, ORANGE),
+        ('CrystaLLM-small, только test\n59 пар, 51 состав', -0.0180, -0.0467, 0.0108, ORANGE)]
+fig, ax = plt.subplots(figsize=(8.6, 5.2))
 ax.axvspan(-0.0216, 0.0216, color='#e8f0fb', zorder=0)
 ax.text(0, -0.75, 'полоса «эффекта практически нет» (±0,0216)', ha='center', va='center', fontsize=9.5, color=INK2,
         bbox=dict(fc='#e8f0fb', ec='none', pad=3), zorder=5)
@@ -288,4 +289,20 @@ ax.legend([Rectangle((0, 0), 1, 1, color=c) for c in colors], cls, frameon=False
           loc='upper center', bbox_to_anchor=(0.45, -0.42), labelcolor=INK2)
 clean(ax, 'x')
 fig.savefig(f'{OUT}/fig13_diffcsp_substitution.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+# ---------- рис. 14: test3k, доля удач по корзинам энергии (n_free >= 1), две модели ----------
+# числа из analysis/results/test3k_between.txt (строгие допуски), вписаны вручную
+binlab = ['0–5', '5–20', '20–40', '40–60', '60–80']
+dcs = [0.828, 0.769, 0.739, 0.690, 0.685]; cll = [0.662, 0.512, 0.504, 0.461, 0.433]
+fig, ax = plt.subplots(figsize=(8.6, 3.9))
+x = np.arange(5)
+for vals, c, lab, mk in ((dcs, VIOLET, 'DiffCSP++: полный шаблон', 's'), (cll, ORANGE, 'CrystaLLM-small: состав и группа', 'o')):
+    ax.plot(x, vals, '-', color=c, lw=2, marker=mk, ms=7.5, mec=SURF, mew=1.5, label=lab)
+    for xi, v in zip(x, vals):
+        ax.text(xi, v + 0.025, f'{v:.2f}'.replace('.', ','), ha='center', fontsize=9.5, color=INK)
+ax.set_xticks(x); ax.set_xticklabels(binlab, color=INK)
+ax.set_xlabel('энергия цели над выпуклой оболочкой, мэВ/атом'); ax.set_ylabel('доля удачных попыток')
+ax.set_ylim(0.3, 0.95)
+ax.legend(frameon=False, fontsize=9.5, loc='upper center', bbox_to_anchor=(0.5, 1.15), ncol=2, labelcolor=INK2)
+clean(ax, 'y')
+fig.savefig(f'{OUT}/fig14_test3k_bins.png', dpi=170, bbox_inches='tight'); plt.close(fig)
 print('ok pilot')
