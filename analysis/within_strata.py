@@ -11,6 +11,7 @@
 Использование (окружение bench_stats):
   python analysis/within_strata.py --label sg_k10 > analysis/results/within_strata_sg_k10.txt
   python analysis/within_strata.py --label diffcsp_tv_k10 --exclude-degenerate analysis/results/template_degeneracy.csv
+  python analysis/within_strata.py --label diffcsp_tv_k10 --only-set pairs_val_v1nf   # отдельно часть val
 """
 import argparse
 import warnings
@@ -23,12 +24,18 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--label', required=True)
 ap.add_argument('--delta', type=float, default=0.0216, help='граница эквивалентности, доли на +10 мэВ/атом')
 ap.add_argument('--exclude-degenerate', default='', help='template_degeneracy.csv: исключить пары с неоднозначным шаблоном')
+ap.add_argument('--only-set', default='', help='оставить только цели набора (например pairs_v1nf или pairs_val_v1nf): разбор по частям MP-20')
 a = ap.parse_args()
 
 R = 'analysis/results'
 ps = pd.read_csv(f'{R}/pairs_{a.label}_per_structure.csv')
 pp = pd.read_csv(f'{R}/pairs_{a.label}_per_pair.csv')
 ps = ps.merge(pd.read_csv(f'{R}/bench_neighbors.csv')[['material_id', 'n_same_type']], on='material_id', how='left')
+if a.only_set:
+    keep = set(pd.read_csv(f'{R}/bench_{a.only_set}_meta.csv').material_id)
+    ps = ps[ps.material_id.isin(keep)]
+    pp = pp[pp.id_s.isin(keep) & pp.id_m.isin(keep)]
+    print(f'только цели набора {a.only_set}: структур {len(ps)}, пар {len(pp)}')
 ps['E10'] = ps.e_above_hull / 0.01
 ps['log_sgc'] = np.log1p(ps.sg_train_count.clip(lower=0))
 ps['log_pc'] = np.log1p(ps.proto_train_count.clip(lower=0))
