@@ -1,0 +1,334 @@
+source,material_id,k,category,matched_id,matched_E,matched_sg,matched_split,gen_sg_0.1,formula,e_above_hull,sg,pair_role,класс,из train,стабильная
+outputs_server/bench/pairs_v1nf_k10_c02,mp-756371,0,другой полиморф,mp-22584,0.045168648333334,227.0,val,166,LiMn2O4,0.0464569104761922,160,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-756371,1,другой полиморф,mp-22584,0.045168648333334,227.0,val,160,LiMn2O4,0.0464569104761922,160,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-756371,7,другой полиморф,mp-22584,0.045168648333334,227.0,val,166,LiMn2O4,0.0464569104761922,160,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-756371,8,другой полиморф,mp-22584,0.045168648333334,227.0,val,160,LiMn2O4,0.0464569104761922,160,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,0,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,1,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,2,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,5,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,6,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,7,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,8,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-562490,9,другой полиморф,mp-557837,0.0061544266666668,15.0,train,15,SiO2,0.009789426666666,15,meta,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c02,mp-1205437,2,другой полиморф (станд.),mp-558244,0.0,12.0,test,12,As(IF3)2,0.0774958838888886,12,meta,общий шаблон,False,True
+outputs_server/bench/pairs_v1nf_k10_c03,mp-7048,0,другой полиморф,mp-754812,0.0528345780000005,12.0,train,12,Al2O3,0.009381222,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,0,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,1,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,2,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,3,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,4,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,5,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,6,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,7,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,8,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-19000,9,другой полиморф,mp-763482,0.0098757203571437,85.0,train,129,VPO5,0.0146845775000006,129,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-759986,0,другой полиморф,mp-850973,0.0095593683333206,4.0,val,1,V3O5F,0.0379004783333201,1,meta,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-759986,2,другой полиморф,mp-756032,0.0276176427777645,2.0,train,1,V3O5F,0.0379004783333201,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-759986,4,другой полиморф (станд.),mp-763211,0.0395182661110968,1.0,train,1,V3O5F,0.0379004783333201,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-759986,6,другой полиморф (станд.),mp-763211,0.0395182661110968,1.0,train,1,V3O5F,0.0379004783333201,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c03,mp-759986,8,другой полиморф,mp-850973,0.0095593683333206,4.0,val,4,V3O5F,0.0379004783333201,1,meta,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c04,mp-1025450,0,другой полиморф,mp-1025523,0.0622262650000022,63.0,test,63,CeFeSi2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c04,mp-1025450,1,другой полиморф,mp-1025523,0.0622262650000022,63.0,test,63,CeFeSi2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c04,mp-1025450,4,другой полиморф,mp-1025523,0.0622262650000022,63.0,test,63,CeFeSi2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c04,mp-1025450,8,другой полиморф,mp-1025523,0.0622262650000022,63.0,test,63,CeFeSi2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c04,mp-1025450,9,другой полиморф,mp-1025523,0.0622262650000022,63.0,test,63,CeFeSi2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c05,mp-568936,4,другой полиморф,mp-1229100,0.0253436199999996,225.0,test,19,Ag2Se,0.0,19,stable,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c05,mp-568936,8,другой полиморф,mp-754954,0.0050267699999997,19.0,train,62,Ag2Se,0.0,19,stable,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c05,mp-36903,6,другой полиморф,mp-675625,0.0117643875000004,1.0,train,11,KNO3,0.0074995545000007,11,meta,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c05,mp-1025523,0,другой полиморф,mp-1025450,0.0,63.0,test,63,CeFeSi2,0.0622262650000022,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-553964,1,другой полиморф,mp-715923,0.0019071962500003,51.0,val,57,WO3,0.0015720518749997,57,stable,более симметричная,False,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-553964,3,другой полиморф,mp-715923,0.0019071962500003,51.0,val,57,WO3,0.0015720518749997,57,stable,более симметричная,False,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-553964,5,другой полиморф,mp-715923,0.0019071962500003,51.0,val,57,WO3,0.0015720518749997,57,stable,более симметричная,False,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-553964,6,другой полиморф,mp-636284,0.0021330837499995,63.0,train,57,WO3,0.0015720518749997,57,stable,более симметричная,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-553964,8,другой полиморф,mp-715923,0.0019071962500003,51.0,val,57,WO3,0.0015720518749997,57,stable,более симметричная,False,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-553964,9,другой полиморф,mp-636284,0.0021330837499995,63.0,train,57,WO3,0.0015720518749997,57,stable,более симметричная,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1094573,1,другой полиморф,mp-976239,0.0112306799999997,38.0,train,38,LiMg,0.0204314466666666,38,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1094573,4,другой полиморф,mp-1094575,0.0245213766666665,38.0,train,38,LiMg,0.0204314466666666,38,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1094573,5,другой полиморф,mp-976239,0.0112306799999997,38.0,train,38,LiMg,0.0204314466666666,38,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1094573,6,другой полиморф,mp-976239,0.0112306799999997,38.0,train,38,LiMg,0.0204314466666666,38,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1094573,8,другой полиморф,mp-1094575,0.0245213766666665,38.0,train,38,LiMg,0.0204314466666666,38,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-31053,0,другой полиморф (станд.),mp-38511,0.0418793466666667,7.0,train,4,Ag2S,0.0,4,stable,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-31053,5,другой полиморф (станд.),mp-38511,0.0418793466666667,7.0,train,4,Ag2S,0.0,4,stable,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-31053,6,другой полиморф (станд.),mp-32884,0.0057561516666666,2.0,train,4,Ag2S,0.0,4,stable,другое,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,0,другой полиморф,mp-1272749,0.0066088083333317,166.0,val,12,CoO2,0.0141643458333318,12,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,1,другой полиморф,mp-1272749,0.0066088083333317,166.0,val,12,CoO2,0.0141643458333318,12,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,2,другой полиморф (станд.),mp-550206,0.0067494116666644,166.0,train,12,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,3,другой полиморф (станд.),mp-550206,0.0067494116666644,166.0,train,12,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,4,другой полиморф (станд.),mp-550206,0.0067494116666644,166.0,train,12,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,5,другой полиморф,mp-550206,0.0067494116666644,166.0,train,12,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,6,другой полиморф (станд.),mp-550206,0.0067494116666644,166.0,train,166,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,7,другой полиморф,mp-550206,0.0067494116666644,166.0,train,12,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,8,другой полиморф,mp-1272749,0.0066088083333317,166.0,val,12,CoO2,0.0141643458333318,12,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-1272680,9,другой полиморф (станд.),mp-550206,0.0067494116666644,166.0,train,12,CoO2,0.0141643458333318,12,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,0,другой полиморф,mp-10695,0.0002619328571427,216.0,train,216,ZnS,0.0131852572321427,160,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,1,другой полиморф,mp-557151,0.011590293482143,160.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,2,другой полиморф,mp-557151,0.011590293482143,160.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,3,другой полиморф,mp-557151,0.011590293482143,160.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,4,другой полиморф,mp-10695,0.0002619328571427,216.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,5,другой полиморф,mp-10695,0.0002619328571427,216.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,6,другой полиморф,mp-10695,0.0002619328571427,216.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,7,другой полиморф,mp-557151,0.011590293482143,160.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,8,другой полиморф,mp-10695,0.0002619328571427,216.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c07,mp-556576,9,другой полиморф,mp-557151,0.011590293482143,160.0,train,160,ZnS,0.0131852572321427,160,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-763338,0,другой полиморф,mp-760334,0.0255381355555428,12.0,train,12,V3O5F,0.023547529444432,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-763338,1,другой полиморф,mp-763950,0.047851837777765,12.0,train,12,V3O5F,0.023547529444432,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-763338,3,другой полиморф,mp-763950,0.047851837777765,12.0,train,12,V3O5F,0.023547529444432,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-763338,6,другой полиморф,mp-760334,0.0255381355555428,12.0,train,12,V3O5F,0.023547529444432,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-763338,7,другой полиморф,mp-760334,0.0255381355555428,12.0,train,12,V3O5F,0.023547529444432,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-763338,8,другой полиморф,mp-760334,0.0255381355555428,12.0,train,12,V3O5F,0.023547529444432,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,0,другой полиморф (станд.),mp-1018019,0.0619734349999996,194.0,test,12,PbS,0.0589729199999995,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,1,другой полиморф (станд.),mp-1018019,0.0619734349999996,194.0,test,12,PbS,0.0589729199999995,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,2,другой полиморф,mp-21276,0.0,225.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,3,другой полиморф,mp-1067933,0.0580419174999997,12.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,4,другой полиморф,mp-21276,0.0,225.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,6,другой полиморф,mp-1067933,0.0580419174999997,12.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,7,другой полиморф,mp-1067933,0.0580419174999997,12.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,8,другой полиморф,mp-1067933,0.0580419174999997,12.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-1067627,9,другой полиморф,mp-1067933,0.0580419174999997,12.0,train,12,PbS,0.0589729199999995,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,0,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,1,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,2,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,3,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,4,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,5,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,6,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,7,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,8,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c08,mp-625242,9,другой полиморф,mp-625220,0.054106781250006,26.0,train,62,FeHO2,0.0549311043750062,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c09,mp-610517,2,другой полиморф,mp-1102900,0.0406431933333331,14.0,train,14,Ag2S,0.0241744383333331,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c09,mp-610517,9,другой полиморф,mp-1102900,0.0406431933333331,14.0,train,14,Ag2S,0.0241744383333331,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c09,mp-1176629,2,другой полиморф,mp-1176626,0.0504150500000006,12.0,train,12,LiMnF4,0.0513631449999998,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c09,mp-1176629,3,другой полиморф,mp-1176626,0.0504150500000006,12.0,train,12,LiMnF4,0.0513631449999998,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,0,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,1,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,2,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,3,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,4,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,6,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,7,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c09,mp-557118,9,другой полиморф,mp-972808,0.0047360791666655,4.0,train,20,SiO2,0.0200444824999994,20,meta,общий шаблон,True,True
+outputs_server/bench/pairs_v1nf_k10_c10,mp-556662,0,другой полиморф (станд.),mp-557837,0.0061544266666668,15.0,train,5,SiO2,0.0702611033333333,5,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-556662,1,другой полиморф,mp-557837,0.0061544266666668,15.0,train,5,SiO2,0.0702611033333333,5,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-556662,3,другой полиморф,mp-557837,0.0061544266666668,15.0,train,5,SiO2,0.0702611033333333,5,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-556662,8,другой полиморф (станд.),mp-557837,0.0061544266666668,15.0,train,5,SiO2,0.0702611033333333,5,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,0,другой полиморф,mp-12628,0.0153412025,225.0,train,2,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,1,другой полиморф,mp-12628,0.0153412025,225.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,2,другой полиморф,mp-12628,0.0153412025,225.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,3,другой полиморф,mp-12628,0.0153412025,225.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,4,другой полиморф,mp-12628,0.0153412025,225.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,5,другой полиморф,mp-975519,0.0166272124999999,139.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,6,другой полиморф,mp-975519,0.0166272124999999,139.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,7,другой полиморф (станд.),mp-12628,0.0153412025,225.0,train,2,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,8,другой полиморф,mp-12628,0.0153412025,225.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c10,mp-640416,9,другой полиморф,mp-12628,0.0153412025,225.0,train,1,Rb,0.0567278037499999,1,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1094589,0,другой полиморф,mp-1094982,0.0295834199999998,187.0,test,187,LiMg,0.0275663783333333,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1094589,2,другой полиморф,mp-1094982,0.0295834199999998,187.0,test,187,LiMg,0.0275663783333333,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1094589,4,другой полиморф,mp-1094982,0.0295834199999998,187.0,test,187,LiMg,0.0275663783333333,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1094589,5,другой полиморф,mp-1094982,0.0295834199999998,187.0,test,187,LiMg,0.0275663783333333,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1094589,6,другой полиморф,mp-1094982,0.0295834199999998,187.0,test,187,LiMg,0.0275663783333333,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1094589,7,другой полиморф,mp-1094982,0.0295834199999998,187.0,test,187,LiMg,0.0275663783333333,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-625475,3,другой полиморф (станд.),mp-690733,0.0004650000000001,15.0,test,5,H2SO4,0.0,5,stable,граница допуска,False,True
+outputs_server/bench/pairs_v1nf_k10_c11,mp-625475,6,другой полиморф (станд.),mp-690733,0.0004650000000001,15.0,test,5,H2SO4,0.0,5,stable,граница допуска,False,True
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,0,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,51,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,1,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,51,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,2,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,123,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,3,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,51,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,5,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,221,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,6,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,221,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,7,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,221,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,8,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,51,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1018055,9,другой полиморф,mp-1002122,0.0424281899999989,221.0,train,51,HfIr,0.019095394999999,51,meta,более симметричная,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,0,другой полиморф,mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,1,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,2,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,3,другой полиморф (станд.),mp-639736,0.0701946525,141.0,val,15,Rb,0.0,15,stable,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,4,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,5,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,6,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,7,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,8,другой полиморф (станд.),mp-1179802,0.0536492825,1.0,val,15,Rb,0.0,15,stable,граница допуска,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1179656,9,другой полиморф (станд.),mp-656615,0.0229425337499999,1.0,train,15,Rb,0.0,15,stable,граница допуска,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,0,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,1,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,2,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,3,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,4,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,5,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,6,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,8,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1104323,9,другой полиморф,mp-1216303,0.0519043403571419,15.0,train,15,VPO5,0.0585374639285714,15,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-759410,9,другой полиморф,mp-759807,0.0193192531249994,5.0,train,5,V4O5F7,0.0353648468749998,5,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-763983,0,другой полиморф,mp-755095,0.0618749316666615,38.0,test,38,V2O3F,0.004177756666662,38,stable,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-763983,3,другой полиморф,mp-755095,0.0618749316666615,38.0,test,38,V2O3F,0.004177756666662,38,stable,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-763983,5,другой полиморф,mp-755095,0.0618749316666615,38.0,test,38,V2O3F,0.004177756666662,38,stable,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-763983,7,другой полиморф,mp-755095,0.0618749316666615,38.0,test,38,V2O3F,0.004177756666662,38,stable,более симметричная,False,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1105365,2,другой полиморф (станд.),mp-1020193,0.0134014850000001,14.0,train,14,KNO3,0.0463657585000003,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1105365,5,другой полиморф (станд.),mp-1020193,0.0134014850000001,14.0,train,14,KNO3,0.0463657585000003,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c11,mp-1105365,8,другой полиморф (станд.),mp-36903,0.0074995545000007,11.0,test,14,KNO3,0.0463657585000003,14,meta,общий шаблон,False,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,0,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,1,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,2,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,3,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,4,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,5,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,6,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,8,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_v1nf_k10_c12,mp-625420,9,другой полиморф,mp-625152,0.0058921306249981,62.0,train,62,AlHO2,0.0266269337499984,62,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-25424,0,другой полиморф,mp-1279979,0.0140183475000021,166.0,val,166,MnO2,0.0137585808333327,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-25424,1,другой полиморф,mp-1279979,0.0140183475000021,166.0,val,166,MnO2,0.0137585808333327,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-25424,2,другой полиморф,mp-1279979,0.0140183475000021,166.0,val,166,MnO2,0.0137585808333327,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-25424,8,другой полиморф,mp-1279979,0.0140183475000021,166.0,val,166,MnO2,0.0137585808333327,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-25424,9,другой полиморф (станд.),mp-1279979,0.0140183475000021,166.0,val,166,MnO2,0.0137585808333327,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,0,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,1,другой полиморф (станд.),mp-1064497,0.0512853325,2.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,2,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,3,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,4,другой полиморф (станд.),mp-1064497,0.0512853325,2.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,5,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,6,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,7,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,8,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c00,mp-554134,9,другой полиморф,mp-8781,0.0458907149999996,39.0,train,39,SnS,0.0481546149999996,39,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,0,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,1,другой полиморф (станд.),mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,2,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,3,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,4,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,5,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,6,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,7,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,8,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1379,9,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0622020975000001,63,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,2,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,3,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,4,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,5,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,6,другой полиморф,mp-1094812,0.051339945,12.0,train,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,7,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,8,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c01,mp-1094901,9,другой полиморф,mp-1039204,0.0518070583333334,12.0,val,12,MgCd2,0.0395447333333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c02,mp-1279979,1,другой полиморф,mp-25424,0.0137585808333327,166.0,val,166,MnO2,0.0140183475000021,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c02,mp-1279979,5,другой полиморф,mp-25424,0.0137585808333327,166.0,val,166,MnO2,0.0140183475000021,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c02,mp-1279979,7,другой полиморф,mp-25424,0.0137585808333327,166.0,val,166,MnO2,0.0140183475000021,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c02,mp-1279979,8,другой полиморф,mp-25424,0.0137585808333327,166.0,val,166,MnO2,0.0140183475000021,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c02,mp-1279979,9,другой полиморф,mp-25424,0.0137585808333327,166.0,val,166,MnO2,0.0140183475000021,166,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c03,mp-573608,7,другой полиморф,mp-568233,0.0080664283333331,166.0,train,166,CdI2,0.0385806066666667,166,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c03,mp-104,1,другой полиморф (станд.),mp-133,0.0505643300000002,221.0,train,166,Sb,0.0,166,stable,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,0,другой полиморф,mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,1,другой полиморф,mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,3,другой полиморф,mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,4,другой полиморф (станд.),mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,5,другой полиморф (станд.),mp-1866,0.0,139.0,val,14,KO2,0.0268508666666651,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,6,другой полиморф,mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,7,другой полиморф (станд.),mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,8,другой полиморф (станд.),mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1180742,9,другой полиморф,mp-1180711,0.0207557491666658,14.0,train,14,KO2,0.0268508666666651,14,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-22942,3,другой полиморф,mp-545783,0.0212110020000002,221.0,train,74,BaBiO3,7.233399999950763e-05,12,stable,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-570781,3,другой полиморф (станд.),mp-570882,0.001144178888889,156.0,train,156,CdI2,6.21594444445428e-05,156,stable,граница допуска,True,True
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-570781,4,другой полиморф (станд.),mp-567442,0.0012576011111109,164.0,train,156,CdI2,6.21594444445428e-05,156,stable,более симметричная,True,True
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-570781,9,другой полиморф,mp-570695,0.0011176872222224,156.0,val,156,CdI2,6.21594444445428e-05,156,stable,граница допуска,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1112642,4,другой полиморф,mp-998323,0.0189945980000003,99.0,val,225,CsInBr3,0.0,225,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1112642,5,другой полиморф,mp-998323,0.0189945980000003,99.0,val,225,CsInBr3,0.0,225,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1112642,7,другой полиморф,mp-998323,0.0189945980000003,99.0,val,225,CsInBr3,0.0,225,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1112642,9,другой полиморф,mp-998323,0.0189945980000003,99.0,val,225,CsInBr3,0.0,225,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1039204,0,другой полиморф,mp-1094812,0.051339945,12.0,train,12,MgCd2,0.0518070583333334,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1039204,2,другой полиморф,mp-1094812,0.051339945,12.0,train,12,MgCd2,0.0518070583333334,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1039204,3,другой полиморф,mp-1094901,0.0395447333333334,12.0,val,12,MgCd2,0.0518070583333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1039204,4,другой полиморф,mp-1094812,0.051339945,12.0,train,12,MgCd2,0.0518070583333334,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1039204,8,другой полиморф,mp-1094812,0.051339945,12.0,train,12,MgCd2,0.0518070583333334,12,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-1039204,9,другой полиморф,mp-1094901,0.0395447333333334,12.0,val,12,MgCd2,0.0518070583333334,12,meta,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-571305,0,другой полиморф (станд.),mp-569526,0.0500047509999999,194.0,test,5,RbCuCl3,0.0219110644999998,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c04,mp-571305,9,другой полиморф (станд.),mp-569526,0.0500047509999999,194.0,test,5,RbCuCl3,0.0219110644999998,5,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,0,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,1,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,2,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,3,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,4,другой полиморф,mp-1320,0.0099114374999995,14.0,train,129,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,5,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,6,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,8,другой полиморф,mp-1320,0.0099114374999995,14.0,train,59,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c05,mp-1080303,9,другой полиморф,mp-1320,0.0099114374999995,14.0,train,11,CeSe2,0.0238053991666662,14,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,0,другой полиморф,mp-1094804,0.0017684266666666,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,1,другой полиморф,mp-1094763,0.0,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,2,другой полиморф,mp-1094763,0.0,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,4,другой полиморф,mp-1094763,0.0,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,5,другой полиморф,mp-1094804,0.0017684266666666,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,6,другой полиморф,mp-1094763,0.0,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,7,другой полиморф,mp-1094763,0.0,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1038882,8,другой полиморф,mp-1094763,0.0,63.0,val,63,MgCd2,0.0270624666666667,63,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1307846,7,другой полиморф,mp-760282,0.005000960624967,9.0,train,9,Li2VOF4,0.0046737012499669,9,stable,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1307846,8,другой полиморф,mp-760282,0.005000960624967,9.0,train,9,Li2VOF4,0.0046737012499669,9,stable,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-1307846,9,другой полиморф,mp-760282,0.005000960624967,9.0,train,9,Li2VOF4,0.0046737012499669,9,stable,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-21325,1,другой полиморф (станд.),mp-1866,0.0,139.0,val,15,KO2,0.0505558083333319,15,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c06,mp-21325,8,другой полиморф (станд.),mp-1866,0.0,139.0,val,12,KO2,0.0505558083333319,15,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-761267,5,другой полиморф,mp-780857,0.0,63.0,test,36,Li2VOF4,0.0087828668749674,36,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-761267,9,другой полиморф,mp-780857,0.0,63.0,test,36,Li2VOF4,0.0087828668749674,36,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,0,другой полиморф,mp-23231,0.0372941500000001,225.0,test,11,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,1,другой полиморф,mp-23231,0.0372941500000001,225.0,test,12,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,3,другой полиморф,mp-23231,0.0372941500000001,225.0,test,139,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,4,другой полиморф,mp-23231,0.0372941500000001,225.0,test,166,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,5,другой полиморф,mp-23231,0.0372941500000001,225.0,test,12,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,7,другой полиморф,mp-23231,0.0372941500000001,225.0,test,11,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,8,другой полиморф,mp-23231,0.0372941500000001,225.0,test,11,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-570301,9,другой полиморф,mp-23231,0.0372941500000001,225.0,test,166,AgBr,0.0415390425000001,11,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,0,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,1,другой полиморф,mp-7804,0.0176943349999927,191.0,val,166,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,2,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,3,другой полиморф,mp-7804,0.0176943349999927,191.0,val,166,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,4,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,5,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,6,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,7,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,8,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-1106407,9,другой полиморф,mp-7804,0.0176943349999927,191.0,val,191,HfCo3B2,0.0,166,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,0,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,1,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,2,другой полиморф,mp-559676,0.0146714824999998,63.0,val,62,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,3,другой полиморф,mp-559676,0.0146714824999998,63.0,val,62,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,6,другой полиморф,mp-559676,0.0146714824999998,63.0,val,62,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,8,другой полиморф,mp-559676,0.0146714824999998,63.0,val,63,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c07,mp-2231,9,другой полиморф,mp-559676,0.0146714824999998,63.0,val,62,SnS,0.0,62,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c08,mp-570641,0,другой полиморф,mp-8062,0.0011095605000006,216.0,val,160,SiC,0.0092690192500004,160,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c08,mp-570641,2,другой полиморф (станд.),mp-11714,0.0002196980000004,186.0,train,160,SiC,0.0092690192500004,160,meta,более симметричная,True,True
+outputs_server/bench/pairs_val_v1nf_k10_c08,mp-570641,4,другой полиморф,mp-8062,0.0011095605000006,216.0,val,160,SiC,0.0092690192500004,160,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c08,mp-570641,8,другой полиморф,mp-8062,0.0011095605000006,216.0,val,160,SiC,0.0092690192500004,160,meta,более симметричная,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,0,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,1,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,2,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,3,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,4,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,5,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,6,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,7,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,8,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1080281,9,другой полиморф,mp-1080337,0.0579485616666666,166.0,train,166,CeSe2,0.0623775450000003,166,meta,общий шаблон,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1094763,0,другой полиморф,mp-1038882,0.0270624666666667,63.0,val,63,MgCd2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1094763,3,другой полиморф,mp-1038882,0.0270624666666667,63.0,val,63,MgCd2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1094763,5,другой полиморф,mp-1038882,0.0270624666666667,63.0,val,63,MgCd2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1094763,6,другой полиморф,mp-1094804,0.0017684266666666,63.0,val,63,MgCd2,0.0,63,stable,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-1094763,8,другой полиморф,mp-1038882,0.0270624666666667,63.0,val,63,MgCd2,0.0,63,stable,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c09,mp-627401,5,другой полиморф (станд.),mp-570559,0.0011869749999999,156.0,test,160,CdI2,0.0088346089999999,160,meta,граница допуска,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c10,mp-8612,4,другой полиморф,mp-571550,0.0366493039999991,166.0,val,160,Sb2TeSe2,0.0,160,stable,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c10,mvc-9981,4,другой полиморф,mvc-11612,0.0779669514285483,227.0,train,166,Mn2ZnO4,0.0661830235714058,160,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c10,mvc-9981,5,другой полиморф,mvc-11612,0.0779669514285483,227.0,train,166,Mn2ZnO4,0.0661830235714058,160,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c10,mvc-9981,6,другой полиморф,mvc-11612,0.0779669514285483,227.0,train,166,Mn2ZnO4,0.0661830235714058,160,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c10,mp-1101061,1,другой полиморф,mp-5051,0.0,12.0,val,12,Ho2Mo2C3,0.0316601728571424,12,meta,другое,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c10,mp-1101061,2,другой полиморф,mp-5051,0.0,12.0,val,12,Ho2Mo2C3,0.0316601728571424,12,meta,другое,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c10,mp-1101061,5,другой полиморф,mp-5051,0.0,12.0,val,12,Ho2Mo2C3,0.0316601728571424,12,meta,другое,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c10,mp-1101061,7,другой полиморф,mp-5051,0.0,12.0,val,12,Ho2Mo2C3,0.0316601728571424,12,meta,другое,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c10,mp-1101061,8,другой полиморф,mp-5051,0.0,12.0,val,12,Ho2Mo2C3,0.0316601728571424,12,meta,другое,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-850131,0,другой полиморф (станд.),mp-1180046,0.0,14.0,val,14,NiS2,0.0216975383333339,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-850131,1,другой полиморф (станд.),mp-1180046,0.0,14.0,val,14,NiS2,0.0216975383333339,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-850131,2,другой полиморф (станд.),mp-1180046,0.0,14.0,val,14,NiS2,0.0216975383333339,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-850131,4,другой полиморф (станд.),mp-1180046,0.0,14.0,val,14,NiS2,0.0216975383333339,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-850131,7,другой полиморф (станд.),mp-1180046,0.0,14.0,val,14,NiS2,0.0216975383333339,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-850131,9,другой полиморф (станд.),mp-1180046,0.0,14.0,val,14,NiS2,0.0216975383333339,14,meta,общий шаблон,False,True
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-1080346,0,другой полиморф,mp-1080251,0.0107288949999997,225.0,train,166,CeSe2,0.0113975983333327,154,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-1080346,7,другой полиморф,mp-1080251,0.0107288949999997,225.0,train,166,CeSe2,0.0113975983333327,154,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-1080346,8,другой полиморф,mp-1080251,0.0107288949999997,225.0,train,166,CeSe2,0.0113975983333327,154,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-1080346,9,другой полиморф,mp-1080251,0.0107288949999997,225.0,train,166,CeSe2,0.0113975983333327,154,meta,более симметричная,True,False
+outputs_server/bench/pairs_val_v1nf_k10_c11,mp-1278696,9,другой полиморф (станд.),mp-1179354,0.0752487789999989,2.0,val,2,TiFeO3,0.0,2,stable,общий шаблон,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c12,mp-850277,2,другой полиморф,mp-1101341,0.0351036466666694,65.0,test,74,SrCaI4,0.0364482325000028,74,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c12,mp-850277,3,другой полиморф,mp-1101341,0.0351036466666694,65.0,test,65,SrCaI4,0.0364482325000028,74,meta,более симметричная,False,False
+outputs_server/bench/pairs_val_v1nf_k10_c12,mp-850277,8,другой полиморф,mp-1101341,0.0351036466666694,65.0,test,74,SrCaI4,0.0364482325000028,74,meta,более симметричная,False,False

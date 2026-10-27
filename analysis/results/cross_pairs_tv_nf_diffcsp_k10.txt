@@ -1,0 +1,12 @@
+обработано 1000
+обработано 2000
+обработано 3000
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+обработано 4000
+обработано 5000
+попыток 5000, целей 500 из 500; результат: analysis/results/cross_pairs_tv_nf_diffcsp_k10.csv
+category   другой полиморф  другой полиморф (станд.)  новая структура   цель  цель (станд.)
+pair_role                                                                                  
+meta                 0.081                     0.013            0.214  0.633          0.058
+stable               0.023                     0.008            0.150  0.779          0.040
