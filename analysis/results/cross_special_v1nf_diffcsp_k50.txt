@@ -1,0 +1,5 @@
+попыток 500, целей 10 из 10; результат: analysis/results/cross_special_v1nf_diffcsp_k50.csv
+category   другой полиморф  другой полиморф (станд.)   цель  цель (станд.)
+pair_role                                                                 
+meta                 0.052                     0.062  0.765           0.12
+stable               0.000                     0.000  1.000           0.00

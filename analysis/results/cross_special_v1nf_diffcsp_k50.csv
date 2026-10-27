@@ -1,0 +1,501 @@
+source,material_id,k,category,matched_id,matched_E,matched_sg,matched_split,gen_sg_0.1,formula,e_above_hull,sg,pair_role
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,0,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,1,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,2,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,3,цель (станд.),mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,4,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,5,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,6,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,7,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,8,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,9,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,10,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,11,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,12,цель (станд.),mp-685097,0.0286212858333314,29,test,60,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,13,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,14,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,15,цель,mp-685097,0.0286212858333314,29,test,61,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,16,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,17,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,18,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,19,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,20,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,21,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,22,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,23,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,24,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,25,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,26,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,27,цель (станд.),mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,28,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,29,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,30,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,31,цель,mp-685097,0.0286212858333314,29,test,61,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,32,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,33,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,34,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,35,цель,mp-685097,0.0286212858333314,29,test,61,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,36,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,37,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,38,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,39,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,40,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,41,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,42,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,43,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,44,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,45,цель (станд.),mp-685097,0.0286212858333314,29,test,60,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,46,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,47,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,48,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-685097,49,цель,mp-685097,0.0286212858333314,29,test,29,HfO2,0.0286212858333314,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,0,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,1,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,2,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,3,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,4,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,5,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,6,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,7,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,8,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,9,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,10,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,11,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,12,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,13,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,14,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,15,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,16,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,17,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,18,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,19,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,20,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,21,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,22,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,23,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,24,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,25,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,26,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,27,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,28,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,29,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,30,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,31,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,32,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,33,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,34,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,35,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,36,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,37,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,38,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,39,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,40,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,41,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,42,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,43,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,44,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,45,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,46,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,47,цель,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,48,другой полиморф (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755759,49,цель (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0347715066666651,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,0,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,1,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,2,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,3,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,4,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,5,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,6,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,7,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,8,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,9,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,10,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,11,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,12,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,13,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,14,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,15,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,16,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,17,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,18,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,19,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,20,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,21,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,22,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,23,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,24,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,25,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,26,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,27,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,28,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,29,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,30,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,31,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,32,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,33,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,34,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,35,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,36,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,37,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,38,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,39,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,40,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,41,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,42,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,43,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,44,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,45,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,46,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,47,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,48,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2858,49,цель,mp-2858,0.0,14,train,14,ZrO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,0,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,1,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,2,другой полиморф,mp-1565,0.0689059399999987,225,train,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,3,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,4,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,5,другой полиморф,mp-1565,0.0689059399999987,225,train,225,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,6,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,7,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,8,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,9,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,10,другой полиморф,mp-1565,0.0689059399999987,225,train,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,11,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,12,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,13,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,14,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,15,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,16,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,17,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,18,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,19,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,20,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,21,другой полиморф,mp-1565,0.0689059399999987,225,train,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,22,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,23,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,24,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,25,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,26,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,27,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,28,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,29,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,30,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,31,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,32,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,33,другой полиморф,mp-1565,0.0689059399999987,225,train,225,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,34,другой полиморф,mp-1565,0.0689059399999987,225,train,225,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,35,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,36,другой полиморф,mp-1565,0.0689059399999987,225,train,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,37,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,38,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,39,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,40,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,41,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,42,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,43,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,44,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,45,другой полиморф,mp-1565,0.0689059399999987,225,train,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,46,другой полиморф,mp-1565,0.0689059399999987,225,train,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,47,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,48,цель,mp-2574,0.036243671666666,137,test,137,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-2574,49,другой полиморф,mp-1565,0.0689059399999987,225,train,225,ZrO2,0.036243671666666,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,0,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,1,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,2,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,3,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,4,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,5,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,6,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,7,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,8,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,9,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,10,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,11,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,12,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,13,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,14,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,15,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,16,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,17,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,18,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,19,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,20,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,21,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,22,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,23,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,24,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,25,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,26,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,27,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,28,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,29,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,30,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,31,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,32,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,33,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,34,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,35,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,36,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,37,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,38,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,39,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,40,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,41,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,42,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,43,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,44,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,45,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,46,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,47,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,48,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-776532,49,цель,mp-776532,0.0248362141666653,136,train,136,HfO2,0.0248362141666653,136,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,0,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,1,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,2,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,3,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,4,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,5,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,6,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,7,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,8,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,9,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,10,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,11,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,12,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,13,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,14,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,15,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,16,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,17,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,18,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,19,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,20,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,21,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,22,цель,mp-556605,0.0215252775000003,29,val,60,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,23,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,24,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,25,цель,mp-556605,0.0215252775000003,29,val,60,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,26,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,27,цель (станд.),mp-556605,0.0215252775000003,29,val,60,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,28,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,29,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,30,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,31,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,32,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,33,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,34,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,35,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,36,цель,mp-556605,0.0215252775000003,29,val,60,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,37,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,38,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,39,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,40,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,41,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,42,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,43,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,44,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,45,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,46,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,47,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,48,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-556605,49,цель,mp-556605,0.0215252775000003,29,val,29,ZrO2,0.0215252775000003,29,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,0,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,1,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,2,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,3,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,4,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,5,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,6,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,7,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,8,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,9,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,10,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,11,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,12,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,13,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,14,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,15,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,16,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,17,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,18,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,19,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,20,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,21,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,22,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,23,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,24,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,25,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,26,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,27,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,28,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,29,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,30,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,31,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,32,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,33,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,34,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,35,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,36,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,37,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,38,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,39,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,40,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,41,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,42,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,43,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,44,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,45,другой полиморф (станд.),mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,46,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,47,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,48,цель (станд.),mp-755089,0.0224180025000002,62,test,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-755089,49,другой полиморф,mp-755759,0.0347715066666651,62,train,62,ZrO2,0.0224180025000002,62,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,0,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,1,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,2,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,3,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,4,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,5,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,6,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,7,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,8,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,9,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,10,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,11,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,12,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,13,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,14,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,15,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,16,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,17,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,18,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,19,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,20,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,21,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,22,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,23,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,24,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,25,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,26,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,27,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,28,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,29,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,30,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,31,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,32,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,33,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,34,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,35,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,36,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,37,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,38,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,39,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,40,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,41,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,42,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,43,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,44,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,45,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,46,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,47,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,48,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-1018721,49,цель,mp-1018721,0.0547781291666655,137,test,137,HfO2,0.0547781291666655,137,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-352,0,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,1,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,2,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,3,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,4,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,5,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,6,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,7,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,8,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,9,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,10,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,11,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,12,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,13,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,14,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,15,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,16,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,17,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,18,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,19,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,20,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,21,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,22,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,23,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,24,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,25,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,26,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,27,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,28,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,29,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,30,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,31,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,32,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,33,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,34,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,35,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,36,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,37,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,38,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,39,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,40,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,41,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,42,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,43,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,44,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,45,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,46,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,47,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,48,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-352,49,цель,mp-352,0.0,14,train,14,HfO2,0.0,14,stable
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,0,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,1,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,2,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,3,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,4,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,5,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,6,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,7,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,8,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,9,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,10,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,11,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,12,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,13,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,14,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,15,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,16,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,17,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,18,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,19,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,20,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,21,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,22,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,23,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,24,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,25,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,26,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,27,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,28,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,29,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,30,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,31,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,32,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,33,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,34,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,35,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,36,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,37,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,38,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,39,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,40,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,41,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,42,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,43,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,44,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,45,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,46,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,47,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,48,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
+outputs_server/bench/special_v1nf_k50_c00,mp-754403,49,цель,mp-754403,0.0148914466666667,141,test,141,ZrO2,0.0148914466666667,141,meta
