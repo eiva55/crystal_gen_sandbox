@@ -36,13 +36,18 @@ for ax, d, title in ((axs[0], dc, f'DiffCSP++, полный шаблон ({len(d
         q = d[sel(d)]
         ax.scatter(q.k_m + rng.uniform(-0.22, 0.22, len(q)), q.k_s + rng.uniform(-0.22, 0.22, len(q)), s=30, color=c,
                    marker=mk, alpha=0.85, edgecolor=SURF, linewidth=0.7, label=f'{lab}: {len(q)}', zorder=3)
-    above, below = int((d.k_s > d.k_m).sum()), int((d.k_s < d.k_m).sum())
-    ax.text(0.4, 9.6, f'стабильный удачнее: {above}', fontsize=9.5, color=INK2, va='top')
-    ax.text(9.6, 0.4, f'метастабильный удачнее: {below}', fontsize=9.5, color=INK2, ha='right')
+    above, below, eq = int((d.k_s > d.k_m).sum()), int((d.k_s < d.k_m).sum()), int((d.k_s == d.k_m).sum())
+    for (xm, ys, ha, va, dx, dy) in ((10, 10, 'right', 'top', -0.55, -0.45), (0, 0, 'left', 'bottom', 0.55, 0.45),
+                                     (0, 10, 'left', 'top', 0.55, -0.45), (10, 0, 'right', 'bottom', -0.55, 0.45)):
+        n = int(((d.k_m == xm) & (d.k_s == ys)).sum())
+        if n:
+            ax.text(xm + dx, ys + dy, f'{n} пар', fontsize=9.5, color=INK, ha=ha, va=va,
+                    bbox=dict(fc=SURF, ec=GRID, pad=2, alpha=0.9), zorder=5)
+    title = f'{title}\nстабильный удачнее: {above}, метастабильный: {below}, поровну: {eq}'
     ax.set_xlim(-0.6, 10.6); ax.set_ylim(-0.6, 10.6); ax.set_aspect('equal')
     ax.set_xticks(range(0, 11, 2)); ax.set_yticks(range(0, 11, 2))
     ax.set_xlabel('удачных из 10: метастабильный полиморф'); ax.set_ylabel('удачных из 10: стабильный полиморф')
-    ax.set_title(title, fontsize=11.5)
+    ax.set_title(title, fontsize=11, linespacing=1.4)
     for s in ('top', 'right'):
         ax.spines[s].set_visible(False)
     ax.grid(color=GRID, lw=0.8); ax.set_axisbelow(True); ax.tick_params(length=0)
