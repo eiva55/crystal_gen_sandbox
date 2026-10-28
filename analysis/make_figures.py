@@ -305,4 +305,25 @@ ax.set_ylim(0.3, 0.95)
 ax.legend(frameon=False, fontsize=9.5, loc='upper center', bbox_to_anchor=(0.5, 1.15), ncol=2, labelcolor=INK2)
 clean(ax, 'y')
 fig.savefig(f'{OUT}/fig14_test3k_bins.png', dpi=170, bbox_inches='tight'); plt.close(fig)
+# ---------- рис. 15: шаблоны deg_v1, DiffCSP++ 300 образцов: доля нижнего полиморфа против двух ожиданий ----------
+# числа из analysis/results/cross_deg_v1_k300.csv (сводка в отчёте), вписаны вручную; ДИ — Вильсон
+dg = [('SnS, Cmcm (контроль)\nв обучении 72 : 0', 1.00, 0.99, 1.00, 1.00),
+      ('La₂Mg, P2/m\nв обучении 16 : 15', 0.36, 0.29, 0.42, 16 / 31),
+      ('CeFeSi₂, Cmcm\nв обучении 8 : 61', 0.24, 0.20, 0.29, 8 / 69),
+      ('шпинель MgAl₂O₄, R3m\nв обучении 0 : 6', 116 / 300, 0.333, 0.443, 0.0)]
+fig, ax = plt.subplots(figsize=(8.6, 4.0))
+for i, (lab, m, lo, hi, fr) in enumerate(dg):
+    ax.plot([lo, hi], [i, i], color=VIOLET, lw=2.4, solid_capstyle='round', zorder=3)
+    ax.plot(m, i, 'o', color=VIOLET, ms=8, mec=SURF, mew=1.5, zorder=4)
+    ax.plot(fr, i, 'D', color=ORANGE, ms=7, mec=SURF, mew=1.2, zorder=4)
+    ax.plot(1.0, i, '|', color=INK2, ms=16, mew=2, zorder=2)
+    ax.text(1.06, i, f'{m:.2f}'.replace('.', ','), va='center', fontsize=10, color=INK)
+ax.set_yticks(range(len(dg))); ax.set_yticklabels([d[0] for d in dg], color=INK, fontsize=9.5); ax.invert_yaxis()
+ax.set_xlim(-0.03, 1.12); ax.set_xlabel('доля нижней по энергии раскладки среди совпавших с одной из двух')
+ax.plot([], [], 'o-', color=VIOLET, label='DiffCSP++, 300 образцов (95%-й интервал)')
+ax.plot([], [], 'D', color=ORANGE, ls='none', label='ожидание по частоте в обучении')
+ax.plot([], [], '|', color=INK2, ms=12, mew=2, ls='none', label='ожидание по энергии')
+ax.legend(frameon=False, fontsize=9, loc='upper center', bbox_to_anchor=(0.42, 1.17), ncol=3, labelcolor=INK2)
+clean(ax, 'x')
+fig.savefig(f'{OUT}/fig15_degenerate_templates.png', dpi=170, bbox_inches='tight'); plt.close(fig)
 print('ok pilot')
